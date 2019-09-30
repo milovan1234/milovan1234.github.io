@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Puzlle 15</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        #okvir {
+            width: 300px;
+            height: 300px;
+            border: 2px solid black;
+            padding: 3px;
+            margin: 30px 20px;
+            border-radius: 5px;
+        }
+        #okvir div {
+            width: 69px;
+            height: 69px;
+            box-sizing: border-box;
+            border: 1px solid black;
+            float: left;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            font-size: 20px;
+            margin: 3px;
+            border-radius: 5px;
+            user-select: none; 
+        }
+        .klikni {
+            background-color: lightslategray !important;
+            color: gold;
+        }
+        button {
+            width: 120px;
+            height: 50px;
+            margin-left: 210px;
+            background-color: seagreen;
+            color: gold;
+            border-radius: 5px;
+        }
+        .pocetak {
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            background: rgba(0, 0 ,0, 0.7);
+            top: 92px;
+            left: 25px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        .pocetak h2 {
+            z-index: 999;
+            opacity: 0.9 !important;
+            color:red;
+            cursor: pointer;
+            font-size: 30px;
+            font-style: italic;
+        }
+        h1 {
+            margin-left: 50px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Puzzle 15</h1>
+    <div class="pocetak"><h2 id="pocni">Započni Igru</h2></div>
+    <div id="okvir">
+        <div class="klikni klik" id="1">1</div>
+        <div class="klikni klik" id="2">2</div>
+        <div class="klikni klik" id="3">3</div>
+        <div class="klikni klik" id="4">4</div>
+        <div class="klikni klik" id="5">5</div>
+        <div class="klikni klik" id="6">6</div>
+        <div class="klikni klik" id="7">7</div>
+        <div class="klikni klik" id="8">8</div>
+        <div class="klikni klik" id="9">9</div>
+        <div class="klikni klik" id="10">10</div>
+        <div class="klikni klik" id="11">11</div>
+        <div class="klikni klik" id="12">12</div>
+        <div class="klikni klik" id="13">13</div>
+        <div class="klikni klik" id="14">14</div>
+        <div class="klikni klik" id="15">15</div>
+        <div class="klik" id="16"></div>
+    </div>
+    <button type="button" onclick="resetuj()">RESETUJ</button>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script>
+
+        $(".klik").click(function () {
+            var br = 0;
+            var id = $(this).attr("id");
+            var value = $(this).text();
+            if (id == 2 || id == 5) {
+                if ($("#1").text() == "") {
+                    $("#1").text($("#" + id).text()).addClass("klikni");
+                    $("#" + id).text("").removeClass("klikni"); br++;
+                }
+            }
+            if (id == 1 || id == 3 || id == 6) {
+                if ($("#2").text() == "") {
+                    $("#2").text($("#" + id).text()).addClass("klikni");
+                    $("#" + id).text("").removeClass("klikni"); br++;
+                }
+            }
+            if (id == 2 || id == 7 || id == 4) {
+                if ($("#3").text() == "") {
+                    $("#3").text($("#" + id).text()).addClass("klikni");
+                    $("#" + id).text("").removeClass("klikni"); br++;
+                }
+            }
+            if (id == 3 || id == 8) {
+                if ($("#4").text() == "") {
+                    $("#4").text($("#" + id).text()).addClass("klikni");
+                    $("#" + id).text("").removeClass("klikni"); br++;
+                }
+            }
+            if (id == 1 || id == 6 || id == 9) {
+                if ($("#5").text() == "") {
+                    $("#5").text($("#" + id).text()).addClass("klikni");
+                    $("#" + id).text("").removeClass("klikni"); br++;
+                }
+            }
+            if (id == 2 || id == 5 || id == 7 || id == 10) {
+                if ($("#6").text() == "") {
+                    $("#6").text($("#" + id).text()).addClass("klikni");
+                    $("#" + id).text("").removeClass("klikni"); br++;
+                }
+            }
+            if (id == 3 || id == 6 || id == 8 || id == 11) {
+                if ($("#7").text() == "") {
+                    $("#7").text($("#" + id).text()).addClass("klikni");
+                    $("#" + id).text("").removeClass("klikni"); br++;
+                }
+            }
+            if (id == 4 || id == 7 || id == 12) {
+                if ($("#8").text() == "") {
+                    $("#8").text($("#" + id).text()).addClass("klikni");
+                    $("#" + id).text("").removeClass("klikni"); br++;
+                }
+            }
+            if (id == 5 || id == 10 || id == 13) {
+                if ($("#9").text() == "") {
+                    $("#9").text($("#" + id).text()).addClass("klikni");
+                    $("#" + id).text("").removeClass("klikni"); br++;
+                }
+            }
+            if (id == 6 || id == 9 || id == 11 || id == 14) {
+                if ($("#10").text() == "") {
+                    $("#10").text($("#" + id).text()).addClass("klikni");
+                    $("#" + id).text("").removeClass("klikni"); br++;
+                }
+            }
+            if (id == 7 || id == 10 || id == 12 || id == 15) {
+                if ($("#11").text() == "") {
+                    $("#11").text($("#" + id).text()).addClass("klikni");
+                    $("#" + id).text("").removeClass("klikni"); br++;
+                }
+            }
+            if (id == 8 || id == 11 || id == 16) {
+                if ($("#12").text() == "") {
+                    $("#12").text($("#" + id).text()).addClass("klikni");
+                    $("#" + id).text("").removeClass("klikni"); br++;
+                }
+            }
+            if (id == 9 || id == 14) {
+                if ($("#13").text() == "") {
+                    $("#13").text($("#" + id).text()).addClass("klikni");
+                    $("#" + id).text("").removeClass("klikni"); br++;
+                }
+            }
+            if (id == 10 || id == 13 || id == 15) {
+                if ($("#14").text() == "") {
+                    $("#14").text($("#" + id).text()).addClass("klikni");
+                    $("#" + id).text("").removeClass("klikni"); br++;
+                }
+            }
+            if (id == 11 || id == 14 || id == 16) {
+                if ($("#15").text() == "") {
+                    $("#15").text($("#" + id).text()).addClass("klikni");
+                    $("#" + id).text("").removeClass("klikni"); br++;
+                }
+            }
+            if (id == 12 || id == 15) {
+                if ($("#16").text() == "") {
+                    $("#16").text($("#" + id).text()).addClass("klikni");
+                    $("#" + id).text("").removeClass("klikni"); br++;
+                }
+            }            
+            if (br == 1) {
+                var brojac = 0;
+                var elementi = $(".klik");
+                for (var i = 0; i < 16; i++) {
+                    if ($(elementi[i]).text() == i + 1)
+                        brojac++;
+                }
+                if (brojac == 15) {
+                    setTimeout(function () { alert("ČESTITAMO! POBEDILI STE!"); }, 250);
+                }
+            }
+        });
+        $(document).ready(function () {
+            var elementi = $(".klik");
+            for (var i = 0; i < elementi.length; i++) $(elementi[i]).text("").removeClass("klikni");
+            var br = 0;
+            var provera = 1;
+            var niz = [];
+            while (1) {
+                provera = 1;
+                var random = Math.floor((Math.random() * 16));
+                for (var i = 0; i < br; i++)
+                    if (niz[i] == random) provera = 0;
+                if (provera == 1) {
+                    niz[br] = random;
+                    $(elementi[random]).text(br + 1).addClass("klikni");
+                    br++;
+                }
+                if (br == 15)
+                    break;
+            }
+        });
+        $("#pocni").click(function(){
+            $(".pocetak").css("display","none");
+        });
+        function resetuj() {
+            setTimeout(function () { location.reload() }, 500);
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio - Kontakt</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Ovo je kontakt strana. Na njoj imate mogućnost da mi pošaljete poruku i da vidite moje podatke.">
+    <meta name="keywords" content="kontakt,poruka,komunikacija">
+    <meta name="author" content="Milovan Srejić NRT-11/17">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/still.css" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="icon" href="../image/logo.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="../js/javascrtip.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="nav" id="navigacija">
+                    <ul>
+                        <li><a href="../index.html">Početna strana</a></li>
+                        <li><a href="biografija.html">Biografija</a></li>
+                        <li><a href="galerija.html">Galerija</a></li>
+                        <li><a href="interesovanje.html">Interesovanje</a></li>
+                        <li><a href="kontakt.html" class="active">Kontakt</a></li>
+                        <li><a onclick="navigacija()" class="icon"><i class="fas fa-bars"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="naslov_glavni">
+                <h1>Kontakt</h1>
+            </div>
+        </div>
+        <div class="sekcija">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <div class="slika_kontakt center">
+                        <img src="../image/milovan_kontakt.jpg" class="img-responsive" alt="Moja Slika">
+                    </div>
+                    <div class="o_kontaktu center">
+                        <span class="levo">Adresa:&nbsp;&nbsp;&nbsp;</span><span class="desno">Vojvode Stepe 51, Voždovac</span>
+                    </div>
+                    <div class="o_kontaktu center">
+                        <span class="levo">Telefon:&nbsp;&nbsp;&nbsp;</span><span class="desno"><a href="tel:+38106255487">062 553 487</a></span>
+                    </div>
+                    <div class="o_kontaktu center">
+                        <span class="levo">Email:&nbsp;&nbsp;&nbsp;</span><span class="desno"><a href="mailto:srejicmilovan23@gmail.com">srejicmilovan@gmail.com</a></span>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <form onsubmit="return validacijaForme()">
+                        &nbsp;<label for="ime"><i class="fas fa-user"></i> Ime&nbsp;&nbsp; <i id="valime" class=""></i></label><br>
+                        <input type="text" id="ime" onchange="validacijaImena()" placeholder="Unesite Vaše Ime">
+
+                        &nbsp;<label for="prezime"><i class="far fa-user"></i> Prezime&nbsp;&nbsp; <i id="valprez" class=""></i></label><br>
+                        <input type="text" id="prezime" onchange="validacijaPrezimena()" placeholder="Unesite Vaše Prezime">
+
+                        &nbsp;<label for="email"><i class="fas fa-envelope"></i> Email adresa&nbsp;&nbsp; <i id="valemail" class=""></i></label><br>
+                        <input type="text" id="email" onchange="validacijaEmaila()" placeholder="example@example.com">
+
+                        &nbsp;<label for="telefon"><i class="fas fa-phone"></i> Telefon&nbsp;&nbsp; <i id="valtel" class=""></i></label><br>
+                        <input type="text" id="telefon" onchange="validacijaTelefona()" placeholder="xxx-xxxxxxx">
+
+                        &nbsp;<label for="poruka"><i class="fas fa-pencil-alt"></i> Poruka&nbsp;&nbsp; <i id="valpor" class=""></i></label><br>
+                        <textarea id="poruka" onchange="validacijaPoruke()" rows="5" placeholder="Vaša poruka meni"></textarea><br>
+
+                        <button type="submit">Pošalji</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row center">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.8680032358834!2d20.46817121544399!3d44.78349628662485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a70429a6cb6ed%3A0x34ee7b5241c38282!2z0JLQvtGY0LLQvtC00LUg0KHRgtC10L_QtSA1MSwg0JHQtdC-0LPRgNCw0LQ!5e0!3m2!1ssr!2srs!4v1548270862994"  allowfullscreen></iframe>
+                </div>
+            </div>
+        </div> 
+        <br>
+        <div id="strelica" onclick="povratakNaVrh()"><i class="fas fa-chevron-circle-up fa-3x"></i></div>
+        <footer>
+            <div class="row center">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <ul>
+                        <li><a href="https://www.facebook.com/srejicmilovan"><i class="fab fa-facebook fa-2x"></i></a></li>
+                        <li><a href="https://www.instagram.com/srejicm23/"><i class="fab fa-instagram fa-2x"></i></a></li>
+                        <li><a href="https://twitter.com/MilovanSrejic"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row center">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <h4>
+                        <a href="mailto:srejicmilovan23@gmail.com">srejicmilovan@gmail.com</a>,
+                        <a href="tel:+38106255487">062 553 487</a>
+                    </h4>
+                </div>
+            </div>
+            <div class="row center">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <h4>Copyright: <i>&copy; Milovan Srejić  NRT-11/17</i></h4>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+      var brojSlajda = 1;
+      prikazSlika(brojSlajda);
+    </script>
+</body>
+</html>

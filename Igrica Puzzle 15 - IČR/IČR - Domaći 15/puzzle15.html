@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Puzlle 15</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        #okvir {
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+            padding: 3px;
+            margin: 50px 50px;
+        }
+
+        #okvir div {
+            width: 75px;
+            height: 75px;
+            box-sizing: border-box;
+            border: 1px solid black;
+            float: left;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .klikni {
+            background-color: lightslategray;
+            color: gold;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="okvir">
+        <!--PRVI RED-->
+        <div class="klikni klik" id="1">1</div>
+        <div class="klikni klik" id="2">2</div>
+        <div class="klikni klik" id="3">3</div>
+        <div class="klikni klik" id="4">4</div>
+        <!--DRUGI RED-->
+        <div class="klikni klik" id="5">5</div>
+        <div class="klikni klik" id="6">6</div>
+        <div class="klikni klik" id="7">7</div>
+        <div class="klikni klik" id="8">8</div>
+        <!--TRECI RED-->
+        <div class="klikni klik" id="9">9</div>
+        <div class="klikni klik" id="10">10</div>
+        <div class="klikni klik" id="11">11</div>
+        <div class="klikni klik" id="12">12</div>
+        <!--CETVRTI RED-->
+        <div class="klikni klik" id="13">13</div>
+        <div class="klikni klik" id="14">14</div>
+        <div class="klikni klik" id="15">15</div>
+        <div class="klik" id="16"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script>
+        $(".klik").click(function () {
+                var br = 0;
+                var id = $(this).attr("id");
+                var value = $(this).text();
+                switch (id) {
+                    /*PRVI RED*/
+                    case "1":
+                        var pom11 = $("#2").text();
+                        var pom12 = $("#5").text();
+                        if (pom11 == "") {
+                            $("#2").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        else if (pom12 == "") {
+                            $("#5").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        break;
+                    case "2":
+                        var pom21 = $("#1").text();
+                        var pom22 = $("#3").text();
+                        var pom23 = $("#6").text();
+                        if (pom21 == "") {
+                            $("#1").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        else if (pom22 == "") {
+                            $("#3").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        else if (pom23 == "") {
+                            $("#6").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        break;
+                    case "3":
+                        var pom31 = $("#2").text();
+                        var pom32 = $("#7").text();
+                        var pom33 = $("#4").text();
+                        if (pom31 == "") {
+                            $("#2").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        else if (pom32 == "") {
+                            $("#7").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        else if (pom33 == "") {
+                            $("#4").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        break;
+                    case "4":
+                        var pom41 = $("#3").text();
+                        var pom42 = $("#8").text();
+                        if (pom41 == "") {
+                            $("#3").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        else if (pom42 == "") {
+                            $("#8").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        break;
+                    /*DRUGI RED*/
+                    case "5":
+                        var pom51 = $("#1").text();
+                        var pom52 = $("#6").text();
+                        var pom53 = $("#9").text();
+                        if (pom51 == "") {
+                            $("#1").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        else if (pom52 == "") {
+                            $("#6").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        else if (pom53 == "") {
+                            $("#9").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        break;
+                    case "6":
+                        var pom61 = $("#2").text();
+                        var pom62 = $("#5").text();
+                        var pom63 = $("#7").text();
+                        var pom64 = $("#10").text();
+                        if (pom61 == "") {
+                            $("#2").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        else if (pom62 == "") {
+                            $("#5").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        else if (pom63 == "") {
+                            $("#7").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        else if (pom64 == "") {
+                            $("#10").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        break;
+                    case "7":
+                        var pom71 = $("#3").text();
+                        var pom72 = $("#6").text();
+                        var pom73 = $("#8").text();
+                        var pom74 = $("#11").text();
+                        if (pom71 == "") {
+                            $("#3").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        else if (pom72 == "") {
+                            $("#6").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        else if (pom73 == "") {
+                            $("#8").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        else if (pom74 == "") {
+                            $("#11").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++; 
+                        }
+                        break;
+                    case "8":
+                        var pom81 = $("#4").text();
+                        var pom82 = $("#7").text();
+                        var pom83 = $("#12").text();
+                        if (pom81 == "") {
+                            $("#4").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        else if (pom82 == "") {
+                            $("#7").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        else if (pom83 == "") {
+                            $("#12").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        break;
+                    /*TRECI RED*/
+                    case "9":
+                        var pom91 = $("#5").text();
+                        var pom92 = $("#10").text();
+                        var pom93 = $("#13").text();
+                        if (pom91 == "") {
+                            $("#5").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        else if (pom92 == "") {
+                            $("#10").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        else if (pom93 == "") {
+                            $("#13").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        break;
+                    case "10":
+                        var pom101 = $("#6").text();
+                        var pom102 = $("#9").text();
+                        var pom103 = $("#11").text();
+                        var pom104 = $("#14").text();
+                        if (pom101 == "") {
+                            $("#6").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        else if (pom102 == "") {
+                            $("#9").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        else if (pom103 == "") {
+                            $("#11").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        else if (pom104 == "") {
+                            $("#14").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        break;
+                    case "11":
+                        var pom111 = $("#7").text();
+                        var pom112 = $("#10").text();
+                        var pom113 = $("#12").text();
+                        var pom114 = $("#15").text();
+                        if (pom111 == "") {
+                            $("#7").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        else if (pom112 == "") {
+                            $("#10").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        else if (pom113 == "") {
+                            $("#12").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        else if (pom114 == "") {
+                            $("#15").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        break;
+                    case "12":
+                        var pom121 = $("#8").text();
+                        var pom122 = $("#11").text();
+                        var pom123 = $("#16").text();
+                        if (pom121 == "") {
+                            $("#8").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        else if (pom122 == "") {
+                            $("#11").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        else if (pom123 == "") {
+                            $("#16").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        break;
+                    /*CETVRTI RED*/
+                    case "13":
+                        var pom131 = $("#9").text();
+                        var pom132 = $("#14").text();
+                        if (pom131 == "") {
+                            $("#9").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        else if (pom132 == "") {
+                            $("#14").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        break;
+                    case "14":
+                        var pom141 = $("#10").text();
+                        var pom142 = $("#13").text();
+                        var pom143 = $("#15").text();
+                        if (pom141 == "") {
+                            $("#10").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        else if (pom142 == "") {
+                            $("#13").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        else if (pom143 == "") {
+                            $("#15").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        break;
+                    case "15":
+                        var pom151 = $("#11").text();
+                        var pom152 = $("#14").text();
+                        var pom153 = $("#16").text();
+                        if (pom151 == "") {
+                            $("#11").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        else if (pom152 == "") {
+                            $("#14").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        else if (pom153 == "") {
+                            $("#16").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        break;
+                    case "16":
+                        var pom161 = $("#12").text();
+                        var pom162 = $("#15").text();
+                        if (pom161 == "") {
+                            $("#12").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        else if (pom162 == "") {
+                            $("#15").text($(this).text()).addClass("klikni");
+                            $(this).text("").removeClass("klikni"); br++;
+                        }
+                        break;
+                }
+                if(br == 1)
+                {
+                    var brojac = 0;
+                    var elementi = $(".klik");
+                    for (var i = 0; i < 16; i++) {
+                        if($(elementi[i]).text()==i+1)
+                            brojac++;
+                    }
+                    if (brojac == 15)
+                    {
+                        setTimeout(function(){ alert("ČESTITAMO! POBEDILI STE!"); }, 250);
+                        setTimeout(function(){ location.reload() }, 500);
+                    }
+                }
+            }); 
+    </script>
+</body>
+
+</html>

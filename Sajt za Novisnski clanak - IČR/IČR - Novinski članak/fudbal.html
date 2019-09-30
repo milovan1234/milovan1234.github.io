@@ -1,0 +1,1394 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+    <title>SM SPORT - Fudbal</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Stranica za Sportski Novinski članak baziran na Fudbalu i Košarci">
+    <meta name="keywords" content="sm,smsport,sport,sportske novine,fudbal,košarka,smsport vesti">
+    <meta name="author" content="Milovan Srejić NRT-11/17">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/still.css">
+    <link rel="icon" href="slike/logo-Vrh.png">
+</head>
+
+<body>
+    <div class="container p-0" id="glavniKontejner">
+        <div class="container bg-light p-0">
+            <div class="p-3 bg-dark">
+                <a class="bg-dark" href="index.html"><img src="slike/logo.png" alt="LOGO"></a>
+                <p class="font-italic font-weight-bold d-inline mx-3 text-light" id="naslov">
+                    <a class="zaglavljeLink text-light" href="index.html"><span class="text-warning">SM</span> SPORT</a>
+                    <ul class="list-inline d-none d-sm-block my-2 float-right" id="drustvene-mreze">
+                        <li class="d-inline mx-3">
+                            <a class="text-light" href="https://www.facebook.com/hotsportrs/"><span><i class="fab fa-facebook fa-2x"></i></span></a>
+                        </li>
+                        <li class="d-inline mx-3">
+                            <a class="text-light" href="https://www.instagram.com/_hotsport/?hl=sr"><span><i class="fab fa-instagram fa-2x"></i></span></a>
+                        </li>
+                        <li class="d-inline mx-3">
+                            <a class="text-light" href="https://twitter.com/hotsportsrb"><span><i class="fab fa-twitter-square fa-2x"></i></span></a>
+                        </li>
+                    </ul>
+                </p>
+                <span id="podnaslovKontakt" class="text-light text-right d-block">
+                    Današnji datum:
+                    <span id="datum" class="text-warning font-italic"></span>
+                </span>
+                <span id="podnaslovKontakt" class="text-light text-right d-block">
+                    Trenutno vreme:
+                    <span id="vreme" class="text-warning font-italic"></span>
+                </span>
+            </div>
+        </div>
+        <div id="navigacija" class="container bg-light p-0 m-0 mb-4 sticky-top border-bottom border-top border-light">
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                <button class="navbar-toggler my-1" type="button" data-toggle="collapse"
+                    data-target="#sazimajuciKontejner">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="sazimajuciKontejner">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-4 border-right border-light okvir">
+                            <a class="nav-link text-light" href="index.html">Naslovna</a>
+                        </li>
+                        <li class="nav-item px-4 border-right border-light okvir">
+                            <a class="nav-link text-light" href="najnovijeVesti.html">Najnovije Vesti</a>
+                        </li>
+                        <li class="nav-item px-4 border-right border-light okvir active">
+                            <a class="nav-link text-light" href="fudbal.html">Fudbal</a>
+                        </li>
+                        <li class="nav-item px-4 border-right border-light okvir">
+                            <a class="nav-link text-light" href="kosarka.html">Košarka</a>
+                        </li>
+                        <li class="nav-item px-4 border-right border-light okvir">
+                            <a class="nav-link text-light" href="miks.html">Miks</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link text-light" href="kontakt.html">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container pb-5 pt-4">
+            <div class="row">
+                <div class="col-lg-9 mb-4 fejd">
+                   <div class="card border border-light w-100">
+                        <div class="card-title text-left border-bottom border-warning border-w3 m-0 pl-3 p-2"
+                            id="naslovKontakt">
+                            Udarna Vest - Fudbal
+                        </div>
+                    </div>
+                    <div class="row m-0 glavnaVestRed mb-4">
+                        <div class="col-md-6 p-0">
+                            <img src="slike/slika1-Fudbal.JPG" class="img-fluid" alt="Fernando Tores">
+                        </div>
+                        <div class="col-md-6 p-0 bg-dark text-light p-4">
+                            <h3 id="podnaslovKontakt">
+                                Fernando Tores nastavlja karijeru u Meksiku?
+                            </h3>
+                            <p class="text-justify">
+                                <span class="d-inline">Legendarni napadač „jorgandžija“</span>
+                                <span class="d-inline d-md-none d-xl-inline">posle odlaska iz Madrida od prošle godine
+                                    igra u
+                                    japanskom Sagan Tosu, a mediji tvrde da će zaigrati i na trećem kontinetu</span><br>
+                                <span class="datumStraneManji font-italic"><i class="far fa-clock"></i> 30 april,
+                                    2019</span>
+                            </p>
+                            <a data-toggle="modal" data-target="#prvaVest"
+                                class="glavnaVest btn border-w3 border-danger text-danger px-4 py-2 float-right mb-2 mt-1 mr-4">
+                                <span class="mr-3 font-weight-bold text-warning">Pročitaj članak</span><i
+                                    class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row pt-5">
+                        <div class="col-12 fejd">
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li class="nav-item tab-link">
+                                    <a class="nav-link active text-dark" data-toggle="tab" href="#home">
+                                        <h3 id="podnaslovKontakt">Srbija</h3>
+                                    </a>
+                                </li>
+                                <li class="nav-item tab-link">
+                                    <a class="nav-link text-dark" data-toggle="tab" href="#menu1">
+                                        <h3 id="podnaslovKontakt">Svet</h3>
+                                    </a>
+                                </li>
+                                <li class="nav-item tab-link">
+                                    <a class="nav-link text-dark" data-toggle="tab" href="#menu2">
+                                        <h3 id="podnaslovKontakt">LŠ</h3>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div id="home" class="container tab-pane active noveVesti pb-1"><br>
+                                    <div class="row m-0 glavnaVestRed fejd">
+                                        <div class="col-sm-5 col-md-4 p-0">
+                                            <img src="slike/slika1-TabSrbija.jpg" class="img-fluid w-100 h-100"
+                                                alt="Aleksa Vukanovic">
+                                        </div>
+                                        <div class="col-sm-7 col-md-8 bg-dark text-light p-4">
+                                            <h3 id="podnaslovKontakt">
+                                                Vukanović: Ići ćemo svim silama na pobedu protiv Mladosti
+                                            </h3>
+                                            <p class="text-justify">
+                                                <span class="datumStraneManji font-italic pt-0"><i
+                                                        class="far fa-clock"></i>
+                                                    30 april,
+                                                    2019</span>
+                                            </p>
+                                            <a data-toggle="modal" data-target="#drugaVest"
+                                                class="glavnaVest1 btn border-w3 border-danger text-danger px-4 py-2 float-right mb-2 mt-1 mr-4">
+                                                <span class="mr-3 font-weight-bold text-warning">Pročitaj</span><i
+                                                    class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <hr class="bg-warning my-0 hr-w3">
+                                    <div class="row m-0 glavnaVestRed fejd">
+                                        <div class="col-sm-5 col-md-4 p-0">
+                                            <img src="slike/slika2-TabSrbija.jpg" class="img-fluid w-100 h-100 "
+                                                alt="Nemanja Tomić">
+                                        </div>
+                                        <div class="col-sm-7 col-md-8 bg-dark text-light p-4">
+                                            <h3 id="podnaslovKontakt">
+                                                Nemanja Tomić najbolji igrač 34. kola Super lige
+                                            </h3>
+                                            <p class="text-justify">
+                                                <span class="datumStraneManji font-italic pt-0"><i
+                                                        class="far fa-clock"></i>
+                                                    30 april,
+                                                    2019</span>
+                                            </p>
+                                            <a data-toggle="modal" data-target="#trecaVest"
+                                                class="glavnaVest1 btn border-w3 border-danger text-danger px-4 py-2 float-right mb-2 mt-1 mr-4">
+                                                <span class="mr-3 font-weight-bold text-warning">Pročitaj</span><i
+                                                    class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <hr class="bg-warning my-0 hr-w3">
+                                    <div class="row m-0 glavnaVestRed fejd">
+                                        <div class="col-sm-5 col-md-4 p-0">
+                                            <img src="slike/slika3-TabSrbija.jpg" class="img-fluid w-100 h-100"
+                                                alt="Dejan Joveljić">
+                                        </div>
+                                        <div class="col-sm-7 col-md-8 bg-dark text-light p-4">
+                                            <h3 id="podnaslovKontakt">
+                                                Joveljić: Još jedna pobeda i titula
+                                            </h3>
+                                            <p class="text-justify">
+                                                <span class="datumStraneManji font-italic pt-0"><i
+                                                        class="far fa-clock"></i>
+                                                    30 april,
+                                                    2019</span>
+                                            </p>
+                                            <a data-toggle="modal" data-target="#cetvrtaVest"
+                                                class="glavnaVest1 btn border-w3 border-danger text-danger px-4 py-2 float-right mb-2 mt-1 mr-4">
+                                                <span class="mr-3 font-weight-bold text-warning">Pročitaj</span><i
+                                                    class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <hr class="bg-warning my-0 hr-w3">
+                                    <div class="row m-0 glavnaVestRed fejd">
+                                        <div class="col-sm-5 col-md-4 p-0">
+                                            <img src="slike/slika4-TabSrbija.jpg" class="img-fluid w-100 h-100"
+                                                alt="Ivica Kralj">
+                                        </div>
+                                        <div class="col-sm-7 col-md-8 bg-dark text-light p-4">
+                                            <h3 id="podnaslovKontakt">
+                                                Ivica Kralj preporodio Mačvu: Nije isto biti deveti, ili 13. na kraju
+                                            </h3>
+                                            <p class="text-justify">
+                                                <span class="datumStraneManji font-italic pt-0"><i
+                                                        class="far fa-clock"></i>
+                                                    30 april,
+                                                    2019</span>
+                                            </p>
+                                            <a data-toggle="modal" data-target="#petaVest"
+                                                class="glavnaVest1 btn border-w3 border-danger text-danger px-4 py-2 float-right mb-2 mt-1 mr-4">
+                                                <span class="mr-3 font-weight-bold text-warning">Pročitaj</span><i
+                                                    class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <hr class="bg-warning my-0 hr-w3">
+                                    <div class="row m-0 glavnaVestRed mb-2 fejd">
+                                        <div class="col-sm-5 col-md-4 p-0">
+                                            <img src="slike/slika5-TabSrbija.jpg" class="img-fluid w-100 h-100"
+                                                alt="Miljan Lola Smiljanić">
+                                        </div>
+                                        <div class="col-sm-7 col-md-8 bg-dark text-light p-4">
+                                            <h3 id="podnaslovKontakt">
+                                                Smiljanić: Umesto da rešimo, „zakuvali“ smo sami sebi
+                                            </h3>
+                                            <p class="text-justify">
+                                                <span class="datumStraneManji font-italic pt-0"><i
+                                                        class="far fa-clock"></i>
+                                                    30 april,
+                                                    2019</span>
+                                            </p>
+                                            <a data-toggle="modal" data-target="#sestaVest"
+                                                class="glavnaVest1 btn border-w3 border-danger text-danger px-4 py-2 float-right mb-2 mt-1 mr-4">
+                                                <span class="mr-3 font-weight-bold text-warning">Pročitaj</span><i
+                                                    class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="menu1" class="container tab-pane fade pb-1"><br>
+                                    <div class="row m-0 glavnaVestRed fejd">
+                                        <div class="col-sm-5 col-md-4 p-0">
+                                            <img src="slike/slika6-TabSrbija.jpg" class="img-fluid w-100 h-100"
+                                                alt="Iker Kasiljas">
+                                        </div>
+                                        <div class="col-sm-7 col-md-8 bg-dark text-light p-4">
+                                            <h3 id="podnaslovKontakt">
+                                                Korbalan: Kasiljas bi povratkom na teren ugrozio život
+                                            </h3>
+                                            <p class="text-justify">
+                                                <span class="datumStraneManji font-italic pt-0"><i
+                                                        class="far fa-clock"></i>
+                                                    30 april,
+                                                    2019</span>
+                                            </p>
+                                            <a data-toggle="modal" data-target="#sedmaVest"
+                                                class="glavnaVest1 btn border-w3 border-danger text-danger px-4 py-2 float-right mb-2 mt-1 mr-4">
+                                                <span class="mr-3 font-weight-bold text-warning">Pročitaj</span><i
+                                                    class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <hr class="bg-warning my-0 hr-w3">
+                                    <div class="row m-0 glavnaVestRed fejd">
+                                        <div class="col-sm-5 col-md-4 p-0">
+                                            <img src="slike/slika10-TabSrbija.jpg" class="img-fluid w-100 h-100 "
+                                                alt="Inter Juventus">
+                                        </div>
+                                        <div class="col-sm-7 col-md-8 bg-dark text-light p-4">
+                                            <h3 id="podnaslovKontakt">
+                                                Trampa Juventusa i Intera: Ken na San Siro, Ikardi u Torino
+                                            </h3>
+                                            <p class="text-justify">
+                                                <span class="datumStraneManji font-italic pt-0"><i
+                                                        class="far fa-clock"></i>
+                                                    30 april,
+                                                    2019</span>
+                                            </p>
+                                            <a data-toggle="modal" data-target="#osmaVest"
+                                                class="glavnaVest1 btn border-w3 border-danger text-danger px-4 py-2 float-right mb-2 mt-1 mr-4">
+                                                <span class="mr-3 font-weight-bold text-warning">Pročitaj</span><i
+                                                    class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <hr class="bg-warning my-0 hr-w3">
+                                    <div class="row m-0 glavnaVestRed fejd">
+                                        <div class="col-sm-5 col-md-4 p-0">
+                                            <img src="slike/slika7-TabSrbija.jpg" class="img-fluid w-100 h-100"
+                                                alt="Lionel Mesi">
+                                        </div>
+                                        <div class="col-sm-7 col-md-8 bg-dark text-light p-4">
+                                            <h3 id="podnaslovKontakt">
+                                                Mesi: Biće teško na Enfildu, podrška Kasiljasu
+                                            </h3>
+                                            <p class="text-justify">
+                                                <span class="datumStraneManji font-italic pt-0"><i
+                                                        class="far fa-clock"></i>
+                                                    30 april,
+                                                    2019</span>
+                                            </p>
+                                            <a data-toggle="modal" data-target="#devetaVest"
+                                                class="glavnaVest1 btn border-w3 border-danger text-danger px-4 py-2 float-right mb-2 mt-1 mr-4">
+                                                <span class="mr-3 font-weight-bold text-warning">Pročitaj</span><i
+                                                    class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <hr class="bg-warning my-0 hr-w3">
+                                    <div class="row m-0 glavnaVestRed fejd">
+                                        <div class="col-sm-5 col-md-4 p-0">
+                                            <img src="slike/slika8-TabSrbija.jpg" class="img-fluid w-100 h-100"
+                                                alt="Rio Ferdinand">
+                                        </div>
+                                        <div class="col-sm-7 col-md-8 bg-dark text-light p-4">
+                                            <h3 id="podnaslovKontakt">
+                                                Rio Ferdinand se vraća u Junajted kao sportski direktor
+                                            </h3>
+                                            <p class="text-justify">
+                                                <span class="datumStraneManji font-italic pt-0"><i
+                                                        class="far fa-clock"></i>
+                                                    30 april,
+                                                    2019</span>
+                                            </p>
+                                            <a data-toggle="modal" data-target="#desetaVest"
+                                                class="glavnaVest1 btn border-w3 border-danger text-danger px-4 py-2 float-right mb-2 mt-1 mr-4">
+                                                <span class="mr-3 font-weight-bold text-warning">Pročitaj</span><i
+                                                    class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <hr class="bg-warning my-0 hr-w3">
+                                    <div class="row m-0 glavnaVestRed mb-2 fejd">
+                                        <div class="col-sm-5 col-md-4 p-0">
+                                            <img src="slike/slika9-TabSrbija.jpg" class="img-fluid w-100 h-100"
+                                                alt="Xavi Ernandez">
+                                        </div>
+                                        <div class="col-sm-7 col-md-8 bg-dark text-light p-4">
+                                            <h3 id="podnaslovKontakt">
+                                                Ćavi završio igračku karijeru
+                                            </h3>
+                                            <p class="text-justify">
+                                                <span class="datumStraneManji font-italic pt-0"><i
+                                                        class="far fa-clock"></i>
+                                                    30 april,
+                                                    2019</span>
+                                            </p>
+                                            <a data-toggle="modal" data-target="#jedanaestaVest"
+                                                class="glavnaVest1 btn border-w3 border-danger text-danger px-4 py-2 float-right mb-2 mt-1 mr-4">
+                                                <span class="mr-3 font-weight-bold text-warning">Pročitaj</span><i
+                                                    class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="menu2" class="container tab-pane fade pb-1"><br>
+                                    <div class="row m-0 glavnaVestRed fejd">
+                                        <div class="col-sm-5 col-md-4 p-0">
+                                            <img src="slike/slika11-TabSrbija.jpg" class="img-fluid w-100 h-100"
+                                                alt="FK Ajaks">
+                                        </div>
+                                        <div class="col-sm-7 col-md-8 bg-dark text-light p-4">
+                                            <h3 id="podnaslovKontakt">
+                                                Holanđani u interesu Ajaksa pomerili celo 33. kolo na kraj šampionata
+                                            </h3>
+                                            <p class="text-justify">
+                                                <span class="datumStraneManji font-italic pt-0"><i
+                                                        class="far fa-clock"></i>
+                                                    30 april,
+                                                    2019</span>
+                                            </p>
+                                            <a data-toggle="modal" data-target="#dvanaestaVest"
+                                                class="glavnaVest1 btn border-w3 border-danger text-danger px-4 py-2 float-right mb-2 mt-1 mr-4">
+                                                <span class="mr-3 font-weight-bold text-warning">Pročitaj</span><i
+                                                    class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <hr class="bg-warning my-0 hr-w3">
+                                    <div class="row m-0 glavnaVestRed fejd">
+                                        <div class="col-sm-5 col-md-4 p-0">
+                                            <img src="slike/slika12-TabSrbija.jpg" class="img-fluid w-100 h-100 "
+                                                alt="Musa Sisoko">
+                                        </div>
+                                        <div class="col-sm-7 col-md-8 bg-dark text-light p-4">
+                                            <h3 id="podnaslovKontakt">
+                                                Sisoko najverovatnije propušta prvu utakmicu protiv Ajaksa
+                                            </h3>
+                                            <p class="text-justify">
+                                                <span class="datumStraneManji font-italic pt-0"><i
+                                                        class="far fa-clock"></i>
+                                                    30 april,
+                                                    2019</span>
+                                            </p>
+                                            <a data-toggle="modal" data-target="#trinaestaVest"
+                                                class="glavnaVest1 btn border-w3 border-danger text-danger px-4 py-2 float-right mb-2 mt-1 mr-4">
+                                                <span class="mr-3 font-weight-bold text-warning">Pročitaj</span><i
+                                                    class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <hr class="bg-warning my-0 hr-w3">
+                                    <div class="row m-0 glavnaVestRed fejd">
+                                        <div class="col-sm-5 col-md-4 p-0">
+                                            <img src="slike/slika13-TabSrbija.jpg" class="img-fluid w-100 h-100"
+                                                alt="Totenhem Mančester Siti">
+                                        </div>
+                                        <div class="col-sm-7 col-md-8 bg-dark text-light p-4">
+                                            <h3 id="podnaslovKontakt">
+                                                Totenhem uz pomoć VAR-a do polufinala, Sitiju poništen gol u 93. minutu!
+                                            </h3>
+                                            <p class="text-justify">
+                                                <span class="datumStraneManji font-italic pt-0"><i
+                                                        class="far fa-clock"></i>
+                                                    30 april,
+                                                    2019</span>
+                                            </p>
+                                            <a data-toggle="modal" data-target="#cetrnaestaVest"
+                                                class="glavnaVest1 btn border-w3 border-danger text-danger px-4 py-2 float-right mb-2 mt-1 mr-4">
+                                                <span class="mr-3 font-weight-bold text-warning">Pročitaj</span><i
+                                                    class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <hr class="bg-warning my-0 hr-w3">
+                                    <div class="row m-0 glavnaVestRed fejd">
+                                        <div class="col-sm-5 col-md-4 p-0">
+                                            <img src="slike/slika14-TabSrbija.jpg" class="img-fluid w-100 h-100"
+                                                alt="Kristijan Eriksen">
+                                        </div>
+                                        <div class="col-sm-7 col-md-8 bg-dark text-light p-4">
+                                            <h3 id="podnaslovKontakt">
+                                                Eriksen priznao: Najsrećniji sam čovek na svetu
+                                            </h3>
+                                            <p class="text-justify">
+                                                <span class="datumStraneManji font-italic pt-0"><i
+                                                        class="far fa-clock"></i>
+                                                    30 april,
+                                                    2019</span>
+                                            </p>
+                                            <a data-toggle="modal" data-target="#petnaestaVest"
+                                                class="glavnaVest1 btn border-w3 border-danger text-danger px-4 py-2 float-right mb-2 mt-1 mr-4">
+                                                <span class="mr-3 font-weight-bold text-warning">Pročitaj</span><i
+                                                    class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <hr class="bg-warning my-0 hr-w3">
+                                    <div class="row m-0 glavnaVestRed mb-2 fejd">
+                                        <div class="col-sm-5 col-md-4 p-0">
+                                            <img src="slike/slika15-TabSrbija.jpg" class="img-fluid w-100 h-100"
+                                                alt="Pep Gvardiola">
+                                        </div>
+                                        <div class="col-sm-7 col-md-8 bg-dark text-light p-4">
+                                            <h3 id="podnaslovKontakt">
+                                                Gvardiola: Podržavam VAR, ali možda je LJorente igrao rukom
+                                            </h3>
+                                            <p class="text-justify">
+                                                <span class="datumStraneManji font-italic pt-0"><i
+                                                        class="far fa-clock"></i>
+                                                    30 april,
+                                                    2019</span>
+                                            </p>
+                                            <a data-toggle="modal" data-target="#sesnaestaVest"
+                                                class="glavnaVest1 btn border-w3 border-danger text-danger px-4 py-2 float-right mb-2 mt-1 mr-4">
+                                                <span class="mr-3 font-weight-bold text-warning">Pročitaj</span><i
+                                                    class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 fejd">
+                    <div class="card border border-light w-100">
+                        <div class="card-title bg-dark text-light text-center border-bottom border-danger border-w3 m-0 pl-3 p-2"
+                            id="podnaslovVesti">
+                            Vesti po Satima
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div id="carouselExampleIndicators4" class="carousel karusel slide pb-5 fejd"
+                                    data-ride="carousel">
+                                    <ol class="carousel-indicators carousel-indicators-numbers">
+                                        <li data-target="#carouselExampleIndicators4" data-slide-to="0" class="active">1
+                                        </li>
+                                        <li data-target="#carouselExampleIndicators4" data-slide-to="1">2</li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="card p-1">
+                                                <div class="card-body text-justify p-1">
+                                                    <p class="datumStrane mb-1">16:01</p>
+                                                    <p class="font-weight-bold text-dark linkVest" data-toggle="modal"
+                                                        data-target="#sedmaVest">
+                                                        Korbalan: Kasiljas bi povratkom na teren ugrozio život
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="card p-1">
+                                                <div class="card-body text-justify p-1">
+                                                    <p class="datumStrane mb-1">16:00</p>
+                                                    <p class="font-weight-bold text-dark linkVest" data-toggle="modal"
+                                                        data-target="#drugaVest">
+                                                        Vukanović: Ići ćemo svim silama na pobedu protiv Mladosti
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="card p-1">
+                                                <div class="card-body text-justify p-1">
+                                                    <p class="datumStrane mb-1">14:23</p>
+                                                    <p class="font-weight-bold text-dark linkVest" data-toggle="modal"
+                                                        data-target="#prvaVest">
+                                                        Fernando Tores nastavlja karijeru u Meksiku?
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="card p-1">
+                                                <div class="card-body text-justify p-1">
+                                                    <p class="datumStrane mb-1">13:30</p>
+                                                    <p class="font-weight-bold text-dark linkVest" data-toggle="modal"
+                                                        data-target="#trecaVest">
+                                                        Nemanja Tomić najbolji igrač 34. kola Super lige
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="card p-1">
+                                                <div class="card-body text-justify p-1">
+                                                    <p class="datumStrane mb-1">13:00</p>
+                                                    <p class="font-weight-bold text-dark linkVest" data-toggle="modal"
+                                                        data-target="#cetvrtaVest">
+                                                        Joveljić: Još jedna popeda i titula
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="card p-1">
+                                                <div class="card-body text-justify p-1">
+                                                    <p class="datumStrane mb-1">12:00</p>
+                                                    <p class="font-weight-bold text-dark linkVest" data-toggle="modal"
+                                                        data-target="#petaVest">
+                                                        Ivica Kralj preporodio Mačvu: Nije isto biti deveti, ili 13. na
+                                                        kraju
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="card p-1">
+                                                <div class="card-body text-justify p-1">
+                                                    <p class="datumStrane mb-1">11:30</p>
+                                                    <p class="font-weight-bold text-dark linkVest" data-toggle="modal"
+                                                        data-target="#sestaVest">
+                                                        Smiljanić: Umesto da rešimo, „zakuvali“ smo sami sebi
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="card p-1">
+                                                <div class="card-body text-justify p-1">
+                                                    <p class="datumStrane mb-1">06:00</p>
+                                                    <p class="font-weight-bold text-dark linkVest" data-toggle="modal"
+                                                        data-target="#devetaVest">
+                                                        Mesi: Biće teško na Enfildu, podrška Kasiljasu
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 1-->
+        <div class="modal fade" id="prvaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-danger text-light w-5">Fudbal</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Fernando Tores nastavlja karijeru u Meksiku?
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Legendarni napadač „jorgandžija“ posle odlaska iz Madrida od prošle godine igra u japanskom
+                            Sagan Tosu, a mediji tvrde da će zaigrati i na trećem kontinetu
+                        </p>
+                        <img src="slike/slika1-Fudbal.JPG" class="img-fluid w-100" alt="Fernando Tores">
+                        <p class="text-right p-0 m-0">FOTO: Beta/AP</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Bivši fudbaler Atletiko Madrida Fernando Tores mogao bi ovog leta da nastavi karijeru u
+                            meksičkom Atletiku de San Luisu, piše španski „As“.<br>
+                            Legendarni napadač „jorgandžija“ posle odlaska iz Madrida od prošle godine igra u japanskom
+                            Sagan Tosu, a mediji tvrde da će zaigrati i na trećem kontinetu.<br>
+                            Atletiko Madrid u meksičkom klubu ima 50 odsto udela u vlasništvu, a u njemu trenutno igra
+                            pet španskih fudbalera.<br>
+                            Tores je u dva mandata u Atletiku postigao 120 golova u 347 odigranih utakmicu, a između
+                            toga igrao je za Liverpul, Čelzi i Milan.<br>
+                            Sa reprezentacijom Španije dva puta je bio prvak Evrope (2008. i 2012.), dok je 2010. godine
+                            postao šampion sveta.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 2-->
+        <div class="modal fade" id="drugaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-danger text-light w-5">Fudbal</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Vukanović: Ići ćemo svim silama na pobedu protiv Mladosti
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Fudbalere Crvene zvezde još jedan trijumf deli od osvajanja šampionske titule
+                        </p>
+                        <img src="slike/slika1-TabSrbija.jpg" class="img-fluid w-100" alt="Aleksa Vukanović">
+                        <p class="text-right p-0 m-0">FOTO: crvenazvezda.rs</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Fudbaler Crvene zvezde Aleksa Vukanović rekao je danas da će njegova ekipa u predstojećem
+                            meču protiv Mladosti "svim silama ići na pobedu" kako bi na kraju s navijačima proslavila
+                            titulu šampiona.<br><br>
+                            - Važna tri boda su i igri, najvažnija u ovoj sezoni. Ići ćemo svim silama na pobedu, da se
+                            pokažemo u što boljem svetlu. Probaćemo što ranije da dođemo do prednosti, da uvedemo
+                            utakmicu u miran tok i da na kraju imamo najlepše slavlje sa našim navijačima do sada",
+                            rekao je Vukanović za klupski sajt.<br>
+                            Fudbalere Crvene zvezde još jedan trijumf deli od osvajanja šampionske titule.<br>
+                            Priliku da sa svojim navijačima proslave titulu imaće u nedelju kada će od 18.00 dočekati
+                            ekipu Mladosti.<br><br>
+                            - Isticali smo mnogo puta koliko nam je važno osvajanje titule, za to se pripremamo i
+                            borimo. Lideri smo na tabeli cele sezone i došlo je vreme da to i naplatimo u nedelju -
+                            rekao je Vukanović.<br>
+                            Ekipa Vladana Milojevića juče je pobedila Vojvodinu u Novom Sadu sa ubedljivih 5:0, a
+                            Vukanović je bio strelac drugog gola.<br><br>
+                            - Ovaj pogodak mi je posebno drag, jer sam zatresao mrežu u Novom Sadu posle mnogo godina.
+                            Mogu da budem zadovoljan svojim učinkom na prethodne dve utakmice, ali uvek zelim da se
+                            usavršavam i znam da će to tek doći na svoje i da će uslediti još više golova.<br>
+                            Vukanović je naveo da je njegovoj ekipi, dok nije ušla u ritam, bilo teško u prvih desetak
+                            minuta meča na Karađorđu.<br><br>
+                            - Sve je bilo mnogo lakše posle prelepog gola koji je postigao Milan Pavkov, a sigurno nam
+                            je najviše prijalo slavlje ispod tribine na kraju - rekao je Aleksa i zahvalio navijačima na
+                            podršci u Novom Sadu.<br><br>
+                            - Gde god igramo imamo neverovatnu podršku, o atmosferi na Marakani nema potrebe trošiti
+                            reči. Verujem da ćemo u nedelju zahvaliti našim navijačima na podršci osvajanjem šampionske
+                            titule - rekao je Vukanović.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 3-->
+        <div class="modal fade" id="trecaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-danger text-light w-5">Fudbal</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Nemanja Tomić najbolji igrač 34. kola Super lige
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Zemun je juče na svom terenu pobedio Bačku sa ubedljivih 7:0, a jedan od najzaslužnijih za
+                            to bio je upravo Tomić koji je pored tri asistencije bio i strelac jednog pogotka
+                        </p>
+                        <img src="slike/slika2-TabSrbija.jpg" class="img-fluid w-100" alt="Nemanja Tomić">
+                        <p class="text-right p-0 m-0">FOTO: N.Negovanović</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Fudbaler Zemuna Nemanja Tomić proglašen je danas za najboljeg igrača 34. kola Super lige
+                            Srbije, objavljeno je na sajtu tog takmičenja.<br>
+                            Zemun je juče na svom terenu pobedio Bačku sa ubedljivih 7:0, a jedan od najzaslužnijih za
+                            to bio je upravo Tomić koji je pored tri asistencije bio i strelac jednog pogotka.<br><br>
+                            - On je tokom čitavog susreta sjajno sarađivao sa saigračima, majstorskim potezima i
+                            prodorima pravio velike probleme odbrani gostiju, a u nekoliko navrata udarcima sa distance
+                            opasno je ugrožavao gol Bačke. Zbog svega toga apsolutno je zaslužio epitet najboljeg aktera
+                            ove runde takmičenja - navodi se na sajtu Super lige.<br><br>
+                            Kako se dodaje, konkurencija za igrača kola je ovog puta bila jaka, jer su sjajne partije
+                            pružili i Tomićev saigrač Momčilo Mrkaić i napadač Radničkog i najbolji strelac lige Nermin
+                            Haskić.<br>
+                            Nemanja Tomić (31) igra na poziciji krilnog napadača, a tokom karijere je nastupao za
+                            Radnički 1923, Teleoptik, Partizan, turske ekipe Genčlerbirligi i Giresunspor, kao i grčku
+                            ekipu Trikala.<br>
+                            U redove Zemuna stigao je oktobra prošle godine, kao slobodan igrač, i zabeležio 17 nastupa,
+                            uz dva postignuta pogotka.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 4-->
+        <div class="modal fade" id="cetvrtaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-danger text-light w-5">Fudbal</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Joveljić: Još jedna pobeda i titula
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Napadač crveno-belih na susretu sa Vojvodinom stigao je do brojke od deset postignutih
+                            golova
+                        </p>
+                        <img src="slike/slika3-TabSrbija.jpg" class="img-fluid w-100" alt="Dejan Jovljeić">
+                        <p class="text-right p-0 m-0">FOTO: I. Veselinov</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Mladi, talentovani napadač Crvene zvezde, Dejan Joveljić, dva puta upisao se u listu
+                            strelaca na meču sa Vojvodinom.<br><br>
+                            - Sjajna utakmica za nas. Odlično smo se snašli na teškom gostovanju. Teren je bio zahtevan
+                            za igru, vreme teško, ali uspeli smo da upišemo novu pobedu. Posebno sam srećan zbog drugog
+                            gola kiji sam postigao. Penal je bio na meni, prišao sam Marinu i pitao ga da li mogu ja da
+                            izvedem jedanaesterac. Bez razmišljanja su se složili i on i ostali saigrači. To je još
+                            jedna stvar koja pokazuje koliko smo složni. Marin je dokazao da zna koliko mi znače golovi.
+                            Kod prvog pogotka Čaušić mi je uputio sjajan udarac, a ja sam se našao na pravom mestu i
+                            loptu sproveo u mrežu - rekao je Joveljić.<br><br>
+                            Napadač crveno-belih na susretu sa Vojvodinom stigao je do brojke od deset postignutih
+                            golova.<br><br>
+                            - To mi je bio cilj na početku sezone, drago mi je da sam ga nekoliko kola pre kraja i
+                            ispunio. Verovao sam da mogu da ispunim to što sam zacrtao, ali bez saigrača to ne bi bilo
+                            moguće. I danas se to pokazalo.<br>
+                            Sledeću utakmicu fudbaleri Crvene zvezde odigraće na svom terenu protiv Mladosti u
+                            nedelju.<br><br>
+                            - Za nekoliko dana pred nama je izuzetno važna utakmica. Kao što kaže naša pesma:"Još jedna
+                            pobeda i titula". Navijači mogu da očekuju borbu i veliku želju u našoj igri u nedelju.
+                            Nadam se da će to biti dovoljno za slavlje na kraju - poručio je Joveljić.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 5-->
+        <div class="modal fade" id="petaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-danger text-light w-5">Fudbal</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Ivica Kralj preporodio Mačvu: Nije isto biti deveti, ili 13. na kraju
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            – Jedno je biti sportista, sasvim drugo sportski radnik. Sa zadovoljstvom mogu da
+                            konstatujem da sam se dobro snašao u novoj priči i da sam do sada ostvario zacrtane ciljeve
+                            – kazao je Ivica Kralj
+                        </p>
+                        <img src="slike/slika4-TabSrbija.jpg" class="img-fluid w-100" alt="Ivica Kralj">
+                        <p class="text-right p-0 m-0">FOTO: N. Negovanović</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Fudbalska lopta zakotrljala se šabačkim ulicama početkom 20. veka, a o velikom interesovanju
+                            za ovu sportsku novotariju govori i podatak da je još 1908. godine pri sokolskom društvu
+                            „Dušan Silni” zvanično osnovana loptačka družina.<br>
+                            Za razliku od većine drugih u Srbiji, Šapčani nisu želeli da tu ili neku raniju godinu uzmu
+                            za osnivačku, već 1919. kad je po završetku Velikog rata u razrušenom srpskom Verdenu
+                            osnovan klub, koji će ostaviti dubok trag u našem fudbalu.<br>
+                            Zato su „čivijaši” još ponosniji na svoju Mačvu, koja proslavlja 100. rođendan i to ne samo
+                            kao sećanje na slavne dane bili su članovi Prve lige Kraljevine Jugoslavije 1930. i 1931.
+                            godine koja je brojala samo šest klubova kao i članovi Prve lige Jugoslavije od 1951. do
+                            1953. godine - već i na sadašnjicu u kojoj momci u crveno-crnim dresovima uspešno igraju u
+                            najvišem rangu takmičenja.<br>
+                            Šapčani će se složiti da je poslednja renesansa njihovog kluba ostvarena najviše
+                            zahvaljujući angažovanju Ivice Kralja s mesta čelnog čoveka.<br>
+                            Nekada poznati golman za Partizan je odigrao 331 meč i reprezentaciju 41, branio i za Porto,
+                            PSV, Rostov i Spartak do tada se nije bavio organizacionim poslovima u fudbalu.<br><br>
+                            – Po završetku igračke karijere rešio sam da ostanem u fudbalu, ne kao trener nego kao
+                            sportski radnik. Nigde nisam žurio, već sam nekoliko godina obilazio klubove za koje sam
+                            igrao i trudio se da što više naučim o novom poslu. Posle dužih razgovora sa predstavnicima
+                            gradske uprave, tačnije sa Nemanjom Pajićem, predsednikom Skupštine grada Šapca, odlučio sam
+                            da dođem u Mačvu jer se njena priča uklapala u moju.<br><br>
+                            Koliko ste danas zadovoljni tom odlukom?<br>
+                            – Jedno je biti sportista, sasvim drugo sportski radnik. Sa zadovoljstvom mogu da
+                            konstatujem da sam se dobro snašao u novoj priči i da sam do sada ostvario zacrtane ciljeve.
+                            U početku je bilo problema koje smo postepeno prevazilazili, u međuvremenu uvek postavljali
+                            nove ciljeve. Nadam se da ću, kako vreme bude odmicalo, biti još uspešniji.<br><br>
+                            Mačvu ste preuzeli u februaru 2015, već u junu se preselila u niži rang?<br>
+                            – To je bila neminovnost, koja nam je donela dodatno vreme da se reorganizujemo. Opredelio
+                            sam se za malu i efikasnu upravu, što se pokazalo produktivnim. Neizmerno sam zahvalan
+                            saradnicima, trudili smo se da velike ambicije ostvarujemo naspram objektivnih mogućnosti.
+                            Svaki budžet je limitiran, pa i koji grad Šabac izdvaja za Mačvu. Ta sredstva nisu dovoljna
+                            za opstanak u najvišem rangu, pa smo se snalazili za dodatne izvore finansiranja od prodaje
+                            ulaznica i igrača preko marketinga do privatnih donacija prijatelja kluba. Najbolja potvrda
+                            uspešnosti na tom planu je da se nijedan igrač nije požalio na neispunjene obaveze.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 6-->
+        <div class="modal fade" id="sestaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-danger text-light w-5">Fudbal</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Smiljanić: Umesto da rešimo, „zakuvali“ smo sami sebi
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Vezni igrač crno-belih istakao je da i nakvašen teren bio dodatni problem i da je postojala
+                            bojazan da li će moći da ispoštuju zadatke i dogovor iz svlačionice
+                        </p>
+                        <img src="slike/slika5-TabSrbija.jpg" class="img-fluid w-100" alt="Miljan Lola Smiljanić">
+                        <p class="text-right p-0 m-0">FOTO: partizan.rs</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Fudbaler Partizana Milan Smiljanić posle pobede nad ekipom Mladosti iz Lučana (2:1) rekao je
+                            da je njegova ekipa pokazala veliku želju za trijumfom koji ih je vratio na poziciju koja
+                            vodi u Evropu.<br><br>
+                            - Zaista smo imali veliku želju da pobedimo jer smo posle poraza u prethodnom kolu došli na
+                            poziciju koja nam nije donosila put u Evropu i samim tim znamo da ovaj mikro ciklus moramo
+                            da dobijemo pod imperativ - rekao je Smiljanić za klupski sajt.<br><br>
+                            Vezni igrač crno-belih istakao je da i nakvašen teren bio dodatni problem i da je postojala
+                            bojazan da li će moći da ispoštuju zadatke i dogovor iz svlačionice.<br><br>
+                            - Igrali smo dobro u prvom poluvremenu i onda u drugom uvek nešto padnemo. Posle vođstva i
+                            prilike da sve rešimo „zakuvamo“ sami sebi. Ako me pitate kako nam u trenutku padne
+                            koncentracija i poklonimo uvek neki gol zaista ne znam,osim da smo vrlo svesni toga i da se
+                            trudimo da popravimo - naveo je Simljanić i dodao:<br><br>
+                            - U ovim trenucima kada je važno da svaku utakmicu u plej-ofu pobedimo i spremamo se za
+                            polufinale Kupa Srbije, imperativ je da mi kao tim budemo spremni sa što manje povreda i
+                            kartona.<br>
+                            Partizan sledeći meč u plej-ofu Superlige igra u nedelju protiv Napretka iz Kruševca.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 7-->
+        <div class="modal fade" id="sedmaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-danger text-light w-5">Fudbal</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Korbalan: Kasiljas bi povratkom na teren ugrozio život
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            - Ikeru je ugrađen stent, to vas onemogućava da se bavite sportom na vrhunskom nivou. On će
+                            po oporavku moći da živi normalno, ali povratak na teren i profesionalno bavljenje sportom
+                            povećao bi rizik od novog infartkta i katastrofalnih posledica - izjavio je Korbalan
+                        </p>
+                        <img src="slike/slika6-TabSrbija.jpg" class="img-fluid w-100" alt="Iker Kasiljas">
+                        <p class="text-right p-0 m-0">FOTO: Beta/AP</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Čuveni španski lekar Huan Antonio Korbalan, ujedno i legendarni košarkaš Reala, izjavio je
+                            da će Iker Kasiljas posle infarkta moći normalno da nastavi život, ali da bi povratak
+                            profesionalnom fudbalu bio veoma rizičan.<br><br>
+                            - Ikeru je ugrađen stent, to vas onemogućava da se bavite sportom na vrhunskom nivou. On će
+                            po oporavku moći da živi normalno, ali povratak na teren i profesionalno bavljenje sportom
+                            povećao bi rizik od novog infartkta i katastrofalnih posledica - izjavio je Korbalan,
+                            ugledni kardiohirurg i bivši lekar reprezentacije.<br><br>
+                            On je imao izuzetnu karijeru košarkaša, sa Realom je osvojio 12 domaćih titula, tri puta bio
+                            prvak Evrope, a ima i srebrne medalje sa EP 1983. u Francuskoj, gde je bio MVP turnira i sa
+                            Olimpijskih igara u Los Anđelesu 1984. godine.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 8-->
+        <div class="modal fade" id="osmaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-danger text-light w-5">Fudbal</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Trampa Juventusa i Intera: Ken na San Siro, Ikardi u Torino
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Italijanski list Korijere delo Sport navodi da su čelnici Intera Đuzepe Marota i Pjero
+                            Ausilio već obavili razgovore sa agentom Minom Rajolom oko prelaska 19-godišnje senzacije
+                            italijanskog fudbala
+                        </p>
+                        <img src="slike/slika10-TabSrbija.jpg" class="img-fluid w-100" alt="Inter Juventus">
+                        <p class="text-right p-0 m-0">FOTO: M. Cruz</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Veliki rivali Juventus i Inter mogli bi da dogovore veliku trampu prema kojoj bi Mauro
+                            Ikardi otišao u Torino, a u drugom smeru Moize Ken.<br>
+                            Italijanski list Korijere delo Sport navodi da su čelnici Intera Đuzepe Marota i Pjero
+                            Ausilio već obavili razgovore sa agentom Minom Rajolom oko prelaska 19-godišnje senzacije
+                            italijanskog fudbala.<br>
+                            Juventus, odnosno sportski direktor Fabio Paratići, već je pokrenuo operaciju dovođenja
+                            Ikardija, čiji je odlazak sa San Sira izvestan zbog nesuglasica oko potpisivanja nove
+                            saradnje.<br>
+                            Pored Ikardija, na meti Juventusa je štoper Milan Škrinijar i Inter iz cele situacije želi
+                            da izvuče napadača za narednu deceniju.<br>
+                            Toliko želi Kena da je spreman, ukoliko se ovog leta ne dogovori sa rivalom, da sačeka
+                            naredno i dovede ga bez obeštećanja kada mu istekne ugovor sa „Starom damom“.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 9-->
+        <div class="modal fade" id="devetaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-danger text-light w-5">Fudbal</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Mesi: Biće teško na Enfildu, podrška Kasiljasu
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            On je dodao da dolazi najvažniji deo sezone i kritikovao deo navijača koji su zvižducima
+                            nastavili „mali rat“ s trenerom Felipeom Kutinjom
+                        </p>
+                        <img src="slike/slika7-TabSrbija.jpg" class="img-fluid w-100" alt="Lionel Mesi">
+                        <p class="text-right p-0 m-0">FOTO: P. Byme</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Petostruki najbolji fudbaler sveta Lionel Mesi izjavio je, posle sinoćnje spektakularne
+                            pobede Barselone protiv Liverpula od 3:0, da još nije gotovo i da Katalonce očekuje težak
+                            revanš polufinala Lige šampiona na Enfildu.<br><br>
+                            - Srećan sam zbog rezultata, ali još nas čeka teško gostovanje na Enfildu. Liverpul je
+                            odličan tim, pokazao je to i na ovoj utakmici i sigurno će nas jako napasti - rekao je
+                            Argentinac, kome je drugi gol na meču, iz slobodnog udarca, bio jubilarni 600. u
+                            karijeri.<br><br>
+                            On je dodao da dolazi najvažniji deo sezone i kritikovao deo navijača koji su zvižducima
+                            nastavili „mali rat“ s trenerom Felipeom Kutinjom.<br><br>
+                            - To nije bilo lepo, u ovom delu sezone moramo svi da budemo ujedinjeni - rekao je
+                            Mesi.<br><br>
+                            Konačno, Mesi je iskoristio priliku da pošalje podršku nekadašnjem velikom rivalu iz Reala,
+                            golmanu Ikeru Kasiljasu, koji je juče na treningu Porta doživeo infarkt.<br><br>
+                            - Želim da pošaljem zagrljaj i podršku Ikeru, uz želju da se vrlo brzo oporavi - poručio je
+                            Mesi.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 10-->
+        <div class="modal fade" id="desetaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-danger text-light w-5">Fudbal</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Rio Ferdinand se vraća u Junajted kao sportski direktor
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Ferdinand je za „crvene đavole“ igrao u periodu od 2002. do 2014. godine, nakon što ga je
+                            tada Junajted sa 25 miliona evra učinio najskuplje plaćenim britanskim fudbalerm ikada pri
+                            transferu iz Lidsa
+                        </p>
+                        <img src="slike/slika8-TabSrbija.jpg" class="img-fluid w-100" alt="Rio Ferdinand">
+                        <p class="text-right p-0 m-0">FOTO: Beta/AP</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Bivši kapiten Mančester Junajteda Rio Ferdinand mogao bi uskoro da preuzme mesto sportskog
+                            direktora slavnog kluba sa Old Traforda.<br>
+                            Britanski Dejli Mejl piše da je trofejni odbrambeni fudbaler ozbiljan kandidat za pomenutu
+                            funkciju kao nekadašnji istaknuti član Junajteda.<br>
+                            On je već obavio razgovore sa potpredsednikom Edom Vudvordom i vlasnicima Junajteda,
+                            porodicom Glejzer, kako bi se vratio na Old Traford posle nepunih pet godina.<br>
+                            Ferdinand je za „crvene đavole“ igrao u periodu od 2002. do 2014. godine, nakon što ga je
+                            tada Junajted sa 25 miliona evra učinio najskuplje plaćenim britanskim fudbalerm ikada pri
+                            transferu iz Lidsa.<br>
+                            Osvojio je šest titula Premijer lige i Ligu šampiona, ali i sa Nemanjom Vidićem činio jedan
+                            od najboljih štoperskih tandema u istoriji fudbala.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 11-->
+        <div class="modal fade" id="jedanaestaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-danger text-light w-5">Fudbal</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Ćavi završio igračku karijeru
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Legendarni fudbaler Barselone i španski reprezentativac Ćavi Ernandez (39) saopštio je sa
+                            završava igračku i odmah počinje trenersku karijeru
+                        </p>
+                        <img src="slike/slika9-TabSrbija.jpg" class="img-fluid w-100" alt="Xavi Hernandez">
+                        <p class="text-right p-0 m-0">FOTO: ABC</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Čuveni vezista Ćavi Ernandez poslednje četiri godine igrao je za katarski Al-Sad, nakon
+                            impresivnih 17 godina u Barseloni, 767 zvaničnih utakmica, 85 golova i rekordnih 25 trofeja,
+                            od čega četiri u Ligi šampiona i osam u Primeri.<br><br>
+                            Sa Španijom je osvojio Mundijal 2010. i dve titule na EP (2008, 2012), a ukupno je odigrao
+                            133 utakmice i postigao 13 golova.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 12-->
+        <div class="modal fade" id="dvanaestaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-danger text-light w-5">Fudbal</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Holanđani u interesu Ajaksa pomerili celo 33. kolo na kraj šampionata
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Problem je nastao zbog Ajaksa koji prema rasporedu trebala da igra u gostima protiv Grafšapa
+                            28. aprila, samo dva dana pre prvog polufinalnog meča Lige šampiona sa Totenhemom
+                        </p>
+                        <img src="slike/slika11-TabSrbija.jpg" class="img-fluid w-100" alt="FC Ajaks">
+                        <p class="text-right p-0 m-0">FOTO: M. Cruz</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Prvenstvo Holandije je pomerilo jedno kolo (33.) na kraj ovog prvenstva, i biće završeno tri
+                            dana kasnije od predviđenog (15. maja). Razlog za to je učešće Ajaksa u polufinalu Lige
+                            šampiona.<br>
+                            Predstavnici svih klubova su se složili sa odlaganjem runde u interesu holandskog fudbala. I
+                            tako će 33. runda koja je trebalo da bu na programu 28. aprila biti igrana u sredu 15. maja,
+                            tri dana posle utakmica 34. runde.<br>
+                            Problem je nastao zbog Ajaksa koji prema rasporedu trebala da igra u gostima protiv Grafšapa
+                            28. aprila, samo dva dana pre prvog polufinalnog meča Lige šampiona sa Totenhemom. Problem
+                            nije revanš sa Englezima 8. maja, jer će tri dana ranije Kopljanici da igraju finale Kupa
+                            protiv Viljema Drugog.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 13-->
+        <div class="modal fade" id="trinaestaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-danger text-light w-5">Fudbal</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Sisoko najverovatnije propušta prvu utakmicu protiv Ajaksa
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Sisoko se povredio prošle nedelje, u revanš utakmici četvrtfinala Lige šampiona protiv
+                            Mančester Sitija i najverovatnije će pauzirati dve nedelje
+                        </p>
+                        <img src="slike/slika12-TabSrbija.jpg" class="img-fluid w-100" alt="Musa Sisoko">
+                        <p class="text-right p-0 m-0">FOTO: Beta/AP</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Fudbaler Totenhema Musa Sisoko najverovatnije će zbog povrede propustiti prvu polufinalnu
+                            utakmicu Lige šampiona protiv Ajaksa, preneli su danas britanski mediji.<br>
+                            Sisoko se povredio prošle nedelje, u revanš utakmici četvrtfinala Lige šampiona protiv
+                            Mančester Sitija i najverovatnije će pauzirati dve nedelje.<br>
+                            To znači da će propustiti prvu utakmicu protiv Ajaksa, 30. aprila, koju će zbog suspenzije
+                            propustiti Son Heung Min, kao i od ranije povređeni kapiten Hari Kejn.<br>
+                            Problema sa povredama imaju i Ugo LJoris i Hari Vinks, ali bi mogli da budu u sastavu za
+                            utakmicu protiv Brajtona u utorak uveče.<br><br>
+                            - Musa Sisoko neće biti spreman, možda u naredne dve nedelje. Nadamo se da će se oporaviti
+                            pre toga, ali nisam optimista - rekao je trener Totenhema Maurisio Poketino.<br><br>
+                            Totenhem se bori za treće mesto u Premijer ligi. Poketinova ekipa ima 67 bodova na trećem
+                            mestu, a Arsenal i Čelzi imaju po bod manje. Šesti je Mančester Junajted sa 64 boda.<br><br>
+                            - Ne razmišljamo o Ajaksu, svu koncentraciju usmerili smo na Brajton. Jasno je da imamo dva
+                            cilja, da budemo među četiri najbolje ekipe na kraju sezone i da pobedimo Ajaks. Ali, moramo
+                            da idemo korak po korak. Igrači to znaju, mislim da su njihovo ponašanje i njihov mentalitet
+                            savršeni - rekao je Poketino.<br><br>
+                            Totenhem igra dobro na novom stadionu, pobedio je u prve tri utakmice, postigao je sedam a
+                            primio jedan gol.<br><br>
+                            - Nadamo se da možemo tako da nastavimo, da možemo da ponovimo igru iz prethodnih utakmica -
+                            dodao je trener Totenhema.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 14-->
+        <div class="modal fade" id="cetrnaestaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-danger text-light w-5">Fudbal</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Totenhem uz pomoć VAR-a do polufinala, Sitiju poništen gol u 93. minutu!
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Fudbaleri Totenhema i Liverpula plasirali su se u polufinale Lige šampiona, nakon što su u
+                            revanš mečevima četvrtfinala eliminisali Mančester Siti i Porto
+                        </p>
+                        <img src="slike/slika13-TabSrbija.jpg" class="img-fluid w-100" alt="Totenhem - Mančester Siti">
+                        <p class="text-right p-0 m-0">FOTO: P. Byme</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Totenhem je na „Etihadu” u spektakularnom meču poražen 4:3, ali je prošao dalje zbog pobede
+                            na domaćem terenu 1:0 i to u dramatičnoj završnici u kojoj je poništen pogodak Rahima
+                            Sterlinga za prolaz Sitija, nakon ofsajda na asistenciju VAR-a.<br>
+                            Dva gola za Siti postigao je Sterling, pogađali su i Bernardo Silva i Serhio Aguero, dok su
+                            strelci za Totenhem bili dva puta Hung-Min Son i Fernando LJorente.<br>
+                            Totenhem će u polufinalu igrati protiv Ajaksa, dok će na megdan Barseloni ekipa Liverpula,
+                            nakon još jedne pobede protiv Porta, ovaj put u gostima 4:1.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 15-->
+        <div class="modal fade" id="petnaestaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-danger text-light w-5">Fudbal</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Eriksen priznao: Najsrećniji sam čovek na svetu
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Danac je kiksnuo u samom finišu meča, ali je imao sreću da se Serhio Aguero nalazio u
+                            ofsajdu kod asistencije za Rahima Sterlinga, pre nego što je naknadnom odlukom VAR-a
+                            utvrđeno da se pogodak poništava i da Totenhem, uprkos porazu 4:3, ide dalje
+                        </p>
+                        <img src="slike/slika14-TabSrbija.jpg" class="img-fluid w-100" alt="Kristijan Eriksen">
+                        <p class="text-right p-0 m-0">FOTO: ACB</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Vezni fudbaler Totenhema Kristijan Eriksen izjavio je da je najsrećniji čovek na svetu,
+                            nakon što je poništena njegova greška i gol Mančester Sitiju za plasman u polufinale Lige
+                            šampiona.<br>
+                            Danac je kiksnuo u samom finišu meča, ali je imao sreću da se Serhio Aguero nalazio u
+                            ofsajdu kod asistencije za Rahima Sterlinga, pre nego što je naknadnom odlukom VAR-a
+                            utvrđeno da se pogodak poništava i da Totenhem, uprkos porazu 4:3, ide dalje.<br><br>
+                            - Moram da budem najsrećniji čovek na planeti. Mislio sam da je sve bilo gotovo u tom
+                            trenutku… Pravi rolerkoster, dali smo puno Sitiju, čudna utakmica - rekao je Eriksen za BT
+                            Sport.<br><br>
+                            Eriksen priznaje da je osetio olakšanje kada je turski arbitar Džunejt Čakir dosudio ofsajd
+                            Aguera.<br><br>
+                            - Posle utakmice moramo duboko da udahnemo, nastavljamo bajku i zanimljivu avanturu -
+                            zaključio je on.<br><br>
+                            Totenhem u polufinalu ide na Ajaks, dok drugi par čine Liverpul i Barselona.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 16-->
+        <div class="modal fade" id="sesnaestaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-danger text-light w-5">Fudbal</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Gvardiola: Podržavam VAR, ali možda je LJorente igrao rukom
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Mančester Siti je sinoć u revanš utakmici četvrtfinala Lige šampiona kao domaćin pobedio
+                            Totenhem sa 4:3, ali nije prošao dalje, pošto je u prvom meču u Londonu izgubio sa 1:0
+                        </p>
+                        <img src="slike/slika15-TabSrbija.jpg" class="img-fluid w-100" alt="Pep Gvardiola">
+                        <p class="text-right p-0 m-0">FOTO: M. Cruz</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Trener fudbalera Mančester Sitija Pep Gvardiola rekao je da podržava upotrebu VAR
+                            tehnologije, ali da misli da je Fernando LJorente rukom postigao gol kojim se Totenhem
+                            plasirao u polufinale Lige šampiona.<br>
+                            Mančester Siti je sinoć u revanš utakmici četvrtfinala Lige šampiona kao domaćin pobedio
+                            Totenhem sa 4:3, ali nije prošao dalje, pošto je u prvom meču u Londonu izgubio sa 1:0.<br>
+                            Totenhem je prvi put u klupskoj istoriji prošao među četiri najbolja u Ligi šampiona, a
+                            treći odlučujući gol postigao je LJorente u 73. minutu.<br>
+                            Sudija Džunejt Čakir je pregledao snimak tog gola i priznao ga je, iako se, gledajući iz
+                            jednog ugla čini da je Španca lopta prvo udarila u lakat, pa tek onda u kuk. Međutim,
+                            gledajući snimak iz drugog gugla, ne vidi se da lopta udara LJorentea u lakat.<br><br>
+                            - Podržavam VAR tehnologiju. Treba videti da li je LJorente možda postigao gol rukom. Iz
+                            jednog ugla, igrao je rukom. Iz drugog ugla, nije - rekao je Gvardiola, preneli su britanski
+                            mediji.<br><br>
+                            Fudbaler Sitija Rahim Sterling postigao je peti gol u nadoknadi vremena, ali je posle VAR
+                            tehnologije gol poništen zbog ofsajda, pošto je utvrđeno da je Serhio Aguero bio u ofsajdu
+                            pre nego što je asistirao.<br><br>
+                            - Ja sam za pošten fudbal. Kada je ofsajd, onda je ofsajd. Mislim da će u budućnosti, čak i
+                            u bliskoj, biti fer - dodao je Gvardiola.<br><br>
+                            Posle gola Sterlinga slavilo se na klupi Sitija, ali je euforija ubrzo prestala i
+                            „preselila“ se na klupu Totenhema.<br><br>
+                            - Teško je. Bilo bi dobro da nismo primili gol. Bili smo bilizu da prođemo. Surovo je, ali
+                            to moramo da prihvatimo - rekao je Gvardiola.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container bg-dark fejd">
+            <div class="text-light p-3 text-center">
+                <ul class="list-inline my-2" id="drustvene-mreze">
+                    <li class="d-inline mx-3">
+                        <a class="text-light" href="https://www.facebook.com/hotsportrs/"><span><i class="fab fa-facebook fa-2x"></i></span></a>
+                    </li>
+                    <li class="d-inline mx-3">
+                        <a class="text-light" href="https://www.instagram.com/_hotsport/?hl=sr"><span><i class="fab fa-instagram fa-2x"></i></span></a>
+                    </li>
+                    <li class="d-inline mx-3">
+                        <a class="text-light" href="https://twitter.com/hotsportsrb"><span><i class="fab fa-twitter-square fa-2x"></i></span></a>
+                    </li>
+                </ul>
+                <ul class="list-inline my-2" id="navigacija-podnozje">
+                    <li class="d-inline mx-3">
+                        <a class="text-light" href="fudbal.html">Fudbal</a>
+                    </li>
+                    <li class="d-inline mx-3">
+                        <a class="text-light" href="kosarka.html">Košarka</a>
+                    </li>
+                    <li class="d-inline mx-3">
+                        <a class="text-light" href="kontakt.html">Kontakt</a>
+                    </li>
+                    <li class="d-inline mx-3">
+                        <a class="text-light" href="galerija.html">Galerija</a>
+                    </li>
+                    <li class="d-inline mx-3">
+                        <a class="text-light" href="onama.html">O nama</a>
+                    </li>
+                </ul>
+                <p class="font-italic font-weight-bold d-inline mx-3 text-light" id="naslov-podnozje">
+                    <span class="text-warning">SM</span> SPORT
+                </p>
+                &copy; Copyright 2019.
+            </div>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery.js">
+    </script>
+    <!-- Include all compiled plugins -->
+    <script src="js/bootstrap.min.js">
+    </script>
+    <script src="js/program.js">
+    </script>
+</body>
+
+</html>

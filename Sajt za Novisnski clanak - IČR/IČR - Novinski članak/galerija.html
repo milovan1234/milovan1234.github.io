@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+    <title>SM SPORT - Galerija</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Stranica za Sportski Novinski članak baziran na Fudbalu i Košarci">
+    <meta name="keywords" content="sm,smsport,sport,sportske novine,fudbal,košarka,smsport vesti">
+    <meta name="author" content="Milovan Srejić NRT-11/17">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/still.css">
+    <link rel="icon" href="slike/logo-Vrh.png">
+</head>
+
+<body data-spy="scroll" data-target=".skrolNav" data-offset="120">
+    <div class="container p-0" id="glavniKontejner">
+        <div class="container bg-light p-0">
+            <div class="p-3 bg-dark">
+                <a class="bg-dark" href="index.html"><img src="slike/logo.png" alt="LOGO"></a>
+                <p class="font-italic font-weight-bold d-inline mx-3 text-light" id="naslov">
+                    <a class="zaglavljeLink text-light" href="index.html"><span class="text-warning">SM</span> SPORT</a>
+                    <ul class="list-inline d-none d-sm-block my-2 float-right" id="drustvene-mreze">
+                        <li class="d-inline mx-3">
+                            <a class="text-light" href="https://www.facebook.com/hotsportrs/"><span><i class="fab fa-facebook fa-2x"></i></span></a>
+                        </li>
+                        <li class="d-inline mx-3">
+                            <a class="text-light" href="https://www.instagram.com/_hotsport/?hl=sr"><span><i class="fab fa-instagram fa-2x"></i></span></a>
+                        </li>
+                        <li class="d-inline mx-3">
+                            <a class="text-light" href="https://twitter.com/hotsportsrb"><span><i class="fab fa-twitter-square fa-2x"></i></span></a>
+                        </li>
+                    </ul>
+                </p>
+                <span id="podnaslovKontakt" class="text-light text-right d-block">
+                    Današnji datum:
+                    <span id="datum" class="text-warning font-italic"></span>
+                </span>
+                <span id="podnaslovKontakt" class="text-light text-right d-block">
+                    Trenutno vreme:
+                    <span id="vreme" class="text-warning font-italic"></span>
+                </span>
+            </div>
+        </div>
+        <div id="navigacija" class="container bg-light p-0 m-0 mb-5 sticky-top border-bottom border-top border-light">
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                <button class="navbar-toggler my-1" type="button" data-toggle="collapse"
+                    data-target="#sazimajuciKontejner">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="sazimajuciKontejner">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-4 border-right border-light okvir">
+                            <a class="nav-link text-light" href="index.html">Naslovna</a>
+                        </li>
+                        <li class="nav-item px-4 border-right border-light okvir">
+                            <a class="nav-link text-light" href="najnovijeVesti.html">Najnovije Vesti</a>
+                        </li>
+                        <li class="nav-item px-4 border-right border-light okvir">
+                            <a class="nav-link text-light" href="fudbal.html">Fudbal</a>
+                        </li>
+                        <li class="nav-item px-4 border-right border-light okvir">
+                            <a class="nav-link text-light" href="kosarka.html">Košarka</a>
+                        </li>
+                        <li class="nav-item px-4 border-right border-light okvir">
+                            <a class="nav-link text-light" href="miks.html">Miks</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link text-light" href="kontakt.html">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-8 mb-4 fejd">
+                    <div class="row">
+                        <div class="col-12">
+                            <!--Card 1-->
+                            <div class="card p-3 mb-5 fejd" id="prvaGalerija">
+                                <h3 id="podnaslovKontakt" class="mt-3">
+                                    Proslava 74. rođendana Crvene zvezde - FOTO Galerija: I.Veselinov
+                                </h3>
+                                <p class="datumStrane"><i class="far fa-clock"></i> 5 mart, 2019</p>
+                                <p class="font-italic">
+                                    Tradicionalno, 54. put proglašeni su najbolji sportisti crveno-bele porodice.
+                                </p>
+                                <div class="row mt-4">
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto-zvezdinRodjendan1.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Zvezdin 74. Rodjendan">
+                                    </div>
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto-zvezdinRodjendan2.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Zvezdin 74. Rodjendan">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto-zvezdinRodjendan3.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Zvezdin 74. Rodjendan">
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto-zvezdinRodjendan4.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Zvezdin 74. Rodjendan">
+                                    </div>
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto-zvezdinRodjendan5.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Zvezdin 74. Rodjendan">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto-zvezdinRodjendan6.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Zvezdin 74. Rodjendan">
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto-zvezdinRodjendan7.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Zvezdin 74. Rodjendan">
+                                    </div>
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto-zvezdinRodjendan8.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Zvezdin 74. Rodjendan">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto-zvezdinRodjendan9.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Zvezdin 74. Rodjendan">
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto-zvezdinRodjendan10.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Zvezdin 74. Rodjendan">
+                                    </div>
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto-zvezdinRodjendan11.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Zvezdin 74. Rodjendan">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto-zvezdinRodjendan12.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Zvezdin 74. Rodjendan">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Card 2-->
+                            <div class="card p-3 mb-5 fejd" id="drugaGalerija">
+                                <h3 id="podnaslovKontakt" class="mt-3">
+                                    159. VEČITI DERBI - U znaku Crvene Zvezde - FOTO Galerija: I.Veselinov
+                                </h3>
+                                <p class="datumStrane"><i class="far fa-clock"></i> 2 mart, 2019</p>
+                                <p class="font-italic">
+                                    Za razliku od terena gde je varničilo, u nekoliko navrata došlo je i do koškanja, na
+                                    tribinama je gorelo, ali čarki nije bilo.
+                                </p>
+                                <div class="row mt-4">
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto1-vecitiDerbi1.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="159. Večiti derbi">
+                                    </div>
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto1-vecitiDerbi2.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="159. Večiti derbi">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto1-vecitiDerbi3.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="159. Večiti derbi">
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto1-vecitiDerbi4.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="159. Večiti derbi">
+                                    </div>
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto1-vecitiDerbi5.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="159. Večiti derbi">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto1-vecitiDerbi6.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="159. Večiti derbi">
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto1-vecitiDerbi7.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="159. Večiti derbi">
+                                    </div>
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto1-vecitiDerbi8.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="159. Večiti derbi">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto1-vecitiDerbi9.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="159. Večiti derbi">
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto1-vecitiDerbi10.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="159. Večiti derbi">
+                                    </div>
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto1-vecitiDerbi11.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="159. Večiti derbi">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto1-vecitiDerbi12.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="159. Večiti derbi">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Card 3-->
+                            <div class="card p-3 mb-5 fejd" id="trecaGalerija">
+                                <h3 id="podnaslovKontakt" class="mt-3">
+                                    Partizan – Radnik 2:0 - FOTO Galerija: N. Negovanović
+                                </h3>
+                                <p class="datumStrane"><i class="far fa-clock"></i> 18 mart, 2019</p>
+                                <p class="font-italic">
+                                    Šampion je nastavio poteru za liderom. Partizan je u seriji pobeda, novu i to pred
+                                    prvenstvenu pauzu, ostvario je protiv Surduličana
+                                </p>
+                                <div class="row mt-4">
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto2-partizanRadnik1.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Partizan - Radnik">
+                                    </div>
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto2-partizanRadnik2.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Partizan - Radnik">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto2-partizanRadnik3.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Partizan - Radnik">
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto2-partizanRadnik4.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Partizan - Radnik">
+                                    </div>
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto2-partizanRadnik5.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Partizan - Radnik">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto2-partizanRadnik6.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Partizan - Radnik">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Card 4-->
+                            <div class="card p-3 mb-5 fejd" id="cetvrtaGalerija">
+                                <h3 id="podnaslovKontakt" class="mt-3">
+                                    ČUDO se dogodilo! - FOTO Galerija: P. Byme
+                                </h3>
+                                <p class="datumStrane"><i class="far fa-clock"></i> 7 maj, 2019</p>
+                                <p class="font-italic">
+                                    Na "Enfildu" smo ove noći gledali istorijsku utakmicu Lige šampiona. Barsa je imala
+                                    prednost 3:0 iz prve utakmice, ali su "redsi", iako oslabljeni bez Salaha i Firmina,
+                                    uspeli da nadoknade zaostatak i trijumfuju 4:0.
+                                </p>
+                                <div class="row mt-4">
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto3-liverpulBarselona.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Liverpul - Barselona">
+                                    </div>
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto3-liverpulBarselona2.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Liverpul - Barselona">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto3-liverpulBarselona3.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Liverpul - Barselona">
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto3-liverpulBarselona4.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Liverpul - Barselona">
+                                    </div>
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto3-liverpulBarselona5.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Liverpul - Barselona">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto3-liverpulBarselona6.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Liverpul - Barselona">
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto3-liverpulBarselona7.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Liverpul - Barselona">
+                                    </div>
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto3-liverpulBarselona8.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Liverpul - Barselona">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto3-liverpulBarselona10.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Liverpul - Barselona">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Card 5-->
+                            <div class="card p-3 mb-5 fejd" id="petaGalerija">
+                                <h3 id="podnaslovKontakt" class="mt-3">
+                                    Biće "gusto" - FOTO Galerija: C.Smith
+                                </h3>
+                                <p class="datumStrane"><i class="far fa-clock"></i> 7 maj, 2019</p>
+                                <p class="font-italic">
+                                    Hjuston Roketsi su u četvrtoj utakmici plej-ofa Zapadne konferencije uspeli da
+                                    izjednače u seriji sa Golden Stejt Voriorsima na 2:2, nakon trijumfa na domaćem
+                                    terenu rezultatom 112:108. Harden je bio najefikasniji sa 38p i 10 sk.
+                                </p>
+                                <div class="row mt-4">
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto4-hjustonGolden1.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="NBA Golden Stejt - Hjuston Rokets">
+                                    </div>
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto4-hjustonGolden2.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="NBA Golden Stejt - Hjuston Rokets">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto4-hjustonGolden3.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="NBA Golden Stejt - Hjuston Rokets">
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto4-hjustonGolden4.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="NBA Golden Stejt - Hjuston Rokets">
+                                    </div>
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto4-hjustonGolden5.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="NBA Golden Stejt - Hjuston Rokets">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto4-hjustonGolden6.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="NBA Golden Stejt - Hjuston Rokets">
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-sm-4">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto4-hjustonGolden7.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="NBA Golden Stejt - Hjuston Rokets">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Card 6-->
+                            <div class="card p-3 mb-5 fejd" id="sestaGalerija">
+                                <h3 id="podnaslovKontakt" class="mt-3">
+                                    Ponižena Budućnost! - FOTO Galerija: I.Veselinov
+                                </h3>
+                                <p class="datumStrane"><i class="far fa-clock"></i> 22 april, 2019</p>
+                                <p class="font-italic">
+                                    Košarkaši Crvene zvezde su šampioni ABA lige! U "paklenoj" atmosferi Pionira,
+                                    crveno-beli su bili ubedljivi protiv košarkaša Budućnosti 97:54. Ovim trijumfom su
+                                    ponovo obezbedili nastup u najelitnijem takmičenju - Evroligi.
+                                </p>
+                                <div class="row mt-4">
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto5-zvezdaBuducnost1.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="ABA Liga Zvezda - Buducnost">
+                                    </div>
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto5-zvezdaBuducnost2.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="ABA Liga Zvezda - Buducnost">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto5-zvezdaBuducnost3.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="ABA Liga Zvezda - Buducnost">
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto5-zvezdaBuducnost4.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="ABA Liga Zvezda - Buducnost">
+                                    </div>
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto5-zvezdaBuducnost5.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="ABA Liga Zvezda - Buducnost">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto5-zvezdaBuducnost6.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="ABA Liga Zvezda - Buducnost">
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto5-zvezdaBuducnost7.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="ABA Liga Zvezda - Buducnost">
+                                    </div>
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto5-zvezdaBuducnost8.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="ABA Liga Zvezda - Buducnost">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto5-zvezdaBuducnost9.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="ABA Liga Zvezda - Buducnost">
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto5-zvezdaBuducnost10.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="ABA Liga Zvezda - Buducnost">
+                                    </div>
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto5-zvezdaBuducnost11.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="ABA Liga Zvezda - Buducnost">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto5-zvezdaBuducnost12.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="ABA Liga Zvezda - Buducnost">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Card 7-->
+                            <div class="card p-3 mb-5 fejd" id="sedmaGalerija">
+                                <h3 id="podnaslovKontakt" class="mt-3">
+                                    Oproštaj u suzama i 30 poena - FOTO Galerija: T.Guttierez
+                                </h3>
+                                <p class="datumStrane"><i class="far fa-clock"></i> 10 april, 2019</p>
+                                <p class="font-italic">
+                                    Kao u najboljim danima! Veliki Dirk Novicki odigrao je poslednji meč pred svojom
+                                    publikom u Dalasu, i u pobedi protiv Finiksa 120:109, postigao 30 poena i osam
+                                    skokova. Veličanstvena karijera!
+                                </p>
+                                <div class="row mt-4">
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto6-dirkNovicki1.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Dirk Novicki">
+                                    </div>
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto6-dirkNovicki2.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Dirk Novicki">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto6-dirkNovicki3.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Dirk Novicki">
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto6-dirkNovicki4.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Dirk Novicki">
+                                    </div>
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto6-dirkNovicki5.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Dirk Novicki">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto6-dirkNovicki6.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Dirk Novicki">
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto6-dirkNovicki7.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Dirk Novicki">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Card 8-->
+                            <div class="card p-3 fejd" id="osmaGalerija">
+                                <h3 id="podnaslovKontakt" class="mt-3">
+                                    Jokić standardno, ali bez prave podrške - FOTO Galerija: C.Mitchelldyer
+                                </h3>
+                                <p class="datumStrane"><i class="far fa-clock"></i> 10 maj, 2019</p>
+                                <p class="font-italic">
+                                    Košarkaši Portlanda pobedili su Denver 119:108 u šestoj utakmici polufinala Zapadne
+                                    konferencije NBA lige i tako izborili majstoricu. Nikola Jokić bio je najefikasniji
+                                    u Denveru (29p, 8a, 12s).
+                                </p>
+                                <div class="row mt-4">
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto7-Denver.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Denver Nuggets">
+                                    </div>
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto7-Denver2.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Denver Nuggets">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto7-Denver3.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Denver Nuggets">
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto7-Denver4.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Denver Nuggets">
+                                    </div>
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <img onclick="promenaSlike(this)" data-toggle="modal" data-target="#Vest"
+                                            src="slike/foto7-Denver5.jpg" class="img-fluid w-100 h-100 kursor"
+                                            alt="Denver Nuggets">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 fejd">
+                    <div class="card border border-light w-100">
+                        <div class="card-title bg-dark text-light text-center border-bottom border-danger border-w3 m-0 pl-3 p-2"
+                            id="podnaslovVesti">
+                            Fudbalske Tabele
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div id="carouselExampleIndicators4" class="carousel karusel slide pb-5 fejd"
+                                    data-ride="carousel">
+                                    <ol class="carousel-indicators carousel-indicators-numbers">
+                                        <li data-target="#carouselExampleIndicators4" data-slide-to="0" class="active">1
+                                        </li>
+                                        <li data-target="#carouselExampleIndicators4" data-slide-to="1">2</li>
+                                        <li data-target="#carouselExampleIndicators4" data-slide-to="2">3</li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <h6 class="text-center mt-2">Italijanska Liga 1</h6>
+                                            <img src="slike/slika-TabelaItalija.jpg" class="img-fluid w-100 h-100"
+                                                alt="Tabela Italija">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <h6 class="text-center mt-2">Španska Liga 1</h6>
+                                            <img src="slike/slika-TabelaSpanija.jpg" class="img-fluid w-100 h-100"
+                                                alt="Tabela Španija">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <h6 class="text-center mt-2">Srpska Superliga</h6>
+                                            <img src="slike/slika-TabelaSrbija.jpg" class="img-fluid w-100 h-100"
+                                                alt="Tabela SuperLiga Srbija">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card border border-light w-100 mt-5">
+                        <div class="card-title bg-dark text-light text-center border-bottom border-danger border-w3 m-0 pl-3 p-2"
+                            id="podnaslovVesti">
+                            Košarkaške Tabele
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div id="carouselExampleIndicators5" class="carousel karusel slide pb-5 fejd"
+                                    data-ride="carousel">
+                                    <ol class="carousel-indicators carousel-indicators-numbers">
+                                        <li data-target="#carouselExampleIndicators5" data-slide-to="0" class="active">1
+                                        </li>
+                                        <li data-target="#carouselExampleIndicators5" data-slide-to="1">2</li>
+                                        <li data-target="#carouselExampleIndicators5" data-slide-to="2">3</li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <h6 class="text-center mt-2">Košarkaška Evroliga</h6>
+                                            <img src="slike/slika-TabelaEvroliga.jpg" class="img-fluid w-100 h-100"
+                                                alt="Tabela Evroliga">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <h6 class="text-center mt-2">NBA Liga - Istok</h6>
+                                            <img src="slike/Slike-TabelaNBA-Istok.png" class="img-fluid w-100 h-100"
+                                                alt="Tabela NBA Istocna Konferencija">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <h6 class="text-center mt-2">NBA Liga - Zapad</h6>
+                                            <img src="slike/Slike-TabelaNBA-Zapad.png" class="img-fluid w-100 h-100"
+                                                alt="Tabela NBA Zapadna Konferencija">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Modal za Slike-->
+        <div class="modal fade" id="Vest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <img src="" id="photo" alt="Slika iz Galerije" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+        <div class="container bg-dark fejd mt-1">
+            <div class="text-light p-3 text-center">
+                <ul class="list-inline my-2" id="drustvene-mreze">
+                    <li class="d-inline mx-3">
+                        <a class="text-light" href="https://www.facebook.com/hotsportrs/"><span><i class="fab fa-facebook fa-2x"></i></span></a>
+                    </li>
+                    <li class="d-inline mx-3">
+                        <a class="text-light" href="https://www.instagram.com/_hotsport/?hl=sr"><span><i class="fab fa-instagram fa-2x"></i></span></a>
+                    </li>
+                    <li class="d-inline mx-3">
+                        <a class="text-light" href="https://twitter.com/hotsportsrb"><span><i class="fab fa-twitter-square fa-2x"></i></span></a>
+                    </li>
+                </ul>
+                <ul class="list-inline my-2" id="navigacija-podnozje">
+                    <li class="d-inline mx-3">
+                        <a class="text-light" href="fudbal.html">Fudbal</a>
+                    </li>
+                    <li class="d-inline mx-3">
+                        <a class="text-light" href="kosarka.html">Košarka</a>
+                    </li>
+                    <li class="d-inline mx-3">
+                        <a class="text-light" href="kontakt.html">Kontakt</a>
+                    </li>
+                    <li class="d-inline mx-3">
+                        <a class="text-light" href="galerija.html">Galerija</a>
+                    </li>
+                    <li class="d-inline mx-3">
+                        <a class="text-light" href="onama.html">O nama</a>
+                    </li>
+                </ul>
+                <p class="font-italic font-weight-bold d-inline mx-3 text-light" id="naslov-podnozje">
+                    <span class="text-warning">SM</span> SPORT
+                </p>
+                &copy; Copyright 2019.
+            </div>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery.js">
+    </script>
+    <!-- Include all compiled plugins -->
+    <script src="js/bootstrap.min.js">
+    </script>
+    <script src="js/program.js">
+    </script>
+</body>
+
+</html>

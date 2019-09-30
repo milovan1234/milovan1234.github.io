@@ -1,0 +1,194 @@
+.navbar{
+	padding: 15px;
+	margin-bottom: 0px;
+	background-color: #2D3142;
+	border-color: #E7E7E7;
+}
+.navbar-default .navbar-nav > li > a {
+	letter-spacing: 0.3rem;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #337ab7;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #337ab7;
+	background-color: #E7E7E7;
+	border-radius: 3px;
+}
+.dropdown-toggle {
+	border-radius: 3px;
+}
+.navbar-brand{
+	padding: 0;
+}
+.list-unstyled li{
+	padding: 1.5em;
+}
+.list-unstyled li a{
+	text-decoration: none;
+}
+.panel-title a{
+	text-decoration: none;
+	font-weight: bolder;
+}
+.panel-collapse.collapse.in{
+	box-shadow: 1px 6px 20px -5px #337ab7;
+	transition: all 0.3s ease-in;
+}
+.page-header {
+	border-bottom: 1px solid #2D3142;
+}
+hr {
+	border: 0.5px solid #2D3142;
+}
+#thumbnail {
+	margin-top: 50px;
+}
+.jumbotron {
+	background-color: #E7E7E7;
+}
+.well {
+	margin-right: 5px;
+	margin-left: 5px;
+}
+#logo {
+	width: 5rem;
+	height: 5rem;
+	margin-right: 2rem;
+}
+.carousel-indicators li{
+	background-color: black;
+	border-color: black;
+}
+.well {
+	background-color: #E7E7E7;
+}
+.well h2{
+	text-align: center;
+}
+.slike h4,p {
+	text-align: center;
+}
+.akcija p {
+	text-align: left;
+}
+.futer {
+	border: 1px solid #E7E7E7;
+}
+footer {
+	padding: 2rem;
+	background-color: #2D3142;
+	color: white;
+	margin-top: 2rem;
+	border: 1px solid #E7E7E7;
+	border-radius: 3px;
+}
+footer a {
+	color: white;
+	transition: color 0.3s ease-in;
+}
+footer a:active {
+	color: white;
+	text-decoration: none;
+}
+footer a:focus {
+	color: white;
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+	color: white;
+}
+a:focus {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	color: #337ab7;
+	text-decoration: none;
+}
+a {
+	color: black;
+	transition: color 0.3s ease-in;
+}
+/* Galerija */
+.kursor {
+	cursor: pointer;
+}
+/* Zumiranje */
+.slika {
+	overflow: hidden;
+}
+.slika img {
+	transition: transform 0.3s ease-in;
+}
+.slika img:hover {
+	transform: scale(1.1,1.1);
+}
+blockquote{
+	border: none;
+}
+blockquote p {
+	text-align: justify;
+	font-size: 16px;
+}
+address a {
+	color: black;
+}
+address a:hover {
+	color: #337ab7;
+	text-decoration: none;
+}
+.mapa_sajta {
+	margin-bottom: 110px;
+}
+.mapa_sajta > li {
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+.mapa_sajta > li  h3 {
+	font-weight: bold;
+	display: inline;
+}
+.mapa_sajta1 > li {
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+.mapa_sajta1 li:nth-child(1){
+	margin-top: 10px;
+}
+.mapa_sajta1 > li  h4 {
+	font-weight: bold;
+	display: inline;
+}
+/*kontakt*/
+.podaci > li {
+	font-weight: bold;
+	border-bottom: 1px solid #337ab7;
+}
+.naslov_proizvodi h1 {
+	color: #337ab7;
+}
+.naslov_proizvodi h2 {
+	color: #337ab7;
+}
+.naslov_proizvodi h3 {
+	color: #337ab7;
+}
+.specijalna {
+	color: #337ab7;
+}
+/* Stari Modeli */
+.stari {
+	background-color: #788585;
+}
+/* Datum kod Novosti */
+.datum {
+	color: #bfbfbf;
+}

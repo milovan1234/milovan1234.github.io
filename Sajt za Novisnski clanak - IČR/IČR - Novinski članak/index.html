@@ -1,0 +1,1497 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+    <title>SM SPORT - Naslovna</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Stranica za Sportski Novinski članak baziran na Fudbalu i Košarci">
+    <meta name="keywords" content="sm,smsport,sport,sportske novine,fudbal,košarka,smsport vesti">
+    <meta name="author" content="Milovan Srejić NRT-11/17">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/still.css">
+    <link rel="icon" href="slike/logo-Vrh.png">
+</head>
+
+<body>
+    <div class="container p-0" id="glavniKontejner">
+        <div class="container bg-light p-0">
+            <div class="p-3 bg-dark">
+                <a class="bg-dark" href="index.html"><img src="slike/logo.png" alt="LOGO"></a>
+                <p class="font-italic font-weight-bold d-inline mx-3 text-light" id="naslov">
+                    <a class="zaglavljeLink text-light" href="index.html"><span class="text-warning">SM</span> SPORT</a>
+                    <ul class="list-inline d-none d-sm-block my-2 float-right" id="drustvene-mreze">
+                        <li class="d-inline mx-3">
+                            <a class="text-light" href="https://www.facebook.com/hotsportrs/"><span><i class="fab fa-facebook fa-2x"></i></span></a>
+                        </li>
+                        <li class="d-inline mx-3">
+                            <a class="text-light" href="https://www.instagram.com/_hotsport/?hl=sr"><span><i class="fab fa-instagram fa-2x"></i></span></a>
+                        </li>
+                        <li class="d-inline mx-3">
+                            <a class="text-light" href="https://twitter.com/hotsportsrb"><span><i class="fab fa-twitter-square fa-2x"></i></span></a>
+                        </li>
+                    </ul>
+                </p>
+                <span id="podnaslovKontakt" class="text-light text-right d-block">
+                    Današnji datum:
+                    <span id="datum" class="text-warning font-italic"></span>
+                </span>
+                <span id="podnaslovKontakt" class="text-light text-right d-block">
+                    Trenutno vreme:
+                    <span id="vreme" class="text-warning font-italic"></span>
+                </span>
+            </div>
+        </div>
+        <div id="navigacija" class="container bg-light p-0 m-0 mb-4 sticky-top border-bottom border-top border-light">
+
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                <button class="navbar-toggler my-1" type="button" data-toggle="collapse"
+                    data-target="#sazimajuciKontejner">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="sazimajuciKontejner">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-4 border-right border-light active okvir">
+                            <a class="nav-link text-light" href="index.html">Naslovna</a>
+                        </li>
+                        <li class="nav-item px-4 border-right border-light okvir">
+                            <a class="nav-link text-light" href="najnovijeVesti.html">Najnovije Vesti</a>
+                        </li>
+                        <li class="nav-item px-4 border-right border-light okvir">
+                            <a class="nav-link text-light" href="fudbal.html">Fudbal</a>
+                        </li>
+                        <li class="nav-item px-4 border-right border-light okvir">
+                            <a class="nav-link text-light" href="kosarka.html">Košarka</a>
+                        </li>
+                        <li class="nav-item px-4 border-right border-light okvir">
+                            <a class="nav-link text-light" href="miks.html">Miks</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link text-light" href="kontakt.html">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="container py-4">
+            <div class="row">
+                <div class="d-none d-lg-block col-lg-3 pr-1 fejd">
+                    <div class="d-flex h-100 align-items-start flex-column justify-content-around"
+                        id="vertikalni-slajder">
+                        <div class="card bg-dark justify-content-center text-light h-100 w-100 border border-danger activeSlajder"
+                            data-target="#carouselExampleIndicators" data-slide-to="0">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="slike/slika1-Slajder.jpg" class="img-fluid mx-3" alt="Nejmar Junior">
+                                </div>
+                                <div class="col-6 d-flex align-items-center">
+                                    <h2 id="podnaslovImena">
+                                        Nejmar Junior<br>
+                                        <span id="datumImena">30.04.2019.</span>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-dark justify-content-center text-light h-100 w-100 border border-danger"
+                            data-target="#carouselExampleIndicators" data-slide-to="1">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="slike/slika2-Slajder.jpg" class="img-fluid mx-3" alt="Salah">
+                                </div>
+                                <div class="col-6 d-flex align-items-center">
+                                    <h2 id="podnaslovImena">
+                                        Mohamed Salah<br>
+                                        <span id="datumImena">30.04.2019.</span>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-dark justify-content-center text-light h-100 w-100 border border-danger"
+                            data-target="#carouselExampleIndicators" data-slide-to="2">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="slike/slika3-Slajder.jpg" class="img-fluid mx-3" alt="Muhamed Faje">
+                                </div>
+                                <div class="col-6 d-flex align-items-center">
+                                    <h2 id="podnaslovImena">
+                                        Faje o Delijama<br>
+                                        <span id="datumImena">30.04.2019.</span>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-dark justify-content-center text-light h-100 w-100 border border-danger"
+                            data-target="#carouselExampleIndicators" data-slide-to="3">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="slike/slika4-Slajder.jpg" class="img-fluid mx-3" alt="Miloš Teodosić">
+                                </div>
+                                <div class="col-6 d-flex align-items-center">
+                                    <h2 id="podnaslovImena">
+                                        Miloš Teodosić<br>
+                                        <span id="datumImena">30.04.2019.</span>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-dark justify-content-center text-light h-100 w-100 border border-danger"
+                            data-target="#carouselExampleIndicators" data-slide-to="4">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="slike/slika5-Slajder.jpg" class="img-fluid mx-3" alt="Vladan Milojević">
+                                </div>
+                                <div class="col-6 d-flex align-items-center">
+                                    <h2 id="podnaslovImena">
+                                        Vladan Milojević<br>
+                                        <span id="datumImena">30.04.2019.</span>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div id="carouselExampleIndicators" class="carousel karusel slide fejd" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="slike/slika1-Slajder.jpg" alt="Nejmar Junior">
+                                <div class="carousel-caption d-block">
+                                    <h4 class="linkModal"><a class="text-danger" data-toggle="modal"
+                                            data-target="#prvaVest">UEFA suspendovala Nejmara na tri utakmice zbog
+                                            vređanja sudija</a>
+                                    </h4>
+                                    <p class="d-none d-md-block font-weight-bold text-light">
+                                        Evropska fudbalska unija (UEFA) kaznila je sa tri utakmice neigranja Nejmara iz
+                                        Pari Sen
+                                        Žermena zbog toga što je vređao sudije posle poraza od Mančester junajteda u
+                                        Ligi
+                                        šampiona
+                                    </p>
+                                </div>
+                                <div class="badge bg-danger text-light p-1">Fudbal</div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="slike/slika2-Slajder.jpg" alt="Muhamed Salah">
+                                <div class="carousel-caption d-block">
+                                    <h4 class="linkModal"><a class="text-danger" data-toggle="modal"
+                                            data-target="#drugaVest">Redsi još veruju u titulu, Liverpul razbio
+                                            Hadersfild</a></h4>
+                                    <p class="d-none d-md-block font-weight-bold text-light">Fudbaleri Liverpula
+                                        pobedili su
+                                        Hadersfild na svom
+                                        stadionu sa 4:0,
+                                        u 36. kolu Premijer lige</p>
+                                </div>
+                                <div class="badge bg-danger text-light p-1">Fudbal</div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="slike/slika3-Slajder.jpg" alt="Muhamed Faje">
+                                <div class="carousel-caption d-block">
+                                    <h4 class="linkModal"><a class="text-danger" data-toggle="modal"
+                                            data-target="#trecaVest">Faje o Delijama: Za njih ću trčati i skočiti gde
+                                            god treba</a></h4>
+                                    <p class="d-none d-md-block font-weight-bold text-light">Muhamed Faje o podršci koju
+                                        je
+                                        ekipa imala na putu
+                                        do
+                                        prstena
+                                        Jadrana, svom učinku i snazi tima</p>
+                                </div>
+                                <div class="badge bg-warning text-light p-1">Košarka</div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="slike/slika4-Slajder.jpg" alt="Miloš Teodosić">
+                                <div class="carousel-caption d-block">
+                                    <h4 class="linkModal"><a class="text-danger" data-toggle="modal"
+                                            data-target="#cetvrtaVest">Miloš Teodosić se vraća u CSKA?</a></h4>
+                                    <p class="d-none d-md-block font-weight-bold text-light">Teodosić je trenutno bez
+                                        angažmana,
+                                        nakon što je u
+                                        februaru
+                                        raskinuo ugovor sa Klipersima i odlučio da pauzira do kraja ove sezone</p>
+                                </div>
+                                <div class="badge bg-warning text-light p-1">Košarka</div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="slike/slika5-Slajder.jpg" alt="Vladan Milojevic">
+                                <div class="carousel-caption d-block">
+                                    <h4 class="linkModal"><a class="text-danger" data-toggle="modal"
+                                            data-target="#petaVest">Vladan Milojević bliži odlasku iz Zvezde</a></h4>
+                                    <p class="d-none d-md-block font-weight-bold text-light">O kombinacijama za nastavak
+                                        karijere u Aziji i
+                                        odlaska
+                                        na isplativija mesta sve glasnije se govori i nije reč o praznim pričama</p>
+                                </div>
+                                <div class="badge bg-danger text-light p-1">Fudbal</div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container text-justify py-4">
+            <div class="row">
+                <div class="col-12">
+                    <div class="jumbotron bg-dark fejd">
+                        <h1 class="display-5 text-light text-center" id="podnaslov">Dobrodošli u SM Sport
+                            Novosti</h1>
+                        <p class="text-light font-weight-bold text-center">
+                            Na ovom sajtu možete pronaći sve o Fudbalskim i Košarkaškim dešavanjima
+                            u zemlji i širem regionu
+                        </p>
+                        <div class="text-center">
+                            <a class="btn btn-warning btn-lg font-weight-bold text-dark" href="najnovijeVesti.html"
+                                role="button">Najnovije Vesti</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container py-4">
+            <div class="card border border-light fejd">
+                <div class="card-title text-light bg-dark text-center border-bottom border-warning border-w3 m-0 pl-3 p-2"
+                    id="naslovKontakt">
+                    Vesti iz Sporta
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div id="carouselExampleIndicators1" class="carousel karusel slide pb-5 fejd" data-ride="carousel">
+                        <ol class="carousel-indicators carousel-indicators-numbers">
+                            <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active">1
+                            </li>
+                            <li data-target="#carouselExampleIndicators1" data-slide-to="1">2</li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-3 mb-3">
+                                        <div class="card h-100">
+                                            <img class="card-img-top w-100" src="slike/slika1-CardSlajder.jpg"
+                                                alt="Nenad Lalatovic">
+                                            <div class="card-body">
+                                                <h5><span class="text-danger">Nenad Lalatović:</span> VOLEO BIH DA
+                                                    OSTANEM NA ČAIRU!</h5>
+                                            </div>
+                                            <div class="card-footer bg-dark">
+                                                <a data-toggle="modal" data-target="#sestaVest"
+                                                    class="btn btn-warning float-right font-weight-bold text-dark">Opširnije
+                                                    <i class="fas fa-chevron-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 mb-3">
+                                        <div class="card h-100">
+                                            <img class="card-img-top w-100" src="slike/slika2-CardSlajder.jpg"
+                                                alt="Mirko Ivanić">
+                                            <div class="card-body">
+                                                <h5><span class="text-danger">Mirko Ivanić:</span> NE MENJAM OSEĆANJA
+                                                    PREMA VOJVODINI!</h5>
+                                            </div>
+                                            <div class="card-footer bg-dark">
+                                                <a data-toggle="modal" data-target="#sedmaVest"
+                                                    class="btn float float-right btn-warning font-weight-bold text-dark">Opširnije
+                                                    <i class="fas fa-chevron-right"></i></a></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 mb-3">
+                                        <div class="card h-100">
+                                            <img class="card-img-top w-100" src="slike/slika3-CardSlajder.jpg"
+                                                alt="Marko Dmitrović">
+                                            <div class="card-body">
+                                                <h5><span class="text-danger">Marko Dmitrović:</span> PREBOLEO SAM
+                                                    ZVEZDU, ODLAZAK BIO MOJA NAJBOLJA ODLUKA</h5>
+                                            </div>
+                                            <div class="card-footer bg-dark">
+                                                <a data-toggle="modal" data-target="#osmaVest"
+                                                    class="btn float float-right btn-warning font-weight-bold text-dark">Opširnije
+                                                    <i class="fas fa-chevron-right"></i></a></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 mb-3">
+                                        <div class="card h-100">
+                                            <img class="card-img-top w-100" src="slike/slika4-CardSlajder.jpg"
+                                                alt="Markus Rašford">
+                                            <div class="card-body">
+                                                <h5><span class="text-danger">Markus Rašford:</span> RAŠFORD JE
+                                                    BARSELONIN PLAN B, JUNAJTEDU 115 MILIONA EVRA</h5>
+                                            </div>
+                                            <div class="card-footer bg-dark">
+                                                <a data-toggle="modal" data-target="#devetaVest"
+                                                    class="btn float float-right btn-warning font-weight-bold text-dark">Opširnije
+                                                    <i class="fas fa-chevron-right"></i></a></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-3 mb-3">
+                                        <div class="card h-100">
+                                            <img class="card-img-top w-100" src="slike/slika5-CardSlajder.jpg"
+                                                alt="Košarka - Barselona">
+                                            <div class="card-body">
+                                                <h5><span class="text-danger">Košarka-Barselona:</span> BARSELONA
+                                                    IZBORILA MAJSTORICU, CSKA U FINALU</h5>
+                                            </div>
+                                            <div class="card-footer bg-dark">
+                                                <a data-toggle="modal" data-target="#desetaVest"
+                                                    class="btn float float-right btn-warning font-weight-bold text-dark">Opširnije
+                                                    <i class="fas fa-chevron-right"></i></a></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 mb-3">
+                                        <div class="card h-100">
+                                            <img class="card-img-top w-100" src="slike/slika6-CardSlajder.jpg"
+                                                alt="Košarka - Partizan">
+                                            <div class="card-body">
+                                                <h5><span class="text-danger">Košarka-Partizan:</span> PARTIZAN STOTKOM
+                                                    PREGAZIO MEGU, PUŠICA 22 POENA NA DEBIJU</h5>
+                                            </div>
+                                            <div class="card-footer bg-dark">
+                                                <a data-toggle="modal" data-target="#jedanaestaVest"
+                                                    class="btn float float-right btn-warning font-weight-bold text-dark">Opširnije
+                                                    <i class="fas fa-chevron-right"></i></a></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 mb-3">
+                                        <div class="card h-100">
+                                            <img class="card-img-top w-100" src="slike/slika7-CardSlajder.jpg"
+                                                alt="Filip Čović">
+                                            <div class="card-body">
+                                                <h5><span class="text-danger">Filip Čović:</span> SVAKA KOST ME BOLI,
+                                                    ALI
+                                                    BIĆEMO SPREMNI DA ODBRANIMO TITULU U SRBIJI</h5>
+                                            </div>
+                                            <div class="card-footer bg-dark">
+                                                <a data-toggle="modal" data-target="#dvanaestaVest"
+                                                    class="btn float float-right btn-warning font-weight-bold text-dark">Opširnije
+                                                    <i class="fas fa-chevron-right"></i></a></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3 mb-3">
+                                        <div class="card h-100">
+                                            <img class="card-img-top w-100" src="slike/slika8-CardSlajder.jpg"
+                                                alt="Nebojša Čović">
+                                            <div class="card-body">
+                                                <h5><span class="text-danger">Nebojša Čović:</span> TREĆO MEČ JE BIO
+                                                    POKUŠAJ
+                                                    PONIŽENJA CRVENE ZVEZDE I NAŠE DRŽAVE SRBIJE</h5>
+                                            </div>
+                                            <div class="card-footer bg-dark">
+                                                <a data-toggle="modal" data-target="#trinaestaVest"
+                                                    class="btn float float-right btn-warning font-weight-bold text-dark">Opširnije
+                                                    <i class="fas fa-chevron-right"></i></a></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container pt-5 pb-3 fejd">
+            <div class="row">
+                <div class="col-md-8 pb-4">
+                    <div class="card border-0 fejd">
+                        <div class="card-title text-center border-bottom border-warning border-w3 m-0 pl-3"
+                            id="naslovKontakt">
+                            Specijalno za Vas
+                        </div>
+                    </div>
+                    <div class="card p-4 bg-dark">
+                        <div class="row ">
+                            <div class="col-md-6 pb-3">
+                                <div class="card border-0">
+                                    <div class="card-body bg-dark p-0">
+                                        <img class="card-img-top w-100" src="slike/slika9-CardSlajder.jpg"
+                                            alt="Fudbal - Barselona">
+                                        <div class="text-light m-2 text-left">
+                                            <a data-toggle="modal" data-target="#cetrnaestaVest">
+                                                <h5 class="linkModal">Mesi golom sa klupe overio Barsinu titulu tri kola
+                                                    pre kraja</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 pb-3">
+                                <div class="card border-0">
+                                    <div class="card-body bg-dark p-0">
+                                        <img class="card-img-top w-100" src="slike/slika10-CardSlajder.jpg"
+                                            alt="Košarka - Partizan">
+                                        <div class="text-light m-2 text-left">
+                                            <a data-toggle="modal" data-target="#petnaestaVest">
+                                                <h5 class="linkModal">Na Trinkijerijevom spisku Stefanović i Tarlać</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 pb-3">
+                                <div class="card border-0">
+                                    <div class="card-body bg-dark p-0">
+                                        <img class="card-img-top w-100" src="slike/slika11-CardSlajder.jpg"
+                                            alt="Siniša Mihajlović">
+                                        <div class="text-light m-2 text-left">
+                                            <a data-toggle="modal" data-target="#sesnaestaVest">
+                                                <h5 class="linkModal">Preokret Mihajlovićeve Bolonje protiv Empolija u
+                                                    borbi za
+                                                    opstanak</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 pb-3">
+                                <div class="card border-0">
+                                    <div class="card-body bg-dark p-0">
+                                        <img class="card-img-top w-100" src="slike/slika12-CardSlajder.jpg"
+                                            alt="Košarka Zvezda">
+                                        <div class="text-light m-2 text-left">
+                                            <a data-toggle="modal" data-target="#sedamnaestaVest">
+                                                <h5 class="linkModal">ABA liga drakonski kaznila Zvezdu</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 fejd">
+                        <div class="card-title text-center border-bottom border-warning border-w3 m-0 pl-3"
+                            id="naslovKontakt">
+                            Raspored
+                        </div>
+                    </div>
+                    <ul class="nav nav-pills text-center bg-dark" id="pills-tab" role="tablist">
+                        <li class="nav-item w-50">
+                            <a class="nav-link active text-light" id="pills-home-tab" data-toggle="pill"
+                                href="#pills-home" role="tab" aria-controls="pills-home"
+                                aria-selected="true">Košarka</a>
+                        </li>
+                        <li class="nav-item w-50 text-center">
+                            <a class="nav-link text-light" id="pills-profile-tab" data-toggle="pill"
+                                href="#pills-profile" role="tab" aria-controls="pills-profile"
+                                aria-selected="false">Fudbal</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                            aria-labelledby="pills-home-tab">
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <p class="datumStrane mb-1">Petak 17:00</p>
+                                    <p class="font-weight-bold text-dark">
+                                        <img src="slike/okkNoviPazar.png" class="img-fluid logoKlubovi" alt="Logo Novi Pazar"> OKK Novi Pazar
+                                        -
+                                        <img src="slike/fkPartizan.png" class="img-fluid logoKlubovi" alt="Logo Partizan"> Partizan
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <p class="datumStrane mb-1">Petak 02:00</p>
+                                    <p class="font-weight-bold text-dark">
+                                        <img src="slike/Philadelphia.png" class="img-fluid logoKlubovi" alt="Logo Philadephia"> Philadelphia
+                                        76ers -
+                                        <img src="slike/Toronto.png" class="img-fluid logoKlubovi" alt="Logo Toronto"> Toronto Raptors
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <p class="datumStrane mb-1">Petak 04:30</p>
+                                    <p class="font-weight-bold text-dark">
+                                        <img src="slike/Portlan.png" class="img-fluid logoKlubovi" alt="Logo Portland"> Portland Trail -
+                                        <img src="slike/Denver.png" class="img-fluid logoKlubovi" alt="Logo Denver"> Denver Nuggets
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <p class="datumStrane mb-1">Subota 20:00</p>
+                                    <p class="font-weight-bold text-dark">
+                                        <img src="slike/kkBorac.png" class="img-fluid logoKlubovi" alt="Logo Borac"> Borac -
+                                        <img src="slike/kkCrvenaZvezda.png" class="img-fluid logoKlubovi" alt="Logo Crvena Zvezda"> Crvena Zvezda
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <p class="datumStrane mb-1">Nedelja 19:00</p>
+                                    <p class="font-weight-bold text-dark">
+                                        <img src="slike/kkSloboda.png" class="img-fluid logoKlubovi" alt="Logo Sloboda"> Sloboda -
+                                        <img src="slike/fkPartizan.png" class="img-fluid logoKlubovi" alt="Logo Partizan"> Partizan
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                            aria-labelledby="pills-profile-tab">
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <p class="datumStrane mb-1">Subota 16:00</p>
+                                    <p class="font-weight-bold text-dark">
+                                        <img src="slike/mladostLucani.png" class="img-fluid logoKlubovi" alt="Logo Mladost">Mladost -
+                                        <img src="slike/fkCukaricki.png" class="img-fluid logoKlubovi" alt="Logo Čukarički">Čukarički
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <p class="datumStrane mb-1">Subota 16:00</p>
+                                    <p class="font-weight-bold text-dark">
+                                        <img src="slike/fkNapredak.png" class="img-fluid logoKlubovi" alt="Logo Napredak">Napredak -
+                                        <img src="slike/fkRadnickiNis.png" class="img-fluid logoKlubovi" alt="Logo Radnički Niš"> Radnički Niš
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <p class="datumStrane mb-1">Subota 16:00</p>
+                                    <p class="font-weight-bold text-dark">
+                                        <img src="slike/fkVojvodina.png" class="img-fluid logoKlubovi" alt="Logo Vojvodina">Vojvodina -
+                                        <img src="slike/fkPartizan.png" class="img-fluid logoKlubovi" alt="Logo Partizan"> Partizan
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <p class="datumStrane mb-1">Nedelja 14:00</p>
+                                    <p class="font-weight-bold text-dark">
+                                        <img src="slike/Brighton.png" class="img-fluid logoKlubovi" alt="Logo Brighton">Brighton -
+                                        <img src="slike/MancesterSiti.png" class="img-fluid logoKlubovi" alt="Logo Manchester City"> Manchester
+                                        City
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <p class="datumStrane mb-1">Nedelja 14:00</p>
+                                    <p class="font-weight-bold text-dark">
+                                        <img src="slike/Burnely.png" class="img-fluid logoKlubovi" alt="Logo Burnley"> Burnley -
+                                        <img src="slike/Arsenal.png" class="img-fluid logoKlubovi" alt="Logo Arsenal"> Arsenal
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container pt-4 fejd">
+            <div class="row">
+                <div class="col-12">
+                    <div class="alert alert-dismissible bg-light text-center">
+                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+                        <div class="row">
+                            <div class="col-6 col-lg-3 my-3">
+                                <img src="slike/sportskiZurnal.jpg" class="img-fluid" alt="Sportski Žurnal">
+                            </div>
+                            <div class="col-6 col-lg-3 my-3">
+                                <img src="slike/novineSport.jpg" class="img-fluid" alt="Novine Sport">
+                            </div>
+                            <div class="col-6 col-lg-3 my-3">
+                                <img src="slike/mozzartSport.png" class="img-fluid" alt="Mozzart Sport">
+                            </div>
+                            <div class="col-6 col-lg-3 my-3">
+                                <img src="slike/hotsportNovine.jpg" class="img-fluid" alt="HotSport">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 1-->
+        <div class="modal fade" id="prvaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-danger text-light w-5">Fudbal</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            UEFA suspendovala Nejmara na tri utakmice zbog vređanja sudija
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Evropska fudbalska unija (UEFA) kaznila je sa tri utakmice neigranja Nejmara iz Pari Sen
+                            Žermena zbog toga što je vređao sudije posle poraza od Mančester junajteda u Ligi
+                            šampiona
+                        </p>
+                        <img src="slike/slika1-Slajder.jpg" class="img-fluid w-100" alt="Nejmar Junior">
+                        <p class="text-right p-0 m-0">FOTO: Beta/AP</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Nejmar je posle revanš utakmice osmine finala, u kojoj je PSŽ eliminisan, vređao na
+                            društvenim mrežama zvaničnike koji su zaduženi za VAR, a pošto su signalizirali da je
+                            bio
+                            penal za Junajted u nadoknadi vremena. On je napisao:<br>
+                            – Postavili su njih četvoricu koji se ne razumeju u fudbal da gledaju usporeni snimak.
+                            Ovo
+                            nije stvarno!<br>
+                            Nejmar nije igrao zbog povrede. Zbog kazne će propustiti tri od šest utakmica grupne
+                            faze
+                            Lige šampiona naredne sezone.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 2-->
+        <div class="modal fade" id="drugaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-danger text-light w-5">Fudbal</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Redsi još veruju u titulu, Liverpul razbio Hadersfild
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Fudbaleri Liverpula pobedili su Hadersfild na svom stadionu sa 4:0, u 36. kolu Premijer
+                            lige
+                        </p>
+                        <img src="slike/slika2-Slajder.jpg" class="img-fluid w-100" alt="Mohamed Salah">
+                        <p class="text-right p-0 m-0">FOTO: P. Byme</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Dvostruki strelci u pobedi Liverpula nad fenjerašem Hadersfildom bili su Sadio Mane i
+                            Mohamed Salah, dok je jedan gol dao Nabi Keita.<br><br>
+                            Liverpul ima 91 bod, dva više uz utakmicu više od drugplasiranog Mančester sitija. Siti
+                            će
+                            se u 36. kolu engleskog prvenstva u nedelju sastati sa Barnlijem u gostima. Hadersfild
+                            odavno nema šanse za opstanak u Premijer ligi.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 3-->
+        <div class="modal fade" id="trecaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-warning text-light w-5">Košarka</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Faje o Delijama: Za njih ću trčati i skočiti gde god treba
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Muhamed Faje o podršci koju je ekipa imala na putu do prstena Jadrana, svom učinku i
+                            snazi
+                            tima
+                        </p>
+                        <img src="slike/slika3-Slajder.jpg" class="img-fluid w-100" alt="Muhamed Faje">
+                        <p class="text-right p-0 m-0">FOTO: I. Veselinov</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Muhamed Faje je na Mali Kalemegdan stigao kao poprilična nepoznanica za širu košarkašku
+                            populaciju, sa reputacijom jakog atlete i timskog igrača.<br>
+                            Tokom sezone mnogo puta je to potvrdio, pokazao i da ima dobar šut, odličnu kontrolu
+                            skoka,
+                            ali i dobar tajming za rampe. Povreda ga je u jednom trenutku sputala, ipak kao i ceo
+                            tim,
+                            kada je bilo najvažnije, kada je na talonu bio tron ABA lige i plasman u Evroligu, Faje
+                            je
+                            ponovo pokazao zašto je bio izbor Milana Tomića.<br>
+                            Posebno će se pamtiti njegovo izdanje na četvrtom meču u Podgorici kada je na terenu
+                            proveo
+                            39 minuta, sve vreme držeći visok nivo. Isto je uradio i u majstorici i za to je
+                            nagrađen
+                            ovacijama. Uokvirilo je to veče prepuno emocija, za njega, za tim, za klub i
+                            navijače.<br>
+                            - Bilo je prelepo. Navijači su nas nosili sve vreme i podržavali u svakom trenutku.
+                            Nikada
+                            ništa slično nisam doživeo u životu. Volim da igram za te momke koji nas bodre, dajemo
+                            srce
+                            i celog sebe za njih, za njih ću trčati i skočiti gde god treba. Sve zbog ljubavi koju
+                            daju
+                            nama i klubu.<br>
+                            Kada se podvuče crta iz šampionske trke, domaći teren Crvene zvezde je napravio razliku.
+                            Istakao je to i Milan Tomić odmah posle osvojene titule, a pokazuje i to čak 100 poena
+                            razlike u finalnoj seriji na parketu Pionira.<br>
+                            - Volimo da igramo kod kuće, to se videlo celo sezone. Imamo sjajne navijače, oni nas
+                            nose i
+                            to nam daje dodatnu snagu – rekao je Faje na tu temu, a potom se osvrnu na tok
+                            majstorice:<br>
+                            - Bila je to zabavna utakmica, od početka do kraja. Znali smo šta treba da uradimo i
+                            koliki
+                            je ulog. Izašli smo na parket spremni, imali veliku podršku sa tribina i uradili sve
+                            kako
+                            treba.<br>
+                            Momak rođen u Senegalu 1995. godine, takođe američki student kao Odžo, šampionsku trku
+                            je
+                            izneo na zavidnom nivou. Kao što se očekuje od svakog stranca, da bude najbolji, kada je
+                            ulog najveći.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 4-->
+        <div class="modal fade" id="cetvrtaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-warning text-light w-5">Košarka</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Miloš Teodosić se vraća u CSKA?
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Teodosić je trenutno bez angažmana, nakon što je u februaru raskinuo ugovor sa
+                            Klipersima i
+                            odlučio da pauzira do kraja ove sezone
+                        </p>
+                        <img src="slike/slika4-Slajder.jpg" class="img-fluid w-100" alt="Miloš Teodosić">
+                        <p class="text-right p-0 m-0">FOTO: N. Negovanović</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Kapiten košarkaške reprezentacije Miloš Teodosić vratiće se u moskovski CSKA na leto,
+                            prenose španski mediji.<br>
+                            Portal „Encestando“ piše da je Teodosić već napravio dogovor sa prvim čovekom „armejaca“
+                            Andrejom Vatutinom da ponovo obuče dres moskovskog kluba, odakle je pre nepune dve
+                            godine
+                            otišao u NBA ligaša Los Anđeles Kliperse.<br>
+                            Teodosić je trenutno bez angažmana, nakon što je u februaru raskinuo ugovor sa
+                            Klipersima i
+                            odlučio da pauzira do kraja ove sezone.<br>
+                            Za ruskog velikana igrao je od 2011. do 2017. godine i osvojio Evroligu, dve titule
+                            šampiona
+                            Rusije i šest regionalne VTB lige.<br>
+                            Tokom karijere nastupao je za Olimpijakos, FMP iz Železnika i čačanski Borac.<br>
+                            Vatutin je ubrzo demantovao natpise iz Španije:<br>
+                            - Pričali smo pre nedelju dana, ali o porodici, a ne o košarci.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 5-->
+        <div class="modal fade" id="petaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-danger text-light w-5">Fudbal</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Vladan Milojević bliži odlasku iz Zvezde
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            O kombinacijama za nastavak karijere u Aziji i odlaska na isplativija mesta sve glasnije
+                            se
+                            govori i nije reč o praznim pričama
+                        </p>
+                        <img src="slike/slika5-Slajder.jpg" class="img-fluid w-100" alt="Vladan Milojević">
+                        <p class="text-right p-0 m-0">FOTO: N. Negovanović</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Vladan Milojević će postati prvi trener sa povezane dve kompletne sezone na klupi Crvene
+                            zvezde posle skoro tri decenije, ali sve je jasnije da se bliži rastanak sa klubom čiju
+                            je
+                            istoriju obogatio najlepšim rezultatima od raspada SFRJ.<br>
+                            Milojević je interesantan klubovima iz Kine, Emirata i Saudijske Arabije, menadžeri se
+                            utrkuju ko će pred klubove i trenera da izađe sa što primamljivijom ponudom.<br>
+                            Al Ain iz Abu Dabija i kineski Dalijen kotiraju se kao potencijalne Vladanove
+                            destinacije,
+                            ali sve je još na „dugom štapu” i zavisiće u određenoj meri i od rezultata tih klubova u
+                            narednih dvadesetak dana.<br>
+                            Nije se Milojević javno izjašnjavao o odlasku iz Crvene zvezde, ni zimus kad je bilo
+                            jasno
+                            da je imao konkretnu ponudu Al Aina.<br>
+                            Nije želeo da ostavi ovosezonski posao na pola, niti da bude nekorektan prema klubu u u
+                            završnoj fazi priprema za prolećni deo sezone.<br>
+                            Svesni su u Crvenoj zvezdi da moraju da razmisle o novom šefu struke, a da se „nešto
+                            kuva“
+                            oslikala je i molba sportskog direktora Mitra Mrkele da se ne govori o ostanku trenera u
+                            danima slavlja zbog pobede u večitom derbiju.<br>
+                            Naravno, Milojevićev ostanak je prioritet, ali samo pod uslovom da iskaže jasnu želju da
+                            ostane do leta 2020. i kraja ugovora. Nisu velike šanse za to.<br>
+                            U slučaju da Milojević definitivno prelomi da je ovom sezonom zatvorio krug i da je
+                            vreme za
+                            rastanak, uprava kluba sa Marakane imaće izuzetno težak zadatak da pronađe adekvatnog
+                            naslednika.<br>
+                            Vladan je visoko podigao lestvicu, što se sigurno reflektuje i na očekivanja navijača u
+                            budućnosti.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 6-->
+        <div class="modal fade" id="sestaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-danger text-light w-5">Fudbal</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Nenad Lalatović: Voleo bih da ostanem na Čairu!
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            – Meni je fudbal i život i igra. Ko to ne nosi u sebi teško da može uspeti.
+                            Profesionalac
+                            sam i svugde dajem celoga sebe – istakao je Nenad Lalatović
+                        </p>
+                        <img src="slike/slika1-CardSlajder.jpg" class="img-fluid w-100" alt="Nenad Lalatović">
+                        <p class="text-right p-0 m-0">FOTO: M. Spasojević</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Skoro će godina otkad je Nenad Lalatović na klupi Radničkog. Po njegovom dolasku na
+                            Čair,
+                            pošto je prethodno niški superligaš izborio plasman u kvalifikacije za Ligu Evrope,
+                            četiri
+                            međunarodna meča, usledila je berićetna sezona kluba osnovanog 1923, koji je upravo ovih
+                            aprilskih dana obeležio 96. rođendan.<br>
+                            – Ova sezona je rekordna, najuspešnija u istoriji Radničkog i za to su najviše zaslužni
+                            fudbaleri, ali i rukovodstvo, na čelu sa Ivicom Tončevim i v.d predsednikom Draganom
+                            Markovićem Markonijem, sportski direktor Marko Jovanović i svakako mi – treneri. Mora se
+                            pomenuti i pomoć koju je Radnički stalno imao od vernih navijača. Fakat je, međutim, da
+                            se
+                            može i više i bolje.<br>
+                            Kakvi su vam planovi, ugovor sa Radničkim imate do završetka ove sezone?<br><br>
+                            – Meni je fudbal i život i igra. Ko to ne nosi u sebi teško da može uspeti.
+                            Profesionalac
+                            sam i svugde dajem celoga sebe. Što se nastavka saradnje sa Radničkim tiče još nisam o
+                            tome
+                            razgovarao sa rukovodstvom. Do sada smo uvek lako pronalazili zajednički jezik. Uspeli
+                            smo u
+                            ovoj sezoni čak i više nego što je možda javnost očekivala. Zimus sam imao dobre ponude
+                            iz
+                            inostranstva, ali ostao sam u Srbiji i Radničkom da se ne bih na duže odvajao od dece i,
+                            svakako, da bismo svi zajedno na Čairu ostvarili planove. Ukoliko prvi čovek kluba Ivica
+                            Tončev i saradnici budu ponudili da ostanem najverovatnije ću ostati, što bih zaista
+                            voleo.
+                            Videćemo, još je rano o tome da se govori.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 7-->
+        <div class="modal fade" id="sedmaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-danger text-light w-5">Fudbal</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Mirko Ivanić: Ne menjam osećanja prema Vojvodini
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Mirko Ivanić bi mogao da osvoji titulu sa Crvenom zvezdom na mestu gde je napravio uzlet
+                            u
+                            karijeru, stadionu „Karađorđe”
+                        </p>
+                        <img src="slike/slika2-CardSlajder.jpg" class="img-fluid w-100" alt="Mirko Ivanić">
+                        <p class="text-right p-0 m-0">FOTO: I. Veselinov</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Ukoliko Radnički 30. aprila izgubi od Proletera, branilac trofeja bi mogao da sve završi
+                            trijumfom nad Vojvodinom 1. maja.<br>
+                            – Bilo bi interesantno da tako ispadne, videćemo šta će da uradi Radnički. Vraćam se na
+                            drag
+                            stadion, volim Vojvodinu i imam mnogo prijatelja u Novom Sadu.<br>
+                            Neki od navijača Vojvodine zamerili su Ivaniću na prelasku u Crvenu zvezdu.<br>
+                            – Bilo je nekoliko komentara na ulici i kafićima, prihvatam da su se pojedinci
+                            razočarali.
+                            Što sam došao u Zvezdu ne menja moj odnos i osećanja prema Vojvodini. Stigao sam zbog
+                            ambicije, da postavim na mesto stvari u karijeri i privatnom životu.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 8-->
+        <div class="modal fade" id="osmaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-danger text-light w-5">Fudbal</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Dmitrović: Preboleo sam Zvezdu, odlazak bio moja najbolja odluka
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Uz Maksimovića i Veljkovića jedini ste reprezentativac bez dana provedenog na srpskim
+                            terenima, ne računajući mlađe selekcije
+                        </p>
+                        <img src="slike/slika3-CardSlajder.jpg" class="img-fluid w-100" alt="Marko Dmitrović">
+                        <p class="text-right p-0 m-0">FOTO: Beta/AP</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Kako iz današnje perspektive Marko Dmitrović gleda na uzaludno čekanje za šansu na golu
+                            Crvene zvezde?<br><br>
+                            – Bio sam tri godine u prvom timu crveno-belih i krivo mi je da nisam dobio priliku ni
+                            na
+                            jednoj utakmici. Bilo mi je krivo i teško, ali vremenom sam preboleo i shvatio da
+                            zaobilaznim putem mogu da dođem u jaku evropsku ligu. Žao mi je što sam bez dobijene
+                            šanse
+                            morao da se oprostim od voljenog kluba. Pokazalo se kasnije da je odlazak iz Zvezde bila
+                            moja najbolja odluka. Svaki put promenio sam sredinu u najboljem trenutku.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 9-->
+        <div class="modal fade" id="devetaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-danger text-light w-5">Fudbal</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Rašford je Barselonin plan B, Junajtedu 115 miliona evra
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Rašford je ponikao u klubu sa Old Traforda i za prvi tim dao 45 golova na 167 utakmica.
+                        </p>
+                        <img src="slike/slika4-CardSlajder.jpg" class="img-fluid w-100" alt="Markus Rašford">
+                        <p class="text-right p-0 m-0">FOTO: Beta/AP</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Barselona se, posle odustajanja od Luke Jovića čiji je transfer izvestan u Real Madrid,
+                            okrenula engleskom napadaču Markusu Rašfordu i spremna je da Mančester Junajtedu ponudi
+                            115
+                            miliona evra, prenose španski mediji.<br>
+                            Rašford je alternativna opcija za srpskog golgetera iz Ajntrahta, bez obzira što je
+                            skuplji,
+                            i velikan sa Nou Kampa želi da iskoristi zastoj u pregovorima igrača i Junajteda oko
+                            novog
+                            ugovora.<br>
+                            Hitri 21-godišnji fudbaler ugovor ima do leta 2020. godine i pitanje je da li će
+                            potpisati
+                            novi u situaciji kada se ozbiljno interesuje Barselona.<br>
+                            Rašford je učestvovao u eliminaciji Junajteda od Barselone u četvrtfinalu Lige šampiona,
+                            a
+                            na Nou Kampu je pogodio prečku.<br>
+                            On je ponikao u klubu sa Old Traforda i za prvi tim dao 45 golova na 167 utakmica.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 10-->
+        <div class="modal fade" id="desetaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-warning text-light w-5">Košarka</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Barselona izborila majstoricu, CSKA na finalnom turniru Evrolige
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Rezultat je sada 2:2 u pobedama i plasman na završni turnir odlučiće peta utakmica. Peta
+                            utakmica igraće se 1. maja u Istanbulu
+                        </p>
+                        <img src="slike/slika5-CardSlajder.jpg" class="img-fluid w-100" alt="Košarka - Barselona">
+                        <p class="text-right p-0 m-0">FOTO: Beta/AP</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Košarkaši Barselone pobedili su Efes na svom terenu sa 82:72, u četvrtoj utakmici
+                            četvrtfinalne serije Evrolige.<br>
+                            Pobednik tog duela će u polufinalu igrati protiv Fenerbahčea, dok drugi par čine CSKA
+                            Moskva
+                            i Real Madrid.<br>
+                            Košarkaši CSKA Moskve plasirali su se na završni turnir Evrolige, trijumfom sa 3:1 u
+                            pobedama nad Baskonijom. CSKA je u četvrtoj utakmici pobedio u Vitoriji sa 92:83.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 11-->
+        <div class="modal fade" id="jedanaestaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-warning text-light w-5">Košarka</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Partizan stotkom pregazio Megu, Pušica 22 poena na debiju
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Košarkaši Partizana pobedili su Megu na svom terenu sa 102:69, u prvom kolu Grupe B
+                            Superlige Srbije
+                        </p>
+                        <img src="slike/slika6-CardSlajder.jpg" class="img-fluid w-100" alt="Košarka - Partizan">
+                        <p class="text-right p-0 m-0">FOTO: N. Negovanović</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Najefikasniji u pobedi bio je novajlija Vasilije Pušica sa 22 poena, 14 je postigao Rade
+                            Zagorac, a 13 Ognjen Jaramaz.<br>
+                            Miloš Koprivica je dao 16 za Megu, Dalibor Ilić 15, a po 12 Stefan Fundić i Luka
+                            Ašćerić.<br>
+                            Loša vest po Partizan je povreda Džoka Lendejla.<br>
+                            U istoj grupi ranije, Tamiš je savladao Dinamik sa 72:64, a danas igraju Novi Pazar i
+                            Sloboda.<br>
+                            Partizan u sledećem kolu gostuje Tamišu, a Mega čeka Novi Pazar 2. maja.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 12-->
+        <div class="modal fade" id="dvanaestaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-warning text-light w-5">Košarka</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Čović: Svaka kost me boli, ali bićemo spremni da odbranimo titulu u Srbiji
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Poslednji cilj za crveno-bele je odbrana titule prvaku Srbije, a u njega kreću u subotu
+                            (18)
+                            protiv Dunava na parketu Pionira
+                        </p>
+                        <img src="slike/slika7-CardSlajder.jpg" class="img-fluid w-100" alt="Filip Čović">
+                        <p class="text-right p-0 m-0">FOTO: I. Veselinov</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            – Moramo što pre da se restartujemo i da odradimo taj, još jedan cilj, koji pred
+                            nama.<br>
+                            Glavni cilj smo ostvarili i to je jako važno, ali ne smemo da stanemo. Zna se kakva su
+                            očekivanja kada nosiš dres Crvene zvezde i koje god takmičenje da je u pitanju. Početak
+                            će
+                            biti težak, treba vratiti glave, treba se odmoriti. Mene svaka kost boli, ali bićemo
+                            spremni<br>
+                            – kazao je Filip Čović.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 13-->
+        <div class="modal fade" id="trinaestaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-warning text-light w-5">Košarka</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Čović: Treći meč je bio pokušaj poniženja Crvene zvezde i naše države Srbije
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Svaka im čast, svaka čast stručnom štabu, igračima što ni jednim gestom nisu odgovorili
+                            na
+                            strašne pritiske i provokacije - naglasio je čelni čovek crveno-belih
+                        </p>
+                        <img src="slike/slika8-CardSlajder.jpg" class="img-fluid w-100" alt="Nebojša Čović">
+                        <p class="text-right p-0 m-0">FOTO: I. Veselinov</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Crveno-beli su u krugu prijatelja i partnera proslavili osvajanje ABA lige i plasman u
+                            evropsku elitu.<br>
+                            Tom prilikom čelni čovek kluba Nebojša Čović nije propustio priliku da se osvrne na
+                            treći
+                            meč finalne serije:<br><br>
+                            - Svaka im čast, svaka čast stručnom štabu, igračima što ni jednim gestom nisu
+                            odgovorili na
+                            strašne pritiske i provokacije. To je bilo nestvarno u najnegativnijem smislu, pokušaj
+                            poniženja, po svakom osnovu, Crvene zvezde i naše države Srbije. Sve smo uspeli da
+                            izdržimo...
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 14-->
+        <div class="modal fade" id="cetrnaestaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-danger text-light w-5">Fudbal</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Mesi golom sa klupe overio Barsinu titulu tri kola pre kraja
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Remi Bilbaa i Alavesa u baskijskom derbiju, Madriđani minimalcem (autolog Fernandesa) do
+                            učvršćivanja na drugom mestu
+                        </p>
+                        <img src="slike/slika9-CardSlajder.jpg" class="img-fluid w-100" alt="Fudbal - Barselona">
+                        <p class="text-right p-0 m-0">FOTO: Beta/AP</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Fudbaleri Atletik Bilbaa i Alavesa igrali su nerešeno 1:1, u 35. kolu Primere. Atletik
+                            je
+                            vodio u baskijskom derbiju u Bilbao od 41. minuta golom Benjata Ečeberije, a Alaves je
+                            izjednačio u 45. pogotkom Borhe Bastona.<br><br>
+                            Fudbaleri Atletiko Madrida pobedili su danas Valjadolid sa 1:0. Atletiko je u Madridu
+                            pobedio autogolom Hoakina Fernandesa u 66. minutu.<br><br>
+                            Atletiko ima šest bodova manje i utakmicu više od vodeće Barselone. Valjadolid će
+                            nastaviti
+                            borbu za opstanak. Zauzima 17. mesto sa bodom više uz utakmicu više od Đirone.<br><br>
+                            Mesi je ušao na poluvremenu umesto Koutinja i golom u 62. minutu doneo Barseloni titulu
+                            tri
+                            kola pre kraja.<br><br>
+                            Tabela Španske Lige:
+                            <div class="col-lg-6 offset-lg-3">
+                                <img src="slike/slika-TabelaSpanija.jpg" class="img-fluid w-100" alt="Tabela Španija">
+                            </div>
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 15-->
+        <div class="modal fade" id="petnaestaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-warning text-light w-5">Košarka</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Na Trinkijerijevom spisku Stefanović i Tarlać
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Nije tajna da je Andrea Trinkijeri od kako je došao, značajno uključen u rad mlađih
+                            selekcija Partizana
+                        </p>
+                        <img src="slike/slika10-CardSlajder.jpg" class="img-fluid w-100" alt="Košarka - Partizan">
+                        <p class="text-right p-0 m-0">FOTO: I. Veselinov</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Andrea Trinkijeri je trojicu juniora Partizana odmah priključio radu prvog tima – Dušan
+                            Tanasković i Uroš Trifunović su čak dobijali i minute na zvaničnim utakmicama prvog
+                            tima.<br>
+                            Za Superligu, timu su priključeni i Lazar Stefanović i Luka Tarlać. Stefanović je već
+                            trenirao sa prvim timom, ima 17 godina, igra na poziciji krila.<br>
+                            Tarlać je ove sezone igrao za kadetski i juniorski tim Partizana, 20. novembra će
+                            napuniti
+                            17 godina. Obojica su ozbiljni projekti Partizana za budućnost.<br>
+                            Na spisku licenciranih igrača nema Đorđa Pažina, koji bio član idealne petorke na
+                            nedavno
+                            odigranom završnom turniru Roda juniorske lige u Železniku, gde je Partizan stao u
+                            finalu
+                            protiv Crvene zvezde.<br>
+                            Ali, kako je 31. marta napunio 18 godina, spada u „seniore”, a Partizan je već popunio
+                            kvotu
+                            od 15 seniorskih igrača, koliko je dozvoljeno da registruje prema Propozicijama
+                            takmičenja
+                            KLS.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 16-->
+        <div class="modal fade" id="sesnaestaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-danger text-light w-5">Fudbal</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Preokret Mihajlovićeve Bolonje protiv Empolija u borbi za opstanak, gol Kolarova vredan
+                            LŠ
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Bolonja je sada 14. na tabeli sa 37 bodova, osam više od Empolija koji je na 18. mestu
+                            koje
+                            vodi u Seriju B
+                        </p>
+                        <img src="slike/slika11-CardSlajder.jpg" class="img-fluid w-100" alt="Siniša Mihajlović">
+                        <p class="text-right p-0 m-0">FOTO: Beta/AP</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Fudbaleri Bolonje pobedili su danas Empoli sa 3:1, u 34. kolu Serije A.<br><br>
+                            Ekipa koju vodi srpski trener Siniša Mihajlović pobedila je posle prekreta jednog od
+                            rivala
+                            u borbi za opstanak u italijanskom prvenstvu.<br><br>
+                            Empoli je vodio na poluvremenu pogotkom Marka Pajca, a Bolonja je pobedila golovima
+                            Roberta
+                            Sorijana, Rikarda Orsolinija i Nikole Sansonea.<br><br>
+                            Aleksandar Kolarov dao je gol pošto se pred kraj meča najbolje snašao na odbitak u
+                            kaznenom
+                            Kaljarija, za pobedu Rome 3:0 kojom se ponovo našla na mestu koje vodi u Ligu
+                            šampiona.<br><br>
+                            Tabela Italijanske Lige:
+                            <div class="col-lg-6 offset-lg-3">
+                                <img src="slike/slika-TabelaItalija.jpg" class="img-fluid w-100" alt="Tabela Italija">
+                            </div>
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 17-->
+        <div class="modal fade" id="sedamnaestaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-warning text-light w-5">Košarka</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            ABA liga drakonski kaznila Zvezdu, 35.000 evra, dva meča bez publike, i tri koje mogu da
+                            gledaju žene i deca
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Zbog nedolaska na konferenciju za novinare nakon majstorice, sa 3.300 evra kažnjen je
+                            sada
+                            već bivši trener Budućnosti Jasmin Repeša
+                        </p>
+                        <img src="slike/slika12-CardSlajder.jpg" class="img-fluid w-100" alt="Košarka - Zvezda">
+                        <p class="text-right p-0 m-0">FOTO: N. Negovanović</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            ABA liga je kaznila Crvenu zvezdu zbog incidenata u petoj utakmici finala protiv
+                            Budućnosti.
+                            Zbog propusta u organizaciji, crveno-beli su kažnjeni sa 35.000 evra, dve utakmice bez
+                            publike (izuzimajući VIP ložu i svečanu ložu) i tri meča koje će u dvorani moći da prate
+                            samo deca do 14 godina i žene.<br>
+                            Finansijski deo kazne je 13 hiljada evra veći od one koja je stigla na adresu Budućnosti
+                            zbog propusta u organizaciji treće utakmice finala plej-ofa kada je sa 22 hiljade evra
+                            kažnjen tim iz Podgorice.<br>
+                            Zvezda je za organizaciju mečeva u plej-ofu ukupno kažnjena sa 85.000 evra zbog loše
+                            organizacije i izjava u medijima koje su štetile imidžu ABA lige, a Budućnost ukupno sa
+                            42.000.<br>
+                            Zbog nedolaska na konferenciju za novinare nakon majstorice, sa 3.300 evra kažnjen je
+                            sada
+                            već bivši trener Budućnosti Jasmin Repeša.<br>
+                            Tokom plej-ofa Partizan je kažnjen sa ukupno 24.000, a Cedevita 2.600 evra.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container bg-dark fejd">
+            <div class="text-light p-3 text-center">
+                <ul class="list-inline my-2" id="drustvene-mreze">
+                    <li class="d-inline mx-3">
+                        <a class="text-light" href="https://www.facebook.com/hotsportrs/"><span><i class="fab fa-facebook fa-2x"></i></span></a>
+                    </li>
+                    <li class="d-inline mx-3">
+                        <a class="text-light" href="https://www.instagram.com/_hotsport/?hl=sr"><span><i class="fab fa-instagram fa-2x"></i></span></a>
+                    </li>
+                    <li class="d-inline mx-3">
+                        <a class="text-light" href="https://twitter.com/hotsportsrb"><span><i class="fab fa-twitter-square fa-2x"></i></span></a>
+                    </li>
+                </ul>
+                <ul class="list-inline my-2" id="navigacija-podnozje">
+                    <li class="d-inline mx-3">
+                        <a class="text-light" href="fudbal.html">Fudbal</a>
+                    </li>
+                    <li class="d-inline mx-3">
+                        <a class="text-light" href="kosarka.html">Košarka</a>
+                    </li>
+                    <li class="d-inline mx-3">
+                        <a class="text-light" href="kontakt.html">Kontakt</a>
+                    </li>
+                    <li class="d-inline mx-3">
+                        <a class="text-light" href="galerija.html">Galerija</a>
+                    </li>
+                    <li class="d-inline mx-3">
+                        <a class="text-light" href="onama.html">O nama</a>
+                    </li>
+                </ul>
+                <p class="font-italic font-weight-bold d-inline mx-3 text-light" id="naslov-podnozje">
+                    <span class="text-warning">SM</span> SPORT
+                </p>
+                &copy; Copyright 2019.
+            </div>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery.js">
+    </script>
+    <!-- Include all compiled plugins -->
+    <script src="js/bootstrap.min.js">
+    </script>
+    <script src="js/program.js">
+    </script>
+</body>
+
+</html>

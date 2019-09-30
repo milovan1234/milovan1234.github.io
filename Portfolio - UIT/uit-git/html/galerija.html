@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio - Galerija</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Ovo je strana galerija. Na njoj se nalaze moje slike sa putovanja i druženja.">
+    <meta name="keywords" content="galerija,slike,fotografija">
+    <meta name="author" content="Milovan Srejić NRT-11/17">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/still.css" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="icon" href="../image/logo.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="../js/javascrtip.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="nav" id="navigacija">
+                    <ul>
+                        <li><a href="../index.html">Početna strana</a></li>
+                        <li><a href="biografija.html">Biografija</a></li>
+                        <li><a href="galerija.html" class="active">Galerija</a></li>
+                        <li><a href="interesovanje.html">Interesovanje</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                        <li><a onclick="navigacija()" class="icon"><i class="fas fa-bars"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="naslov_glavni">
+                <h1>Moja Galerija</h1>
+            </div>
+        </div>
+            <div class="row klizac">
+              <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="slajder">
+                  <img  src="../image/milovan_slajder1.jpg" class="img-responsive" alt="Moja Slika">
+                </div>
+                <div class="slajder">
+                  <img src="../image/milovan_slajder2.jpg" class="img-responsive" alt="Moja Slika">
+                </div>
+                <div class="slajder">
+                  <img src="../image/milovan_slajder3.jpg" class="img-responsive" alt="Moja Slika">
+                </div>
+                <div class="slajder">
+                  <img src="../image/milovan_slajder4.jpg" class="img-responsive" alt="Moja Slika">
+                </div>
+                <div class="slajder">
+                  <img src="../image/milovan_slajder5.jpg" class="img-responsive" alt="Moja Slika">
+                </div>
+                <div class="slajder">
+                  <img src="../image/milovan_slajder6.jpg" class="img-responsive" alt="Moja Slika">
+                </div>
+                <div class="slajder">
+                  <img src="../image/milovan_slajder7.jpg" class="img-responsive" alt="Moja Slika">
+                </div>
+                <div class="slajder">
+                  <img src="../image/milovan_slajder8.jpg" class="img-responsive" alt="Moja Slika">
+                </div>
+                <div class="slajder">
+                  <img src="../image/milovan_slajder9.jpg" class="img-responsive" alt="Moja Slika">
+                </div>
+                <div class="slajder">
+                  <img src="../image/milovan_slajder10.jpg" class="img-responsive" alt="Moja Slika">
+                </div>
+                <div class="slajder">
+                  <img src="../image/milovan_slajder11.jpeg" class="img-responsive" alt="Moja Slika">
+                </div>
+                <div class="slajder">
+                  <img src="../image/milovan_slajder12.jpg" class="img-responsive" alt="Moja Slika">
+                </div>
+              </div>              
+              <a id="sledeca" onclick="povecajSlajd(1)"><i class="fas fa-chevron-right fa-2x"></i></a>
+              <a id="prethodna" onclick="povecajSlajd(-1)"><i class="fas fa-chevron-left fa-2x"></i></a>
+            </div>
+            <div class="row">
+                <div class="crta"></div>
+            </div>
+            <div class="row">
+                <div class="naslov">
+                    <h1>Fotografije</h1>
+                </div>
+            </div>
+            <div class="galerija">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <div class="slikaG"> 
+                            <img onclick="promeniSliku(1),povratakNaVrh()" src="../image/milovan_slajder1.jpg" class="img-responsive" alt="Moja Slika">
+                            <div class="caption"><h4>Budimpešta 2016.</h4></div>
+                        </div>
+                    </div>
+                    <div  class="col-xs-12 col-sm-4 col-md-4">
+                        <div class="slikaG"> 
+                            <img onclick="promeniSliku(2),povratakNaVrh()" src="../image/milovan_slajder2.jpg" class="img-responsive" alt="Moja Slika">
+                            <div class="caption"><h4>Budimpešta 2016.</h4></div>
+                        </div> 
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <div class="slikaG"> 
+                            <img onclick="promeniSliku(3),povratakNaVrh()" src="../image/milovan_slajder3.jpg" class="img-responsive" alt="Moja Slika">
+                            <div class="caption"><h4>Budimpešta 2016.</h4></div>
+                        </div> 
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <div class="slikaG"> 
+                            <img onclick="promeniSliku(4),povratakNaVrh()" src="../image/milovan_slajder4.jpg" class="img-responsive" alt="Moja Slika">
+                            <div class="caption"><h4>Budimpešta 2016.</h4></div>
+                        </div> 
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <div class="slikaG"> 
+                            <img onclick="promeniSliku(5),povratakNaVrh()" src="../image/milovan_slajder5.jpg" class="img-responsive" alt="Moja Slika">
+                            <div class="caption"><h4>Budimpešta 2016.</h4></div>
+                        </div> 
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <div class="slikaG"> 
+                            <img onclick="promeniSliku(6),povratakNaVrh()" src="../image/milovan_slajder6.jpg" class="img-responsive" alt="Moja Slika">
+                            <div class="caption"><h4>Trstenika 1. Maj 2017.</h4></div>
+                        </div> 
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <div class="slikaG"> 
+                            <img onclick="promeniSliku(7),povratakNaVrh()" src="../image/milovan_slajder7.jpg" class="img-responsive" alt="Moja Slika">
+                            <div class="caption"><h4>Arandjelovac 2014.</h4></div>
+                        </div> 
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <div class="slikaG"> 
+                            <img onclick="promeniSliku(8),povratakNaVrh()" src="../image/milovan_slajder8.jpg" class="img-responsive" alt="Moja Slika">
+                            <div class="caption"><h4>Arandjelovac 2014.</h4></div>
+                        </div> 
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <div class="slikaG"> 
+                            <img onclick="promeniSliku(9),povratakNaVrh()" src="../image/milovan_slajder9.jpg" class="img-responsive" alt="Moja Slika">
+                            <div class="caption"><h4>Kruševac 2013.</h4></div>
+                        </div> 
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <div class="slikaG"> 
+                            <img onclick="promeniSliku(10),povratakNaVrh()" src="../image/milovan_slajder10.jpg" class="img-responsive" alt="Moja Slika">
+                            <div class="caption"><h4>Beograd 2013.</h4></div>
+                        </div> 
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <div class="slikaG"> 
+                            <img onclick="promeniSliku(11),povratakNaVrh()" src="../image/milovan_slajder11.jpeg" class="img-responsive" alt="Moja Slika">
+                            <div class="caption"><h4>Leskovac 2017.</h4></div>
+                        </div> 
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <div class="slikaG"> 
+                            <img onclick="promeniSliku(12),povratakNaVrh()" src="../image/milovan_slajder12.jpg" class="img-responsive" alt="Moja Slika">
+                            <div class="caption"><h4>Kruševac 2013.</h4></div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        <div id="strelica" onclick="povratakNaVrh()"><i class="fas fa-chevron-circle-up fa-3x"></i></div>
+        <footer>
+            <div class="row center">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <ul>
+                        <li><a href="https://www.facebook.com/srejicmilovan"><i class="fab fa-facebook fa-2x"></i></a></li>
+                        <li><a href="https://www.instagram.com/srejicm23/"><i class="fab fa-instagram fa-2x"></i></a></li>
+                        <li><a href="https://twitter.com/MilovanSrejic"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row center">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <h4>
+                        <a href="mailto:srejicmilovan23@gmail.com">srejicmilovan@gmail.com</a>,
+                        <a href="tel:+38106255487">062 553 487</a>
+                    </h4>
+                </div>
+            </div>
+            <div class="row center">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <h4>Copyright: <i>&copy; Milovan Srejić  NRT-11/17</i></h4>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+      var brojSlajda = 1;
+      prikazSlika(brojSlajda);
+    </script>
+</body>
+</html>

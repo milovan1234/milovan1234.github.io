@@ -1,0 +1,1438 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+    <title>SM SPORT - Košarka</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Stranica za Sportski Novinski članak baziran na Fudbalu i Košarci">
+    <meta name="keywords" content="sm,smsport,sport,sportske novine,fudbal,košarka,smsport vesti">
+    <meta name="author" content="Milovan Srejić NRT-11/17">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/still.css">
+    <link rel="icon" href="slike/logo-Vrh.png">
+</head>
+
+<body>
+    <div class="container p-0" id="glavniKontejner">
+        <div class="container bg-light p-0">
+            <div class="p-3 bg-dark">
+                <a class="bg-dark" href="index.html"><img src="slike/logo.png" alt="LOGO"></a>
+                <p class="font-italic font-weight-bold d-inline mx-3 text-light" id="naslov">
+                    <a class="zaglavljeLink text-light" href="index.html"><span class="text-warning">SM</span> SPORT</a>
+                    <ul class="list-inline d-none d-sm-block my-2 float-right" id="drustvene-mreze">
+                        <li class="d-inline mx-3">
+                            <a class="text-light" href="https://www.facebook.com/hotsportrs/"><span><i class="fab fa-facebook fa-2x"></i></span></a>
+                        </li>
+                        <li class="d-inline mx-3">
+                            <a class="text-light" href="https://www.instagram.com/_hotsport/?hl=sr"><span><i class="fab fa-instagram fa-2x"></i></span></a>
+                        </li>
+                        <li class="d-inline mx-3">
+                            <a class="text-light" href="https://twitter.com/hotsportsrb"><span><i class="fab fa-twitter-square fa-2x"></i></span></a>
+                        </li>
+                    </ul>
+                </p>
+                <span id="podnaslovKontakt" class="text-light text-right d-block">
+                    Današnji datum:
+                    <span id="datum" class="text-warning font-italic"></span>
+                </span>
+                <span id="podnaslovKontakt" class="text-light text-right d-block">
+                    Trenutno vreme:
+                    <span id="vreme" class="text-warning font-italic"></span>
+                </span>
+            </div>
+        </div>
+        <div id="navigacija" class="container bg-light p-0 m-0 mb-4 sticky-top border-bottom border-top border-light">
+
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                <button class="navbar-toggler my-1" type="button" data-toggle="collapse"
+                    data-target="#sazimajuciKontejner">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="sazimajuciKontejner">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-4 border-right border-light okvir">
+                            <a class="nav-link text-light" href="index.html">Naslovna</a>
+                        </li>
+                        <li class="nav-item px-4 border-right border-light okvir">
+                            <a class="nav-link text-light" href="najnovijeVesti.html">Najnovije Vesti</a>
+                        </li>
+                        <li class="nav-item px-4 border-right border-light okvir">
+                            <a class="nav-link text-light" href="fudbal.html">Fudbal</a>
+                        </li>
+                        <li class="nav-item px-4 border-right border-light okvir active">
+                            <a class="nav-link text-light" href="kosarka.html">Košarka</a>
+                        </li>
+                        <li class="nav-item px-4 border-right border-light okvir">
+                            <a class="nav-link text-light" href="miks.html">Miks</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link text-light" href="kontakt.html">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container pb-5 pt-4">
+            <div class="row">
+                <div class="col-lg-9 mb-4 fejd">
+                    <div class="card border border-light w-100">
+                        <div class="card-title text-left border-bottom border-warning border-w3 m-0 pl-3 p-2"
+                            id="naslovKontakt">
+                            Udarna Vest - Košarka
+                        </div>
+                    </div>
+                    <div class="row m-0 glavnaVestRed mb-4">
+                        <div class="col-md-6 p-0">
+                            <img src="slike/slika1-Košarka.JPG" class="img-fluid w-100 h-100" alt="Vasilije Micic">
+                        </div>
+                        <div class="col-md-6 p-0 bg-dark text-light p-4">
+                            <h3 id="podnaslovKontakt">
+                                Vasilije Micić: Srećan zbog povratka Zvezde u Evroligu
+                            </h3>
+                            <p class="text-justify">
+                                <span class="d-inline">Mnogo sam srećan zbog Zvezde, zaslužila je taj trofej i mesto u
+                                    Evroligi</span><br>
+                                <span class="datumStraneManji font-italic"><i class="far fa-clock"></i> 30 april,
+                                    2019</span>
+                            </p>
+                            <a data-toggle="modal" data-target="#prvaVest"
+                                class="glavnaVest btn border-w3 border-danger text-danger px-4 py-2 float-right mb-2 mt-1 mr-4">
+                                <span class="mr-3 font-weight-bold text-warning">Pročitaj članak</span><i
+                                    class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row pt-5">
+                        <div class="col-12 fejd">
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li class="nav-item tab-link">
+                                    <a class="nav-link active text-dark" data-toggle="tab" href="#home">
+                                        <h3 id="podnaslovKontakt">Srbija</h3>
+                                    </a>
+                                </li>
+                                <li class="nav-item tab-link">
+                                    <a class="nav-link text-dark" data-toggle="tab" href="#menu1">
+                                        <h3 id="podnaslovKontakt">Evroliga</h3>
+                                    </a>
+                                </li>
+                                <li class="nav-item tab-link">
+                                    <a class="nav-link text-dark" data-toggle="tab" href="#menu2">
+                                        <h3 id="podnaslovKontakt">NBA</h3>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div id="home" class="container tab-pane active noveVesti pb-1"><br>
+                                    <div class="row m-0 glavnaVestRed fejd">
+                                        <div class="col-sm-5 col-md-4 p-0">
+                                            <img src="slike/slika1-TabKošarka.jpg" class="img-fluid w-100 h-100"
+                                                alt="Vasilije Pušica">
+                                        </div>
+                                        <div class="col-sm-7 col-md-8 bg-dark text-light p-4">
+                                            <h3 id="podnaslovKontakt">
+                                                Pušica: Veličković nam rekao da ovako ne može…
+                                            </h3>
+                                            <p class="text-justify">
+                                                <span class="datumStraneManji font-italic pt-0"><i
+                                                        class="far fa-clock"></i>
+                                                    30 april,
+                                                    2019</span>
+                                            </p>
+                                            <a data-toggle="modal" data-target="#drugaVest"
+                                                class="glavnaVest1 btn border-w3 border-danger text-danger px-4 py-2 float-right mb-2 mt-1 mr-4">
+                                                <span class="mr-3 font-weight-bold text-warning">Pročitaj</span><i
+                                                    class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <hr class="bg-warning my-0 hr-w3">
+                                    <div class="row m-0 glavnaVestRed fejd">
+                                        <div class="col-sm-5 col-md-4 p-0">
+                                            <img src="slike/slika2-TabKošarka.jpg" class="img-fluid w-100 h-100 "
+                                                alt="Majk Cirbes">
+                                        </div>
+                                        <div class="col-sm-7 col-md-8 bg-dark text-light p-4">
+                                            <h3 id="podnaslovKontakt">
+                                                Cirbes napustio Zvezdu i otišao u Kinu
+                                            </h3>
+                                            <p class="text-justify">
+                                                <span class="datumStraneManji font-italic pt-0"><i
+                                                        class="far fa-clock"></i>
+                                                    30 april,
+                                                    2019</span>
+                                            </p>
+                                            <a data-toggle="modal" data-target="#trecaVest"
+                                                class="glavnaVest1 btn border-w3 border-danger text-danger px-4 py-2 float-right mb-2 mt-1 mr-4">
+                                                <span class="mr-3 font-weight-bold text-warning">Pročitaj</span><i
+                                                    class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <hr class="bg-warning my-0 hr-w3">
+                                    <div class="row m-0 glavnaVestRed fejd">
+                                        <div class="col-sm-5 col-md-4 p-0">
+                                            <img src="slike/slika3-TabKošarka.jpg" class="img-fluid w-100 h-100"
+                                                alt="Andrea Trinkijeri">
+                                        </div>
+                                        <div class="col-sm-7 col-md-8 bg-dark text-light p-4">
+                                            <h3 id="podnaslovKontakt">
+                                                Trinkijeri posle Tamiša: Ovo je sramota
+                                            </h3>
+                                            <p class="text-justify">
+                                                <span class="datumStraneManji font-italic pt-0"><i
+                                                        class="far fa-clock"></i>
+                                                    30 april,
+                                                    2019</span>
+                                            </p>
+                                            <a data-toggle="modal" data-target="#cetvrtaVest"
+                                                class="glavnaVest1 btn border-w3 border-danger text-danger px-4 py-2 float-right mb-2 mt-1 mr-4">
+                                                <span class="mr-3 font-weight-bold text-warning">Pročitaj</span><i
+                                                    class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <hr class="bg-warning my-0 hr-w3">
+                                    <div class="row m-0 glavnaVestRed fejd">
+                                        <div class="col-sm-5 col-md-4 p-0">
+                                            <img src="slike/slika4-TabKošarka.jpg" class="img-fluid w-100 h-100"
+                                                alt="Milan Tomić">
+                                        </div>
+                                        <div class="col-sm-7 col-md-8 bg-dark text-light p-4">
+                                            <h3 id="podnaslovKontakt">
+                                                Tomić pred FMP: Samo sa pravim pristupom možemo do pobede
+                                            </h3>
+                                            <p class="text-justify">
+                                                <span class="datumStraneManji font-italic pt-0"><i
+                                                        class="far fa-clock"></i>
+                                                    30 april,
+                                                    2019</span>
+                                            </p>
+                                            <a data-toggle="modal" data-target="#petaVest"
+                                                class="glavnaVest1 btn border-w3 border-danger text-danger px-4 py-2 float-right mb-2 mt-1 mr-4">
+                                                <span class="mr-3 font-weight-bold text-warning">Pročitaj</span><i
+                                                    class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <hr class="bg-warning my-0 hr-w3">
+                                    <div class="row m-0 glavnaVestRed mb-2 fejd">
+                                        <div class="col-sm-5 col-md-4 p-0">
+                                            <img src="slike/slika5-TabKošarka.jpg" class="img-fluid w-100 h-100"
+                                                alt="Partizan - Kazna">
+                                        </div>
+                                        <div class="col-sm-7 col-md-8 bg-dark text-light p-4">
+                                            <h3 id="podnaslovKontakt">
+                                                Kazne KLS zbog vređanja, pretnji, vode, odeće i različitih patika
+                                            </h3>
+                                            <p class="text-justify">
+                                                <span class="datumStraneManji font-italic pt-0"><i
+                                                        class="far fa-clock"></i>
+                                                    30 april,
+                                                    2019</span>
+                                            </p>
+                                            <a data-toggle="modal" data-target="#sestaVest"
+                                                class="glavnaVest1 btn border-w3 border-danger text-danger px-4 py-2 float-right mb-2 mt-1 mr-4">
+                                                <span class="mr-3 font-weight-bold text-warning">Pročitaj</span><i
+                                                    class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="menu1" class="container tab-pane fade pb-1"><br>
+                                    <div class="row m-0 glavnaVestRed fejd">
+                                        <div class="col-sm-5 col-md-4 p-0">
+                                            <img src="slike/slika6-TabKošarka.jpg" class="img-fluid w-100 h-100"
+                                                alt="Evroliga mečevi">
+                                        </div>
+                                        <div class="col-sm-7 col-md-8 bg-dark text-light p-4">
+                                            <h3 id="podnaslovKontakt">
+                                                CSKA slavio u Baskiji, Efes gazio Barsu kao Zvezda Budućnost!
+                                            </h3>
+                                            <p class="text-justify">
+                                                <span class="datumStraneManji font-italic pt-0"><i
+                                                        class="far fa-clock"></i>
+                                                    30 april,
+                                                    2019</span>
+                                            </p>
+                                            <a data-toggle="modal" data-target="#sedmaVest"
+                                                class="glavnaVest1 btn border-w3 border-danger text-danger px-4 py-2 float-right mb-2 mt-1 mr-4">
+                                                <span class="mr-3 font-weight-bold text-warning">Pročitaj</span><i
+                                                    class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <hr class="bg-warning my-0 hr-w3">
+                                    <div class="row m-0 glavnaVestRed fejd">
+                                        <div class="col-sm-5 col-md-4 p-0">
+                                            <img src="slike/slika7-TabKošarka.jpg" class="img-fluid w-100 h-100 "
+                                                alt="Nebojša Čović">
+                                        </div>
+                                        <div class="col-sm-7 col-md-8 bg-dark text-light p-4">
+                                            <h3 id="podnaslovKontakt">
+                                                Čović: Zvezda podržava napore Partizana da dobije specijalnu pozivnicu
+                                                Evrolige
+                                            </h3>
+                                            <p class="text-justify">
+                                                <span class="datumStraneManji font-italic pt-0"><i
+                                                        class="far fa-clock"></i>
+                                                    30 april,
+                                                    2019</span>
+                                            </p>
+                                            <a data-toggle="modal" data-target="#osmaVest"
+                                                class="glavnaVest1 btn border-w3 border-danger text-danger px-4 py-2 float-right mb-2 mt-1 mr-4">
+                                                <span class="mr-3 font-weight-bold text-warning">Pročitaj</span><i
+                                                    class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <hr class="bg-warning my-0 hr-w3">
+                                    <div class="row m-0 glavnaVestRed fejd">
+                                        <div class="col-sm-5 col-md-4 p-0">
+                                            <img src="slike/slika8-TabKošarka.jpg" class="img-fluid w-100 h-100"
+                                                alt="Bobi Dikson">
+                                        </div>
+                                        <div class="col-sm-7 col-md-8 bg-dark text-light p-4">
+                                            <h3 id="podnaslovKontakt">
+                                                Bobi Dikson još dve godine u Fenerbahčeu
+                                            </h3>
+                                            <p class="text-justify">
+                                                <span class="datumStraneManji font-italic pt-0"><i
+                                                        class="far fa-clock"></i>
+                                                    30 april,
+                                                    2019</span>
+                                            </p>
+                                            <a data-toggle="modal" data-target="#devetaVest"
+                                                class="glavnaVest1 btn border-w3 border-danger text-danger px-4 py-2 float-right mb-2 mt-1 mr-4">
+                                                <span class="mr-3 font-weight-bold text-warning">Pročitaj</span><i
+                                                    class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <hr class="bg-warning my-0 hr-w3">
+                                    <div class="row m-0 glavnaVestRed fejd">
+                                        <div class="col-sm-5 col-md-4 p-0">
+                                            <img src="slike/slika9-TabKošarka.jpg" class="img-fluid w-100 h-100"
+                                                alt="Evroliga mečevi">
+                                        </div>
+                                        <div class="col-sm-7 col-md-8 bg-dark text-light p-4">
+                                            <h3 id="podnaslovKontakt">
+                                                Rudi sa zvukom sirene pogodio trojku za pobedu Reala protiv PAO-a,
+                                                Kalinić sjajan protiv Milana
+                                            </h3>
+                                            <p class="text-justify">
+                                                <span class="datumStraneManji font-italic pt-0"><i
+                                                        class="far fa-clock"></i>
+                                                    30 april,
+                                                    2019</span>
+                                            </p>
+                                            <a data-toggle="modal" data-target="#desetaVest"
+                                                class="glavnaVest1 btn border-w3 border-danger text-danger px-4 py-2 float-right mb-2 mt-1 mr-4">
+                                                <span class="mr-3 font-weight-bold text-warning">Pročitaj</span><i
+                                                    class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <hr class="bg-warning my-0 hr-w3">
+                                    <div class="row m-0 glavnaVestRed mb-2 fejd">
+                                        <div class="col-sm-5 col-md-4 p-0">
+                                            <img src="slike/slika10-TabKošarka.jpg" class="img-fluid w-100 h-100"
+                                                alt="Svetislav Pešić">
+                                        </div>
+                                        <div class="col-sm-7 col-md-8 bg-dark text-light p-4">
+                                            <h3 id="podnaslovKontakt">
+                                                Pešić: Savetuju me, izaberi Real
+                                            </h3>
+                                            <p class="text-justify">
+                                                <span class="datumStraneManji font-italic pt-0"><i
+                                                        class="far fa-clock"></i>
+                                                    30 april,
+                                                    2019</span>
+                                            </p>
+                                            <a data-toggle="modal" data-target="#jedanaestaVest"
+                                                class="glavnaVest1 btn border-w3 border-danger text-danger px-4 py-2 float-right mb-2 mt-1 mr-4">
+                                                <span class="mr-3 font-weight-bold text-warning">Pročitaj</span><i
+                                                    class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="menu2" class="container tab-pane fade pb-1"><br>
+                                    <div class="row m-0 glavnaVestRed fejd">
+                                        <div class="col-sm-5 col-md-4 p-0">
+                                            <img src="slike/slika11-TabKošarka.jpg" class="img-fluid w-100 h-100"
+                                                alt="Muški Koledž">
+                                        </div>
+                                        <div class="col-sm-7 col-md-8 bg-dark text-light p-4">
+                                            <h3 id="podnaslovKontakt">
+                                                Devet košarkaša iz srpskih klubova se prijavilo za NBA draft, sedmorica
+                                                iz mege, dvojica iz Zvezde
+                                            </h3>
+                                            <p class="text-justify">
+                                                <span class="datumStraneManji font-italic pt-0"><i
+                                                        class="far fa-clock"></i>
+                                                    30 april,
+                                                    2019</span>
+                                            </p>
+                                            <a data-toggle="modal" data-target="#dvanaestaVest"
+                                                class="glavnaVest1 btn border-w3 border-danger text-danger px-4 py-2 float-right mb-2 mt-1 mr-4">
+                                                <span class="mr-3 font-weight-bold text-warning">Pročitaj</span><i
+                                                    class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <hr class="bg-warning my-0 hr-w3">
+                                    <div class="row m-0 glavnaVestRed fejd">
+                                        <div class="col-sm-5 col-md-4 p-0">
+                                            <img src="slike/slika12-TabKošarka.jpg" class="img-fluid w-100 h-100 "
+                                                alt="NBA Draft">
+                                        </div>
+                                        <div class="col-sm-7 col-md-8 bg-dark text-light p-4">
+                                            <h3 id="podnaslovKontakt">
+                                                Devet košarkaša iz srpskih klubova se prijavilo za NBA draft, sedmorica
+                                                iz mege, dvojica iz Zvezde
+                                            </h3>
+                                            <p class="text-justify">
+                                                <span class="datumStraneManji font-italic pt-0"><i
+                                                        class="far fa-clock"></i>
+                                                    30 april,
+                                                    2019</span>
+                                            </p>
+                                            <a data-toggle="modal" data-target="#trinaestaVest"
+                                                class="glavnaVest1 btn border-w3 border-danger text-danger px-4 py-2 float-right mb-2 mt-1 mr-4">
+                                                <span class="mr-3 font-weight-bold text-warning">Pročitaj</span><i
+                                                    class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <hr class="bg-warning my-0 hr-w3">
+                                    <div class="row m-0 glavnaVestRed fejd">
+                                        <div class="col-sm-5 col-md-4 p-0">
+                                            <img src="slike/slika13-TabKošarka.jpg" class="img-fluid w-100 h-100"
+                                                alt="Portlan - Toronto">
+                                        </div>
+                                        <div class="col-sm-7 col-md-8 bg-dark text-light p-4">
+                                            <h3 id="podnaslovKontakt">
+                                                Prednost od 3:1 za Portland i Toronto, još pobeda do četvrtfinala
+                                            </h3>
+                                            <p class="text-justify">
+                                                <span class="datumStraneManji font-italic pt-0"><i
+                                                        class="far fa-clock"></i>
+                                                    30 april,
+                                                    2019</span>
+                                            </p>
+                                            <a data-toggle="modal" data-target="#cetrnaestaVest"
+                                                class="glavnaVest1 btn border-w3 border-danger text-danger px-4 py-2 float-right mb-2 mt-1 mr-4">
+                                                <span class="mr-3 font-weight-bold text-warning">Pročitaj</span><i
+                                                    class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <hr class="bg-warning my-0 hr-w3">
+                                    <div class="row m-0 glavnaVestRed fejd">
+                                        <div class="col-sm-5 col-md-4 p-0">
+                                            <img src="slike/slika14-TabKošarka.jpg" class="img-fluid w-100 h-100"
+                                                alt="Boriša Simanić NBA Draft">
+                                        </div>
+                                        <div class="col-sm-7 col-md-8 bg-dark text-light p-4">
+                                            <h3 id="podnaslovKontakt">
+                                                Igrač Zvezde Simanić na NBA draftu
+                                            </h3>
+                                            <p class="text-justify">
+                                                <span class="datumStraneManji font-italic pt-0"><i
+                                                        class="far fa-clock"></i>
+                                                    30 april,
+                                                    2019</span>
+                                            </p>
+                                            <a data-toggle="modal" data-target="#petnaestaVest"
+                                                class="glavnaVest1 btn border-w3 border-danger text-danger px-4 py-2 float-right mb-2 mt-1 mr-4">
+                                                <span class="mr-3 font-weight-bold text-warning">Pročitaj</span><i
+                                                    class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <hr class="bg-warning my-0 hr-w3">
+                                    <div class="row m-0 glavnaVestRed mb-2 fejd">
+                                        <div class="col-sm-5 col-md-4 p-0">
+                                            <img src="slike/slika15-TabKošarka.jpg" class="img-fluid w-100 h-100"
+                                                alt="Džems Harden NBA">
+                                        </div>
+                                        <div class="col-sm-7 col-md-8 bg-dark text-light p-4">
+                                            <h3 id="podnaslovKontakt">
+                                                Pobede Hjustona, Bostona i Milvokija
+                                            </h3>
+                                            <p class="text-justify">
+                                                <span class="datumStraneManji font-italic pt-0"><i
+                                                        class="far fa-clock"></i>
+                                                    30 april,
+                                                    2019</span>
+                                            </p>
+                                            <a data-toggle="modal" data-target="#sesnaestaVest"
+                                                class="glavnaVest1 btn border-w3 border-danger text-danger px-4 py-2 float-right mb-2 mt-1 mr-4">
+                                                <span class="mr-3 font-weight-bold text-warning">Pročitaj</span><i
+                                                    class="fas fa-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 fejd">
+                    <div class="card border border-light w-100">
+                        <div class="card-title bg-dark text-light text-center border-bottom border-danger border-w3 m-0 pl-3 p-2"
+                            id="podnaslovVesti">
+                            Vesti po Satima
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div id="carouselExampleIndicators4" class="carousel karusel slide pb-5 fejd"
+                                    data-ride="carousel">
+                                    <ol class="carousel-indicators carousel-indicators-numbers">
+                                        <li data-target="#carouselExampleIndicators4" data-slide-to="0" class="active">1
+                                        </li>
+                                        <li data-target="#carouselExampleIndicators4" data-slide-to="1">2</li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="card p-1">
+                                                <div class="card-body text-justify p-1">
+                                                    <p class="datumStrane mb-1">11:45</p>
+                                                    <p class="font-weight-bold text-dark linkVest" data-toggle="modal"
+                                                        data-target="#drugaVest">
+                                                        Pušica: Veličković nam rekao da ovako ne može…
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="card p-1">
+                                                <div class="card-body text-justify p-1">
+                                                    <p class="datumStrane mb-1">11:00</p>
+                                                    <p class="font-weight-bold text-dark linkVest" data-toggle="modal"
+                                                        data-target="#osmaVest">
+                                                        Čović: Zvezda podržava napore Partizana da dobije specijalnu
+                                                        pozivnicu
+                                                        Evrolige
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="card p-1">
+                                                <div class="card-body text-justify p-1">
+                                                    <p class="datumStrane mb-1">10:45</p>
+                                                    <p class="font-weight-bold text-dark linkVest" data-toggle="modal"
+                                                        data-target="#trecaVest">
+                                                        Cirbes napustio Zvezdu i otišao u Kinu
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="card p-1">
+                                                <div class="card-body text-justify p-1">
+                                                    <p class="datumStrane mb-1">09:30</p>
+                                                    <p class="font-weight-bold text-dark linkVest" data-toggle="modal"
+                                                        data-target="#prvaVest">
+                                                        Vasilije Micić: Srećan zbog povratka Zvezde u Evroligu
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="card p-1">
+                                                <div class="card-body text-justify p-1">
+                                                    <p class="datumStrane mb-1">07:30</p>
+                                                    <p class="font-weight-bold text-dark linkVest" data-toggle="modal"
+                                                        data-target="#cetvrtaVest">
+                                                        Trinkijeri posle Tamiša: Ovo je sramota
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="card p-1">
+                                                <div class="card-body text-justify p-1">
+                                                    <p class="datumStrane mb-1">06:30</p>
+                                                    <p class="font-weight-bold text-dark linkVest" data-toggle="modal"
+                                                        data-target="#cetrnaestaVest">
+                                                        Prednost od 3:1 za Portland i Toronto, još pobeda do
+                                                        četvrtfinala
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="card p-1">
+                                                <div class="card-body text-justify p-1">
+                                                    <p class="datumStrane mb-1">06:00</p>
+                                                    <p class="font-weight-bold text-dark linkVest" data-toggle="modal"
+                                                        data-target="#sesnaestaVest">
+                                                        Pobede Hjustona, Bostona i Milvokija
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="card p-1">
+                                                <div class="card-body text-justify p-1">
+                                                    <p class="datumStrane mb-1">05:48</p>
+                                                    <p class="font-weight-bold text-dark linkVest" data-toggle="modal"
+                                                        data-target="#petnaestaVest">
+                                                        Igrač Zvezde Simanić na NBA draftu
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 1-->
+        <div class="modal fade" id="prvaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-warning text-light w-5">Košarka</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Vasilije Micić: Srećan zbog povratka Zvezde u Evroligu
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Uprkos velikim obavezama, naš as Vasilije Micić je ispratio sve mečeve bivšeg kluba u
+                            plej-ofu ABA lige
+                        </p>
+                        <img src="slike/slika1-Košarka.JPG" class="img-fluid w-100" alt="Vasilije Micić">
+                        <p class="text-right p-0 m-0">FOTO: ACB</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Vasilije Micić će i naredne sezone biti deo evroligaške sredine, što znači da će ga put
+                            voditi i do Beograda, na megdan Crvenoj zvezdi.<br><br>
+                            – Mnogo sam srećan zbog Zvezde, zaslužila je taj trofej i mesto u Evroligi. Tokom sezone se
+                            stvorila slika kao da su njeni rezultati nerealni i kao da su svi čekali neki pad. Ali ti
+                            momci su pokazali da se poklopila energija, poklopili su se igrači i stvorila ta hemija.
+                            Bilo je to više nego dovoljno za osvajanje ABA lige što je sigurno bio i primarni cilj –
+                            kazao je Micić.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 2-->
+        <div class="modal fade" id="drugaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-warning text-light w-5">Košarka</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Pušica: Veličković nam rekao da ovako ne može…
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Trener crno-belih Andrea Trinkijeri izdanje svojih košrkaša nazvao je „sramotnim“, a i
+                            kapiten Novica Veličković izneo je dosta kritika u svlačionici
+                        </p>
+                        <img src="slike/slika1-TabKošarka.jpg" class="img-fluid w-100" alt="Vasilije Pušica">
+                        <p class="text-right p-0 m-0">FOTO: N. Negovanović</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Košarkaš Partizana Vasilije Pušica, posle neizvesne pobede svog tima protiv Tamiša (84:80) u
+                            Superligi, rekao je da je ta utakmica pokazala da nijedan rival ne sme da se
+                            potceni.<br><br>
+                            - Svi igraju košarku, svi treniraju. Oni su sa razlogom ušli u Superligu. Tu ima dosta
+                            momaka koji su malo stariji i iskusniji, koji su imali dobre karijere i igrali za dobre
+                            klubove. Ovo je bio dokaz da ne smemo nikoga da potcenimo i da u svaku utakmicu moramo ući
+                            kao protiv Mege u prvom kolu - rekao je Pušica novinarima posle meča.<br><br>
+                            Trener crno-belih Andrea Trinkijeri izdanje svojih košrkaša nazvao je „sramotnim“, a i
+                            kapiten Novica Veličković izneo je dosta kritika u svlačionici.<br><br>
+                            - Jeste, to je na neki način i njegov posao. Dao nam je do znanja ne može ovako da se igra.
+                            Pre svega pristup i još neke stvari, koje ne smem da otkrivam - objasnio je 24-godišnji
+                            plejmejker.<br><br>
+                            Doskorašnji student Univerziteta Nortistern pred početak Superlige potpisao je ugovor sa
+                            crno-belima, a debi je imao u prvom kolu protiv Mege kada je postigao 22 poena.<br><br>
+                            - Prošlo je tek nekih desetak dana. I dalje se viđam sa ljudima koje nisam video odavno, a s
+                            druge stane imam obaveze i fokusiran sam na košarku. Uklapanje ide dosta bolje. Naučio sam
+                            dosta akcija i principa, saigračni su sjajni. Pomažu mi svaki dan na treningu i trener,
+                            pomoći trener… Zadovoljan sam kako to ide sada. Što se tiče samog kluba, ja nikad nisam bio
+                            u prvom timu i za mene je sve ovo novo i navikavam se na ove stvari. Kao što sam rekao,
+                            saigrači su sjajni i olakšavaju mi taj posao.<br><br>
+                            On se osvrnuo se i na sledeći meč, kada će u nedelju protivnik Partizanu na domaćem terenu
+                            biti Dinamik.<br><br>
+                            - Oni imaju dosta mladih i talentovanih igrača. Moramo da imamo isti pristup i kao protiv
+                            Mege, a ako ih potcenimo može da bude kao sa Tamišom, da se u poslednjim minutima borimo za
+                            pobedu - zaključio je Pušica.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 3-->
+        <div class="modal fade" id="trecaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-warning text-light w-5">Košarka</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Cirbes napustio Zvezdu i otišao u Kinu
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Majk Cirbes je ove sezone nastupio na 28 utakmica za Zvezdu u ABA ligi, a nije bio određen
+                            za završnicu takmičenja u Superligi Srbije
+                        </p>
+                        <img src="slike/slika2-TabKošarka.jpg" class="img-fluid w-100" alt="Majk Cirbes">
+                        <p class="text-right p-0 m-0">FOTO: I. Veselinov</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Nemački košarkaš Majk Cirbes napustio je Crvenu zvezdu i prešao u kineski Guangži Vainžuang,
+                            potvrdio je njegov menadžer Miodrag Ražnatović.<br>
+                            Cirbesov odlazak je logičan nakon što je, zbog pravila broja stranaca, izostavljen sa spiska
+                            igrača Zvezde za takmičenje u Superligi Srbije.<br>
+                            Snažni centar završio je drugi mandat među crveno-belima sa trofejom ABA lige za devet
+                            meseci.<br>
+                            To mu je treći pehar na Jadranu sa Zvezdom, ima još dva šampiona Srbije i jedan Kupa Srbije,
+                            a tokom karijere igrao je još za Bamberg, Makabi iz Tel Aviva i minhenski Bajern.<br><br>
+                            - Crvena zvezda zahvaljuje na svemu što je učinio za klub u prethodnom periodu, kao i
+                            tekućoj sezoni u kojoj je najvažniji cilj već ostvaren osvajanjem ABA lige, i želi mu puno
+                            sreće u novim sportskim izazovima i novom klubu koji ga čeka u Kini - navela je Crvena
+                            zvezda.<br><br>
+                            Zvezdi će, kako je saopšteno, pripasti propisano obeštećenje.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 4-->
+        <div class="modal fade" id="cetvrtaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-warning text-light w-5">Košarka</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Trinkijeri posle Tamiša: Ovo je sramota
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            „Mene rezultat uopšte ne zanima, nego pristup, koncentracija i ozbiljnost. Bili smo dobri
+                            protiv Mege, ali šest dana kasnije katastrofalni. To je nezdravo, neodgovormo. I to ne sme
+                            da se dešava“
+                        </p>
+                        <img src="slike/slika3-TabKošarka.jpg" class="img-fluid w-100" alt="Andrea Trinkrijeri">
+                        <p class="text-right p-0 m-0">FOTO: N. Negovanović</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Trener košarkaša Partizana Andrea Trinkijeri posle sinoćnje pobede nad Tamišom od 84:80 bio
+                            je nezodovaljan izdanjem i pristupom svoje ekipe.<br><br>
+                            - Igranje za Partizan je čast i velika odgovornost, jer ovo je najuspešniji klub u ovoj
+                            sredini. I s velikom energijom svi žele da to na nešto bolje liči. Čestitam Tamišu na
+                            odličnoj igri. Bili su 10 puta bolji, 50 puta koncentrisaniji. Mi smo se kao i igrači i kao
+                            trener osramotili. Ovo je sramota - rekao je Trinkijeri na konferenciji za medije.<br><br>
+                            Italijanski stručnjak istakao je da mu je jako žao zbog svega prikazanog, ali da je greška
+                            negde napravljena.<br><br>
+                            - Reči u ovoj situaciji nisu potrebne. Voleo bih da mogu da kažem da se to više neće desiti.
+                            Kad jedna ekipa dođe iz KLS u Pionir i igra kvalitetniju, pametniju i tvrđu košarku, znači
+                            da smo nešto pogrešili. Ali ne danas, nego juče, prekjuče, ali sigurno nećemo pogrešiti
+                            sutra. Ovo je odgovornost, ovo nije zaje....... - rekao je Trinkijeri i dodao da ovakav
+                            odnos prema igri ne sme da se ponovi.<br><br>
+                            - Mene rezultat uopšte ne zanima, nego pristup, koncentracija i ozbiljnost. Bili smo dobri
+                            protiv Mege, ali šest dana kasnije katastrofalni. To je nezdravo, neodgovormo. I to ne sme
+                            da se dešava - zaključio je trener crno-belih.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 5-->
+        <div class="modal fade" id="petaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-warning text-light w-5">Košarka</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Tomić pred FMP: Samo sa pravim pristupom možemo do pobede
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Finalisti poslednje dve godine u domaćem takmičenju imaju po dve pobede iz isto toliko
+                            utakmica u A grupi Superlige
+                        </p>
+                        <img src="slike/slika4-TabKošarka.jpg" class="img-fluid w-100" alt="Milan Tomić">
+                        <p class="text-right p-0 m-0">FOTO: I. Veselinov</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Trener Crvene zvezde Milan Tomić kaže da njegovi košarkaši protiv FMP-a moraju da imaju
+                            mnogo bolji pristup nego u prethodnim mečevima Superlige protiv Dunava i Zlatibora.<br><br>
+                            - Znam da se često ponavljam sa rečenicama u kojima naglašavam da koncentracija, pristup i
+                            energija moraju da budu na visokom nivou. Upravo kada toga nema, onda nema ni lake utakmice,
+                            svaka je teška. Zato moramo da odigramo dobru utakmicu protiv mlade ambiciozne, agresivne i
+                            rastrčane ekipe kakva je FMP - rekao je Tomić za klupski sajt.<br><br>
+                            Finalisti poslednje dve godine u domaćem takmičenju imaju po dve pobede iz isto toliko
+                            utakmica u A grupi Superlige.<br><br>
+                            - Samo pravim odnosom možemo da dođemo do bodova protiv tima koji ima fizionomiju i
+                            kvalitet. Igramo na svom parketu i ukoliko se budemo pridržavali dogovora iz pripreme za
+                            ovaj meč, očekujem da naši navijači vide dobru utakmicu dve ekipe koje žele vrh tabele u
+                            grupi - poručio je trener crveno-belih.<br><br>
+                            Krilni košarkaš Zvezde i bivši član FMP-a Ognjen Dobrić naglašava da nema tajni između dva
+                            tima.<br><br>
+                            - FMP igra odlično bez obzira na odsustvo nekoliko startera zbog povreda, što je potvrdio
+                            pobedama u prva dva kola. Jako su agresivni, imaju dobre šutere, odlično se uklopio i
+                            Novozelanđanin Fin Dilejni, igraju sa puno volje i energije. Na sve to moramo da odgovorimo
+                            jer našplan je poznat, a to je za početak prvo mesto u grupi, kojim bismo sačuvali prednost
+                            domaćeg terena u završnici Superlige - rekao je Dobrić i pozvao navijače da pruže
+                            podršku.<br><br>
+                            Utakmica između Crvene zvezde i FMP-a igra se sutra u hali „Aleksandar Nikolić“ od 17 sati.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 6-->
+        <div class="modal fade" id="sestaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-warning text-light w-5">Košarka</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Kazne KLS zbog vređanja, pretnji, vode, odeće i različitih patika
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Partizan je kažnjen sa 6.000 dinara jer je jedan igrač nosio dve različite patike
+                        </p>
+                        <img src="slike/slika5-TabKošarka.jpg" class="img-fluid w-100" alt="Kazna - Partizan">
+                        <p class="text-right p-0 m-0">FOTO: kkpartizan.rs</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Košarkaška liga Srbije izrekla je danas veliki broj novčanih kazni zbog nesportskog
+                            ponašanja i tehničkih grešaka, ali i drugih, neuobičajenih stvari.<br>
+                            Pratilac ekipe Pazara Dejan Kulundžić kažnjen je sa 54.000 dinara po prijavi sudije na
+                            utakmici sa Megom u drugom kolu Superlige, zbog toga što ga je vređao i pretio mu.<br>
+                            Aleksej Nešović je kažnjen sa 6.000 zbog tehničke greške, a Mladen Simeunović sa ukupno
+                            42.000 zbog tehničke greške, ali i isključenja zbog nesportskog ponašanja.<br>
+                            Novi Pazar je kažnjen sa ukupno 102.000 dinara.<br>
+                            Košarkaški klub Dunav kažnjen je sa 24.000 dinara zbog polivanja vode po terenu zbog čega je
+                            utakmica protiv OKK Beograda bila prekinuta.<br>
+                            Kostja Mušidi iz OKK Beograda je zbog dve tehničke greške kažnjen sa 18.000 dinara.<br>
+                            Košarkaški klub Dinamik je kažnjen sa 12.000 dinara zbog, kako se navodi, brojnih
+                            nedostataka u radu semafora na utakmici protiv Slobode.<br>
+                            Igrač Dinamika Mirko Đerić moraće da plati 36.000 dinara zbog toga što je, po prijavi
+                            sudije, vređao protivničkog igrača.<br>
+                            Tamiš je kažnjen sa 6.000 dinara jer trener te ekipe na konferenciji za novinara posle
+                            utakmice sa Partizanom "nije bio adekvatno obučen".<br>
+                            Partizan je kažnjen istim iznosom jer je jedan igrač nosio dve različite patike.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 7-->
+        <div class="modal fade" id="sedmaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-warning text-light w-5">Košarka</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            CSKA slavio u Baskiji, Efes gazio Barsu kao Zvezda Budućnost!
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Posle trećih mečeva plej-ofa Evrolige, ruski i turski tim se približili na pobedu od
+                            plasmana na finalni turnir
+                        </p>
+                        <img src="slike/slika6-TabKošarka.jpg" class="img-fluid w-100" alt="Evroliga Utakmice">
+                        <p class="text-right p-0 m-0">FOTO: ACB</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            CSKA je odlično počeo meč protiv Baskonije, posle prvih deset minuta imao je dvocifrenu
+                            prednost (28:18). Ipak, uz frenetičnu podršku sa tribina, domaći su polako topili
+                            prednost.<br>
+                            Baskonija je uspela da povede po prvi put na meču posle trojke Dženinga osam minuta pre
+                            kraja (65:62), ali je nedugo potom De Kolo uzvratio istom merom za preokret Moskovljana
+                            (74:70).<br>
+                            Do kraja meča gosti su rutinski priveli posao kraju, ne želevši da bilo šta rizikuju, pa će
+                            na istom mestu u četvrtom meču imati priliku da proslave plasman među četiri najbolja
+                            tima.<br>
+                            U Barseloni fantastična igra Efesa. Do pobede, na kraju izražene sa razlike, predvodio ih je
+                            magični Šejn Larkin, koji je nanizao 30 poena, uz indeks korisnosti 34. Vasiilije Micić je
+                            ubacio 14 poena, uz osam asistencija i tri ukradene lopte.
+                        </p>
+                        <div class="card bg-dark text-light p-3 mb-4">
+                            Semafor četvrtih mečeva plej-ofa Evrolige:<br>
+                            Baskonija – CSKA 77:84 (18:28, 21:18, 20:16, 18:22), u seriji 1:2<br>
+                            Barselona – Efes 68:102 (20:26, 19:26, 18:32, 11:18), 1:2<br><br>
+                            Utorak:<br>
+                            Žalgiris – Fenerbahče 57:66 (19:15, 15:16, 12:18, 11:17), 1:2
+                            Panatinaikos – Real 82:89 (18:23, 23:13, 17:22, 24:31), 0:3
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 8-->
+        <div class="modal fade" id="osmaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-warning text-light w-5">Košarka</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Čović: Zvezda podržava napore Partizana da dobije specijalnu pozivnicu Evrolige
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Beograd kao najveći košarkaški centar u regionu zaslužuje da ima dva košarkaška predstavnika
+                            u eliti - naveo je prvi čovek beogradskih crveno-belih
+                        </p>
+                        <img src="slike/slika7-TabKošarka.jpg" class="img-fluid w-100" alt="Nebojša Čović">
+                        <p class="text-right p-0 m-0">FOTO: I. Veselinov</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Crvena zvezda je pobedom u finalnoj seriji ABA lige protiv Budućnosti (3:2) izborila
+                            povratak u Evroligu kao osvajač regionalne lige.<br>
+                            I pre petog meča finalne serije pojavila se priča o specijalnoj pozivnici za još jednog
+                            učesnika ABA lige da se nađe naredne sezone u evropskoj eliti, naravno reč je o
+                            Partizanu.<br>
+                            Mnogi su izneli svoje mišljenje o eventualnom učešću crno-belih u Evroligi, direktor ABA
+                            lige Krešimir Novosel je naveo da su veće šanse da putem pozivnice sledeće sezone Jadran ima
+                            dva predstavnika nego da u bližoj budućnosti regionalno takmičenje dobije dva stalna mesta.
+                            Dodao je i da je bilo razgovora sa Evroligom na tu temu, ali da poput ABA slične šanse imaju
+                            VTB i turska liga.<br>
+                            Svoje mišljenje izneo je i prvi čovek Crvene zvezde Nebojša Čović gostujući na Hepi
+                            tleviziji:<br><br>
+                            - Crvena zvezda u potpunosti podržava napore Partizana da dobije specijalnu pozivnicu
+                            Evrolige. Beograd kao najveći košarkaški centar u regionu zaslužuje da ima dva košarkaška
+                            predstavnika u eliti.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 9-->
+        <div class="modal fade" id="devetaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-warning text-light w-5">Košarka</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Bobi Dikson još dve godine u Fenerbahčeu
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Američki košarkaš sa turskim državljanstvom Bobi Dikson produžio je ugovor sa Fenerbahčeom
+                            za još dve godine
+                        </p>
+                        <img src="slike/slika8-TabKošarka.jpg" class="img-fluid w-100" alt="Bobi Dikson">
+                        <p class="text-right p-0 m-0">FOTO: evroliga.com</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Bobi Dikson je novi ugovor potpisao dva dana pre svog 36. rođendana, u finišu sezone tokom
+                            koje je na 29 utakmica u Evroligi prošecno postizao 9,3 poena, 2,3 asistencije i 1,8
+                            skokova, uz čak 49,6 odsto ubacenih šuteva za tri poena.<br>
+                            Iskusni plejmejker u turskom klubu igra četvrtu sezonu, a u Fenerbahče je stigao iz
+                            Karšijake.<br>
+                            U karijeri je igrao u Francuskoj, Italiji i Poljskoj, a 2012. godine došao je u Tursku, gde
+                            je tri godine kasnije dobio državljanstvo.<br>
+                            Za tursku reprezentaciju debitovao je na Evropskom prvenstvu 2015. godine i od tada nastupa
+                            pod imenom Ali Muhamed.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 10-->
+        <div class="modal fade" id="desetaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-warning text-light w-5">Košarka</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Rudi sa zvukom sirene pogodio trojku za pobedu Reala protiv PAO-a, Kalinić sjajan protiv
+                            Milana
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Makabi demolirao Baskoniju, stao na +35, Fener slavio u Italiji i obezbedio kotu 1
+                        </p>
+                        <img src="slike/slika9-TabKošarka.jpg" class="img-fluid w-100" alt="Evroliga mečevi">
+                        <p class="text-right p-0 m-0">FOTO: evroliga.com</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Panatinaikos je sekunda delila od plasmana u četvrtfinale Evrolige, a onda je pri rezultatu
+                            73:71 Rudi Fernandez sa zvukom sirene pogodio trojku za pobedu Reala (74:73).<br>
+                            A, PAO je prvu četvrtinu dobio 32:18...<br>
+                            Lengford i Kalates dali su po 14 poena za PAO, Tavares je postigao 14, Fernandez 13, LJulj
+                            12, Tomkins 10 za Madriđane.<br>
+                            Makabi je demolirao Baskoniju, koja je takođe već večeras mogla među osam naboljih.
+                            Izraelski tim je sa pobedom ostao u prilici da se u poslednjem kolu bori za nastavak
+                            takmičenja.<br>
+                            Tajus je postigao 20 poena za ekipu iz Tel Aviva, Stroberi je sa 11 poena bio jedini
+                            dvocifren kod španskog predstavnika.<br>
+                            Milano je kod kuće imao priliku da se pobedom približi Top 8 fazi, ali je vicešampion Evrope
+                            Fenerbahče bio bolji, čime je obezbedio prvo mesto pred četvrtfinale.<br>
+                            Naneli je ubacio 26, Džerels 20, a Vladimir Micov 15 za Milano, Nemanja Nedović samo jednu
+                            trojku, Ali Muhamed sa 23 poena najefikasniji u Feneru, ali još je bolji sa 22 poena (šut
+                            7/9 za dva, 8/9 za jedan) četiri skoka i dve asistenciej bio Nikola Kalinić, Marko Gudurić
+                            dodao je devet poena, nije imao promašaj iz igre.<br>
+                            Barselona se pomučila protiv Budućnosti, ali je ekipa trenera Svetislava Pešića u drugom
+                            poluvremenu režirala preokret uz 18 poena Hange, 14 Smitsa i po 11 Tomića i Kurika. Danilo
+                            Nikolić sa 25 poena odličan u redovima Podgoričana.<br><br>
+                            Tabela Evrolige:
+                            <div class="col-lg-6 offset-lg-3">
+                                <img src="slike/slika-TabelaEvroliga.jpg" class="img-fluid w-100" alt="Tabela Evroliga">
+                            </div>
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 11-->
+        <div class="modal fade" id="jedanaestaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-warning text-light w-5">Košarka</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Pešić: Savetuju me, izaberi Real
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Barselona je gladna pobeda. ACB je Evroliga, a ne ova što nosi to ime. Koristimo prednosti,
+                            krijemo mane – kaže čuveni trener
+                        </p>
+                        <img src="slike/slika10-TabKošarka.jpg" class="img-fluid w-100" alt="Svetislav Pešić">
+                        <p class="text-right p-0 m-0">FOTO: ABC</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Od kad je prošle godine ponovo preuzeo Barselonu, Svetislav Pešić, jedan od najboljih
+                            evropskih trenera, možda i najstariji aktivni, 28. avgusta napuniće 70 leta, nastavio je
+                            posle 14-godišnje pauze da zagorčava život Realu. Aktuelnom evropskom i španskom
+                            šampionu.<br>
+                            Prvi put je u sezoni 2002/03 Barseloni doneo triplu krunu, najveći uspeh Katalonaca u
+                            istoriji, prvi put je osvojena Evroliga, a naredne sezone je ponovo trijumfovao u Prvenstvu
+                            Španije, takozvanoj ACB ligi.<br>
+                            Prošle godine je preuzeo raštimovani orkestar košarkaške sekcije fudbalskog giganta koji se
+                            prepoznaje po čudesnom Argentincu Leu Mesiju i odmah osvojio Kup Kralja. To je ponovio i ove
+                            sezone, pobedivši u finalu u Madridu domaćina Real.<br>
+                            Ove sezone sa popularnim kraljevićima iz Madrida ima skor 5:2, u prvom mandatu čak 6:0, sa
+                            ukupno 11:2 u međusobnim susretima na pomen prezimena Pešić u struku i igrače Reala se uvuče
+                            zebnja.<br>
+                            Nešto kao frustracija, kompleks. Da budemo i emotivni, s obzirom da je Pešić rođeni
+                            Novosađanin, odrastao u Pirotu, on deluje na Real kao toreador na bika, da pređemo malo na
+                            crvenu zemlju Španije i njena obeležja.<br>
+                            Ispričamo to starom znancu Pešiću, a on nas pita:<br><br>
+                            – Zašto se time iznenađujete?<br><br>
+                            Zato što je Real najbolja napadačka ekipa van NBA, a Barselona ima za evroligaške prilike
+                            prosečan individualni kvalitet.<br><br>
+                            – Vidi se da živite u zemlji svetskih šampiona, imate visoke zahteve?<br><br>
+                            Zastaje Pešić za trenutak, tek da uzme vazduh, pa nastavlja na istu temu:<br><br>
+                            – Real je osam godina redovno pobeđivao Barselonu i misli lako ćemo sa njom. A sad je u mom
+                            timu veća glad za pobedom, nisam siguran da nisu gladni i ovi iz Reala, ali mi smo gladniji.
+                            A imam novi tim, sa sedam novih igrača, vrlo motivisanih, ne samo za jednu utakmicu već za
+                            sve.<br><br>
+                            U plej-ofu ćete gotovo sigurno na Efes koji je u velikoj formi i imaće prednost domaćeg
+                            terena.<br><br>
+                            – Ako dobijemo jednu od dve preostale utakmice. Prijatelji i navijači Barselone me savetuju
+                            da izgubimo obe, budemo šesti i u plej-ofu odemo na Real.<br><br>
+                            Zanimljiva kalkulacija.<br><br>
+                            – Veruju da ćemo šampione lakše eliminisati, rukovode se skorom sa Realom iz ove sezone.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 12-->
+        <div class="modal fade" id="dvanaestaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-warning text-light w-5">Košarka</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Muški koledž šampioni u košarci neće kod Trampa, devojke hoće
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Kako prenosi politico.com, trener Virdžinije Toni Benet na Tviteru je napisao da je
+                            odbijanje poziva rezultat problema vezanih za raspored obaveza, pošto se neki od igrača
+                            spremaju za NBA draft, dok su drugi završili koledž karijeru, i da zbog toga tim ne mogu da
+                            dođe u tradicionalnu posetu Beloj kući
+                        </p>
+                        <img src="slike/slika11-TabKošarka.jpg" class="img-fluid w-100" alt="NBA koledž">
+                        <p class="text-right p-0 m-0">FOTO: FIBA</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Košarkaški tim Univerziteta Virdžinije, osvajači NCAA prvenstva američkih koledža, odbio je
+                            poziv predsednika SAD Donalda Trampa da poseti Belu kuću, dok je ženska šampionska ekipa s
+                            Univerziteta Bejlor prihvatila poziv i sutra će posetiti rezidenciju američkog
+                            predsednika.<br>
+                            Kako prenosi politico.com, trener Virdžinije Toni Benet na Tviteru je napisao da je
+                            odbijanje poziva rezultat problema vezanih za raspored obaveza, pošto se neki od igrača
+                            spremaju za NBA draft, dok su drugi završili koledž karijeru, i da zbog toga tim ne mogu da
+                            dođe u tradicionalnu posetu Beloj kući.<br><br>
+                            - Moraćemo uz dužno poštovanje da poziv odbijemo - naveo je Benet na ovoj društvenoj
+                            mreži.<br><br>
+                            Ipak, američki sajt podseća da Virdžinija nije prva koja ovo čini, pošto su i pređašnji
+                            muški šampioni NCAA iz prethodne dve sezone, sauniverziteta Vilanova i Severna Karolina,
+                            takođe odbili Trampov poziv da dođu u Belu kuću.<br><br>
+                            Sofmor (igrač druge godine) „Konjanika“ De’Andre Hanter, koji planira da prekine koledž i
+                            počne profesionalnu karijeru, imao je za Trampa direktniju poruku od one koju je uputio
+                            trener Benet.<br><br>
+                            - Ne, hvala, Trampe - napisao je Hanter.<br><br>
+                            „Foks njuz“ javlja, s druge strane, da će košarkašice Bejlora posetiti Trampa i biti prvi
+                            ženski šampionski tim koji NCAA titulu proslavlja u Beloj kući za vreme njegovog
+                            mandata.<br>
+                            Podseća se da je Tramp na Tviteru čestitao „Medvedicama“ osvajanje koledž šampionata
+                            početkom ovog meseca.<br>
+                            „Ju-Es-Ej tudej“ prenosi da je Kim Malki, koja trenira košarkašice Bejlora, ranije kazala da
+                            tim na Trampov poziv neće gledati kao na „političko pitanje“.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 13-->
+        <div class="modal fade" id="trinaestaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-warning text-light w-5">Košarka</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Devet košarkaša iz srpskih klubova se prijavilo za NBA draft, sedmorica iz mege, dvojica iz
+                            Zvezde
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Za ovogodišnji NBA draft se prijavilo ukupno 233 košarkaša, 175 sa američkih koledža i 58 iz
+                            inostranstva
+                        </p>
+                        <img src="slike/slika12-TabKošarka.jpg" class="img-fluid w-100" alt="NBA Draft">
+                        <p class="text-right p-0 m-0">FOTO: N. Negovanović</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Devet košarkaša koji nastupaju za srpske klubove poslalo je ranu prijavu za ovogodišnji NBA
+                            draft, objavljeno je danas iz tog takmičenja.<br>
+                            Čak sedmorica su iz Mege i dvojica iz Crvene zvezde.<br>
+                            Pored ranije najavljenog Boriše Simanića, iz Zvezde se prijavio i Zoran Paunović, koji
+                            nastupa za FMP.<br>
+                            Prijavljeni Megini košarkaši su Goga Bitadže, Ognjen Čarapić, Andrija Marjanović, Nikola
+                            Mišković, Adam Mokoka i Filip Stanić.<br>
+                            Iz Mege se za NBA draft prijavio još i Dalibor Ilić, koji u tom klubu igra na pozajmici iz
+                            Igokee.<br>
+                            NBA draft će se održati 20. juna u NJujorku.<br>
+                            Za ovogodišnji NBA draft se prijavilo ukupno 233 košarkaša, 175 sa američkih koledža i 58 iz
+                            inostranstva.<br>
+                            Igrači koji su poslali ranu prijavu imaće do ponedeljka, 10. juna rok da se povuku sa
+                            drafta.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 14-->
+        <div class="modal fade" id="cetrnaestaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-warning text-light w-5">Košarka</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Prednost od 3:1 za Portland i Toronto, još pobeda do četvrtfinala
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Košarkaši Portlanda i Toronta došli su na korak od plasmana u četvrtfinale NBA lige,
+                            pobedama u noći između nedelje i ponedeljka nad Oklahomom i Orlandom
+                        </p>
+                        <img src="slike/slika13-TabKošarka.jpg" class="img-fluid w-100" alt="Portland - Toronot">
+                        <p class="text-right p-0 m-0">FOTO: FIBA</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Portland i Toronto su slavili na svom terenu i povele sa 3:1 u seriji. Portland je pobedio
+                            rezultatom 111:98, a Toronto 107:85.<br>
+                            Portland su predvodili njegovi najbolji igrači, Si Džej Mekalum sa 27 i Damijan Lilard sa 24
+                            poena. Najefikasniji u pobedi Toronta sa 34 poena je bio Kavaj Leonard.<br>
+                            Pete utakmice igraće se u Portlandu i Torontu. Prethodno je Boston sa 110:106 pobedio
+                            Indijanu i tako se maksimalnim rezultatom plasirao u narednu rundu plej-ofa.<br>
+                            Golden Stejt je sa 113:105 bio bolji od Los Anđeles Klipersa i poveo sa 3:1 u seriji.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 15-->
+        <div class="modal fade" id="petnaestaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-warning text-light w-5">Košarka</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Igrač Zvezde Simanić na NBA draftu
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Menadžer Miško Ražnatović je, takođe, objavio da će na NBA draftu biti i igrač Mege na
+                            pozajmici u Budućnosti Goga Bitadze
+                        </p>
+                        <img src="slike/slika14-TabKošarka.jpg" class="img-fluid w-100" alt="Boriša Simanić">
+                        <p class="text-right p-0 m-0">FOTO: I. Veselinov</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Košarkaš Crvene zvezde Boriša Simanić prijavio se za ovogodišnji NBA draft, objavio je danas
+                            njegov menadžer.<br>
+                            Simanić ima 21 godinu i igra na poziciji krilnog centra.<br>
+                            Ponikao je u Crvenoj zvezdi, a deo karijere proveo je na pozajmici u FMP-u.<br>
+                            Menadžer Miško Ražnatović je, takođe, objavio da će na NBA draftu biti i igrač Mege na
+                            pozajmici u Budućnosti Goga Bitadze.<br>
+                            NBA draft će se održati 20. juna u NJujorku.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal 16-->
+        <div class="modal fade" id="sesnaestaVest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body bg-light">
+                        <h5 class="p-2 text-left bg-warning text-light w-5">Košarka</h5>
+                        <h3 id="podnaslovKontakt" class="mt-5">
+                            Pobede Hjustona, Bostona i Milvokija
+                        </h3>
+                        <p class="datumStrane"><i class="far fa-clock"></i> 30 april, 2019</p>
+                        <p class="font-italic">
+                            Hjuston je predvodio Džejms Harden svojim trećim tripl dabl učinkom u plej-ofu u karijeri.
+                            Utakmicu je završio sa 32 poena, 13 skokova i 10 asistencija
+                        </p>
+                        <img src="slike/slika15-TabKošarka.jpg" class="img-fluid w-100" alt="Džems Harden">
+                        <p class="text-right p-0 m-0">FOTO: Beta/AP</p>
+                        <hr class="mb-4 mt-0 bg-danger">
+                        <p class="text-justify text-dark font-weight-bold mb-5">
+                            Košarkaši Hjustona pobedili su noćas Jutu sa 118:98 i poveli sa 2:0 u prvom kolu plej-ofa
+                            Zapadne konferencije u NBA ligi.<br>
+                            Hjuston je predvodio Džejms Harden svojim trećim tripl dabl učinkom u plej-ofu u karijeri.
+                            Utakmicu je završio sa 32 poena, 13 skokova i 10 asistencija. Kris Pol postigao je 17 poena,
+                            a Erik Gordon i Pi Džej Taker dodali su po 16.<br><br>
+                            - Bilo je važno da agresivno uđemo u utakmicu. Ova pobeda je rezultat dobre timske igre u
+                            odbrani - rekao je Harden, koji je u prvom poluvremenu postigao 25 poena.<br><br>
+                            Hjuston je kontrolisao utakmicu od početka, posle prve četvrtine vodio je sa 39:19 predvođen
+                            Hardenom, koji je u toj deonici postigao samo dva poena manje od Jute.<br>
+                            U ekipi Jute najefikasniji su bili Riki Rubio i Rojs O’Nil sa po 17 poena, Derik Fejvors
+                            postigao je 14 poena uz 12 skokova, Rudi Gober 11 poena i 12 skokova, a Donovan Mičel 11
+                            poena i šest asistencija.<br>
+                            Treća utakmica na programu je u subotu uveče, a domaćin je Juta.<br>
+                            Košarkaši Bostona poveli su sa 2:0 protiv Indijane u prvom kolu plej-ofa Istoka, pošto su
+                            pobedili sa 99:91. Seltikse su predvodili Kajri Irving sa 37 poena, sedam asistencija i šest
+                            skokova i Džejson Tejtum sa 26 poena, od kojih i ključnih tri poena za 97:91, na 8,8 sekundi
+                            pre kraja.<br>
+                            U ekipi Indijane Bojan Bogdanović bio je najefikasniji sa 23 poena i osam skokova. Tadeus
+                            Jang postigao je 15 poena uz šest skokova, a Tajrik Evans i Daren Kolison dodali su po 13
+                            poena.<br>
+                            Naredna treća utakmica igra se u petak, a domaćin je Indijana.<br>
+                            Košarkaši Milvokija poveli su sa 2:0 protiv Detroita u plej-ofu Istoka, pobedom od
+                            120:99.<br>
+                            Najefikasniji u pobedničkom timu bio je Erik Bledso sa 27 poena, a dobru partiju prikazao je
+                            i Janis Adetokunbo sa 26 poena, od kojih je 13 postigao u trećoj četvrtini, u kojoj su Baksi
+                            prelomili utakmicu za vođstvo od 93:76, pred početak poslednje deonice. Adetokunbo je imao i
+                            12 skokova i četiri asistencije.<br>
+                            Kris Midlton postigao je 24 poena, uz osam asistencija, a Pet Konaton 18 poena i devet
+                            skokova za Milvoki.<br>
+                            Luk Kenard je sa 19 poena bio najefikasniji u ekipi Detrotia, a Redži Džekson i Andre
+                            Dramond postigli su po 18 poena. Dramond je imao i 16 skokova. U timu nije bilo Blejka
+                            Grifina zbog povrede kolena, ali je dobio tehničku grešku zbog prigovora sudijama, sa
+                            klupe.<br><br>
+                            Naredna treća utakmica igra se u subotu uveče u Detroitu.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Izlaz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container bg-dark fejd mt-1">
+            <div class="text-light p-3 text-center">
+                <ul class="list-inline my-2" id="drustvene-mreze">
+                    <li class="d-inline mx-3">
+                        <a class="text-light" href="https://www.facebook.com/hotsportrs/"><span><i class="fab fa-facebook fa-2x"></i></span></a>
+                    </li>
+                    <li class="d-inline mx-3">
+                        <a class="text-light" href="https://www.instagram.com/_hotsport/?hl=sr"><span><i class="fab fa-instagram fa-2x"></i></span></a>
+                    </li>
+                    <li class="d-inline mx-3">
+                        <a class="text-light" href="https://twitter.com/hotsportsrb"><span><i class="fab fa-twitter-square fa-2x"></i></span></a>
+                    </li>
+                </ul>
+                <ul class="list-inline my-2" id="navigacija-podnozje">
+                    <li class="d-inline mx-3">
+                        <a class="text-light" href="fudbal.html">Fudbal</a>
+                    </li>
+                    <li class="d-inline mx-3">
+                        <a class="text-light" href="kosarka.html">Košarka</a>
+                    </li>
+                    <li class="d-inline mx-3">
+                        <a class="text-light" href="kontakt.html">Kontakt</a>
+                    </li>
+                    <li class="d-inline mx-3">
+                        <a class="text-light" href="galerija.html">Galerija</a>
+                    </li>
+                    <li class="d-inline mx-3">
+                        <a class="text-light" href="onama.html">O nama</a>
+                    </li>
+                </ul>
+                <p class="font-italic font-weight-bold d-inline mx-3 text-light" id="naslov-podnozje">
+                    <span class="text-warning">SM</span> SPORT
+                </p>
+                &copy; Copyright 2019.
+            </div>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery.js">
+    </script>
+    <!-- Include all compiled plugins -->
+    <script src="js/bootstrap.min.js">
+    </script>
+    <script src="js/program.js">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,290 @@
+* {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: white;    
+}
+.zaglavljeLink:hover {
+    text-decoration: none !important;
+    color: #f8f9fa !important;
+}
+#glavniKontejner {
+    background-image: url("../slike/pozadina.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+#navigacija {
+    box-shadow: 0px 7px 10px #343a40;
+}
+#naslov {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+}
+#podnaslov {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+}
+#naslovKontakt {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 25px;
+}
+#podnaslovKontakt {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+}
+#podnaslovImena {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 12px;
+}
+#podnaslovVesti {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 16px;
+}
+#datumImena {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 10px;
+}
+#drustvene-mreze li:nth-child(1) a:hover {
+    color: #3b5998 !important;
+}
+#drustvene-mreze li:nth-child(2) a:hover {
+    color: #C13584 !important;
+}
+#drustvene-mreze li:nth-child(3) a:hover {
+    color: #1DA1F2 !important;
+}
+#naslov-podnozje {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+}
+#sazimajuciKontejner .navbar-nav .active {
+    background-color:  #ffc107;
+    border-radius: 3px;
+}
+#sazimajuciKontejner .navbar-nav .active .nav-link {
+    color: #343a40 !important;
+    font-weight: bold;
+}
+.nav-pills .active {
+    background-color: #dc3545 !important;
+}
+#sazimajuciKontejner .navbar-nav .nav-item:hover {
+    border-radius: 3px;
+    background-color: #ffc107;
+}
+#sazimajuciKontejner .navbar-nav .nav-item{
+    transition: background-color 1s;
+}
+#sazimajuciKontejner .navbar-nav .nav-item:hover .nav-link {
+    color: #343a40 !important;
+}
+#navigacija-podnozje li a {
+    text-decoration: none;
+}
+#navigacija-podnozje li a:hover {
+    text-decoration: none;
+    color: #ffc107 !important;
+}
+.carousel-caption {
+    bottom: 5%;
+    left: 5%;
+    text-align: left;
+}
+.carousel-caption h4 a {
+    color: #dc3545;
+    font-weight: bold;
+    text-shadow: 2px 2px #343a40;
+}
+.carousel-caption p {
+    text-shadow: 1px 1px #343a40;
+}
+.caption-responsive h4 {
+    font-size: 20px !important;
+}
+.carousel-indicators li {
+    height: 5px;
+    background-color: #f8f9fa;    
+    cursor: pointer;
+}
+.carousel-indicators .active {
+    background-color: #dc3545;
+}
+.badge {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 14px;
+}
+.opis {
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 20px;
+    text-shadow: 1px 1px #f8f9fa;
+    font-family: 'Fjalla One', sans-serif;
+}
+#carouselExampleIndicators1 .carousel-indicators-numbers .active {
+    background-color: #dc3545; 
+}
+.carousel-indicators-numbers {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.carousel-indicators-numbers li {
+    text-indent: 0;
+    margin: 5px 5px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    color: #f8f9fa;
+    background-color: #343a40;
+    font-weight: bold;
+}
+#vertikalni-slajder .card {
+    cursor: pointer;
+}
+#vertikalni-slajder .card:hover {
+    background-color: #f8f9fa !important;
+    color: #343a40 !important;
+}
+.activeSlajder {
+    background-color: #f8f9fa !important;
+    color: #343a40 !important;
+}
+.border-w3 {
+    border-width: 3px !important;
+}
+.kontakt-drustvene li:nth-child(1) {
+    background-color: #3b5998;
+}
+.kontakt-drustvene li:nth-child(2) {
+    background-color: #C13584;
+}
+.kontakt-drustvene li:nth-child(3) {
+    background-color: #1DA1F2;
+}
+.noveVesti {
+    overflow: hidden;
+}
+.noveVesti .card:hover img {
+    opacity: 0.5;
+}
+.noveVesti .card:hover .opis {
+    bottom: 5%;
+}
+.opis {
+    bottom: -100%;
+    transition: bottom 1s;
+}
+.prevNext a {
+    text-decoration: none;
+}
+.prevNext a:hover {
+    color: #dc3545 !important;
+}
+.novosti {    
+    transition: left 1.2s;
+    left: 0%;
+    position: relative; 
+}
+.novosti-top {    
+    transition: top 1.2s;
+    top: 0%;
+    position: relative; 
+}
+.dugmeNovosti {
+    right: -100%;  
+    transition: right 1.2s ease-in-out; 
+    position: relative;
+}
+.dugmeNovosti1 {
+    bottom: -100%;  
+    transition: bottom 1.2s ease-in-out; 
+    position: relative;
+}
+.noveVesti .row:hover .dugmeNovosti {  
+    right: 0%;
+}
+.noveVesti .row:hover .dugmeNovosti1 {  
+    bottom: 0%;
+}
+.noveVesti .row:hover .novosti {  
+    left: -15%;
+}
+.noveVesti .row:hover .novosti-top {  
+    top: -35%;
+}
+.dugmeNovosti:hover {
+    background-color: #ffc107;
+}
+.dugmeNovosti1:hover {
+    background-color: #ffc107;
+}
+.linkModal {
+    cursor: pointer;    
+}
+.linkModal:hover {
+    text-decoration: underline;
+}
+.datumStrane {
+    color: lightgrey;
+}
+.datumStraneManji {
+    color: lightgrey;
+    font-size: 12px;
+}
+.udarnaVest {
+    background-color: white;
+}
+#udarnaVest {
+    cursor: pointer;
+}
+#udarnaVest:hover {
+    text-decoration: underline;
+}
+.glavnaVest1:hover {
+    background-color: #f8f9fa;
+}
+.glavnaVest:hover {
+    background-color: #f8f9fa;
+}
+.glavnaVestRed {
+    overflow: hidden;
+}
+#home, #menu1, #menu2 {
+    background-color: white;
+}
+.tab-link:hover a {
+    color: #dc3545 !important;
+}
+.linkVest {
+    cursor: pointer;
+}
+.linkVest:hover {
+    color: #dc3545 !important;
+}
+.hr-w3 {
+    border: 2px solid #ffc107;
+}
+.logoKlubovi {
+    width: 25px;
+    height: 25px;
+}
+.logoGalerija {
+    position: relative;
+}
+#galerija {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+.tekstonama {
+    font-size: 18px;
+}
+.kursor {
+    cursor: pointer;
+}
