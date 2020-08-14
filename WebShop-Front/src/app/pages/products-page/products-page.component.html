@@ -1,0 +1,73 @@
+<div class="container">
+
+    <div class="my-3">
+        <small class="text-secondary">
+            <a [routerLink]="['/home']" class="pr-3 text-secondary text-decoration-none">Početna</a>
+
+            <i class="fas fa-caret-right"></i>
+
+            <a [routerLink]="['/', categoryName | lowercase | replace:' ':'-']"
+                class="px-3 text-secondary text-decoration-none">{{categoryName | titlecase}}</a>
+
+            <i class="fas fa-caret-right"></i>
+
+            <a [routerLink]="['/', categoryName | lowercase | replace:' ':'-', subCategoryName | lowercase | replace:' ':'-']"
+                class="font-weight-bold px-3 text-logo text-decoration-none">{{subCategoryName | titlecase}}</a>
+        </small>
+    </div>
+
+    <div class="my-4">
+        <div class="row">
+            <div class="col-md-3 mb-3 mb-md-0 border-right">
+                <h4 class="font-weight-bold">Filteri</h4>
+                <p class="border-bottom" data-target="#filter" data-toggle="collapse" role="button">Proizvođači<span
+                        class="float-right"><i class="fas fa-angle-down"></i></span></p>
+                <div id="filter" class="collapse">
+
+                    <app-filters class="form-check" (onClick)="onClickProducer($event)" *ngFor="let producer of producers" [producer]="producer">
+                    </app-filters>
+                    
+                </div>
+            </div>
+            <div class="col-md-9">
+                <h4 class="font-weight-bold">{{subCategoryName | titlecase}}</h4>
+
+                <div class="alert alert-info" *ngIf="products && products.length === 0">
+                    Trenutno nema proizovda za izabranu kategoriju!
+                </div>
+
+                <div class="container-fluid" *ngIf="products && products.length > 0">
+                    <div class="row bg-light py-2 my-3">
+                        <div class="offset-md-8 col-md-4 py-1">
+                            <select #sort (change)='onSortSelected(sort.value)'
+                                class="custom-select custom-select-sm align-self-center" [value]="sortWay">
+                                <option value="undefined">Prikaz proizvoda</option>
+                                <option value="asc">Cena rastuće</option>
+                                <option value="desc">Cena opadajuće</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row my-3">
+
+                        <app-product class="col-sm-6 col-lg-4 mb-3" *ngFor="let product of products"
+                            [product]="product"></app-product>
+
+                    </div>
+                    <div class="row bg-light py-2 mt-3">
+                        <div class="col-md-4">
+
+                            <ul class="pagination pagination-md m-0">
+                                <li class="page-item selected" *ngFor="let page of pages">
+                                    <button [ngClass]="{'bg-red': page == currentPage}" class="page-link bg-logo text-light"
+                                        id="btn_{{page}}" (click)="changePage(page)">{{page}}</button>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
